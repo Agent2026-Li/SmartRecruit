@@ -1,0 +1,1145 @@
+2025-08-09 17:54:33.700 | INFO     | __main__:initialize_system_data:25 - ==================================================
+2025-08-09 17:54:33.701 | INFO     | __main__:initialize_system_data:26 - 开始执行系统数据初始化...
+2025-08-09 17:54:33.701 | INFO     | __main__:initialize_system_data:27 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume
+2025-08-09 17:54:33.701 | INFO     | utils.vector_store:_initialize_components:24 - 开始初始化向量存储及检索组件...
+2025-08-09 17:54:42.141 | INFO     | utils.vector_store:_create_or_load_collection:57 - 集合 'resume_embeddings' 不存在，开始创建...
+2025-08-09 17:54:42.142 | CRITICAL | utils.vector_store:_initialize_components:50 - 组件初始化失败: IndexParams.add_index() takes from 2 to 4 positional arguments but 6 were given
+2025-08-09 17:54:42.143 | CRITICAL | __main__:initialize_system_data:42 - 初始化核心组件失败: IndexParams.add_index() takes from 2 to 4 positional arguments but 6 were given
+2025-08-09 17:56:36.531 | INFO     | __main__:initialize_system_data:25 - ==================================================
+2025-08-09 17:56:36.534 | INFO     | __main__:initialize_system_data:26 - 开始执行系统数据初始化...
+2025-08-09 17:56:36.534 | INFO     | __main__:initialize_system_data:27 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume
+2025-08-09 17:56:36.534 | INFO     | utils.vector_store:_initialize_components:24 - 开始初始化向量存储及检索组件...
+2025-08-09 17:56:43.903 | INFO     | utils.vector_store:_create_or_load_collection:57 - 集合 'resume_embeddings' 不存在，开始创建...
+2025-08-09 17:56:43.904 | CRITICAL | utils.vector_store:_initialize_components:50 - 组件初始化失败: IndexParams.add_index() takes from 2 to 4 positional arguments but 6 were given
+2025-08-09 17:56:43.904 | CRITICAL | __main__:initialize_system_data:42 - 初始化核心组件失败: IndexParams.add_index() takes from 2 to 4 positional arguments but 6 were given
+2025-08-09 17:57:59.727 | INFO     | __main__:initialize_system_data:26 - ==================================================
+2025-08-09 17:57:59.727 | INFO     | __main__:initialize_system_data:27 - 开始执行系统数据初始化...
+2025-08-09 17:57:59.727 | INFO     | __main__:initialize_system_data:28 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume
+2025-08-09 17:57:59.727 | INFO     | utils.vector_store:_initialize_components:24 - 开始初始化向量存储及检索组件...
+2025-08-09 17:58:08.024 | INFO     | utils.vector_store:_create_or_load_collection:57 - 集合 'resume_embeddings' 不存在，开始创建...
+2025-08-09 17:58:08.024 | CRITICAL | utils.vector_store:_initialize_components:50 - 组件初始化失败: IndexParams.add_index() takes from 2 to 4 positional arguments but 6 were given
+2025-08-09 17:58:08.024 | CRITICAL | __main__:initialize_system_data:43 - 初始化核心组件失败: IndexParams.add_index() takes from 2 to 4 positional arguments but 6 were given
+2025-08-09 18:01:55.005 | INFO     | __main__:initialize_system_data:26 - ==================================================
+2025-08-09 18:01:55.005 | INFO     | __main__:initialize_system_data:27 - 开始执行系统数据初始化...
+2025-08-09 18:01:55.005 | INFO     | __main__:initialize_system_data:28 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume
+2025-08-09 18:01:55.005 | INFO     | utils.vector_store:_initialize_components:24 - 开始初始化向量存储及检索组件...
+2025-08-09 18:02:04.244 | INFO     | utils.vector_store:_create_or_load_collection:55 - 集合 'resume_embeddings' 不存在，开始创建...
+2025-08-09 18:02:04.245 | CRITICAL | __main__:initialize_system_data:43 - 初始化核心组件失败: "'auto_id'"
+2025-08-09 18:15:14.936 | INFO     | __main__:initialize_system_data:26 - ==================================================
+2025-08-09 18:15:14.936 | INFO     | __main__:initialize_system_data:27 - 开始执行系统数据初始化...
+2025-08-09 18:15:14.936 | INFO     | __main__:initialize_system_data:28 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume
+2025-08-09 18:15:14.936 | INFO     | utils.vector_store:_initialize_components:24 - 开始初始化向量存储及检索组件...
+2025-08-09 18:15:19.449 | INFO     | utils.vector_store:_initialize_components:46 - 向量存储及检索组件初始化完成
+2025-08-09 18:15:20.016 | INFO     | __main__:initialize_system_data:53 - 发现 15 个简历文件待处理。
+2025-08-09 18:15:20.018 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-08-09 18:15:20.696 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\AI大模型个人简历_20250806095046.pdf, hash: 26d07d497507278334fea0fb6c539a72
+2025-08-09 18:15:20.696 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:15:23.452 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-08-09 18:15:23.452 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-08-09 18:15:23.452 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\AI大模型个人简历_20250806095046.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 18:15:23.452 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\AI大模型个人简历_20250806095046.pdf 共生成 3 个子块
+2025-08-09 18:15:25.797 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 26d07d497507278334fea0fb6c539a72
+2025-08-09 18:15:25.797 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历_20250806095046.pdf
+2025-08-09 18:15:25.899 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\庄宇_简历_20250807105559.pdf
+2025-08-09 18:15:26.034 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\庄宇_简历_20250807105559.pdf, hash: 12b290a99929f37072774abb2dd2fef9
+2025-08-09 18:15:26.035 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:15:27.275 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '庄宇', 'gender': '男', 'age': 24, 'work_experience': 1}
+2025-08-09 18:15:27.275 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\庄宇_简历_20250807105559.pdf
+2025-08-09 18:15:27.275 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\庄宇_简历_20250807105559.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 18:15:27.276 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\庄宇_简历_20250807105559.pdf 共生成 4 个子块
+2025-08-09 18:15:29.210 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 12b290a99929f37072774abb2dd2fef9
+2025-08-09 18:15:29.211 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 庄宇_简历_20250807105559.pdf
+2025-08-09 18:15:29.311 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张三前端开发工程师简历.md
+2025-08-09 18:15:32.697 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef
+2025-08-09 18:15:32.697 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:15:34.719 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张丰', 'gender': '未提供', 'age': 29, 'work_experience': 5}
+2025-08-09 18:15:34.720 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张三前端开发工程师简历.md
+2025-08-09 18:15:34.720 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张三前端开发工程师简历.md, 使用切分器: Markdown
+2025-08-09 18:15:34.723 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张三前端开发工程师简历.md 共生成 7 个子块
+2025-08-09 18:15:37.507 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 336bede497765123a6f144ee6fa010ef
+2025-08-09 18:15:37.508 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张三前端开发工程师简历.md
+2025-08-09 18:15:37.609 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张伟开发工程师.md
+2025-08-09 18:15:37.631 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9
+2025-08-09 18:15:37.632 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:15:39.573 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张伟', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-09 18:15:39.573 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张伟开发工程师.md
+2025-08-09 18:15:39.573 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张伟开发工程师.md, 使用切分器: Markdown
+2025-08-09 18:15:39.573 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张伟开发工程师.md 共生成 5 个子块
+2025-08-09 18:15:42.171 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 507862e1a6c2919347dd01f6c75f5eb9
+2025-08-09 18:15:42.171 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张伟开发工程师.md
+2025-08-09 18:15:42.272 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张笑霞_20250809165744.txt
+2025-08-09 18:15:42.274 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张笑霞_20250809165744.txt, hash: d9db4bc938a743c0a41f956bac77d81d
+2025-08-09 18:15:42.274 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:15:43.886 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张笑霞', 'gender': '女', 'age': 66, 'work_experience': 52}
+2025-08-09 18:15:43.886 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张笑霞_20250809165744.txt
+2025-08-09 18:15:43.887 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张笑霞_20250809165744.txt, 使用切分器: RecursiveCharacter
+2025-08-09 18:15:43.887 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张笑霞_20250809165744.txt 共生成 4 个子块
+2025-08-09 18:15:45.931 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: d9db4bc938a743c0a41f956bac77d81d
+2025-08-09 18:15:45.931 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张笑霞_20250809165744.txt
+2025-08-09 18:15:46.032 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李娜.md
+2025-08-09 18:15:46.054 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59
+2025-08-09 18:15:46.054 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:15:47.517 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李娜', 'gender': '女', 'age': 34, 'work_experience': 6}
+2025-08-09 18:15:47.517 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李娜.md
+2025-08-09 18:15:47.517 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李娜.md, 使用切分器: Markdown
+2025-08-09 18:15:47.518 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李娜.md 共生成 5 个子块
+2025-08-09 18:15:49.562 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 9aa01a4b1424ef367eb21a5aa929fa59
+2025-08-09 18:15:49.562 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李娜.md
+2025-08-09 18:15:49.663 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李旭-简历.docx
+2025-08-09 18:15:49.682 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c
+2025-08-09 18:15:49.682 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:15:51.171 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李旭', 'gender': '未提供', 'age': 26, 'work_experience': 3}
+2025-08-09 18:15:51.171 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李旭-简历.docx
+2025-08-09 18:15:51.171 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李旭-简历.docx, 使用切分器: RecursiveCharacter
+2025-08-09 18:15:51.178 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李旭-简历.docx 共生成 11 个子块
+2025-08-09 18:15:56.598 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 1c0f34327bbbfaee55b8238bf8b7676c
+2025-08-09 18:15:56.598 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李旭-简历.docx
+2025-08-09 18:15:56.699 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-09 18:15:56.933 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-09 18:15:56.933 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:15:59.347 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-09 18:15:59.349 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-09 18:15:59.349 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 18:15:59.349 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-09 18:16:01.105 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-09 18:16:01.105 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李明AI大模型产品经理简历.pdf
+2025-08-09 18:16:01.206 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\林霞_20250809164313.txt
+2025-08-09 18:16:01.208 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\林霞_20250809164313.txt, hash: 27c71050893c05dd92ca62655304eb63
+2025-08-09 18:16:01.209 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:16:03.035 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 66, 'work_experience': 52}
+2025-08-09 18:16:03.035 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\林霞_20250809164313.txt
+2025-08-09 18:16:03.035 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\林霞_20250809164313.txt, 使用切分器: RecursiveCharacter
+2025-08-09 18:16:03.035 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\林霞_20250809164313.txt 共生成 4 个子块
+2025-08-09 18:16:04.964 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 27c71050893c05dd92ca62655304eb63
+2025-08-09 18:16:04.965 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林霞_20250809164313.txt
+2025-08-09 18:16:05.066 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\林青霞.txt
+2025-08-09 18:16:05.069 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\林青霞.txt, hash: 846c387153e1061340eb30b5ce7e6e73
+2025-08-09 18:16:05.069 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:16:06.417 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 70, 'work_experience': 52}
+2025-08-09 18:16:06.417 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\林青霞.txt
+2025-08-09 18:16:06.417 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\林青霞.txt, 使用切分器: RecursiveCharacter
+2025-08-09 18:16:06.417 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\林青霞.txt 共生成 4 个子块
+2025-08-09 18:16:08.487 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 846c387153e1061340eb30b5ce7e6e73
+2025-08-09 18:16:08.487 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林青霞.txt
+2025-08-09 18:16:08.588 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王宝强.jpg
+2025-08-09 18:16:48.620 | INFO     | utils.document_processor:extract_text_from_image:118 - 图片提取文本成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王宝强.jpg, 内容长度: 473
+2025-08-09 18:16:48.621 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王宝强.jpg, hash: 6bb5b76f8eac3235eb3bee38b16f6c4f
+2025-08-09 18:16:48.621 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:16:51.168 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王宝强', 'gender': '男', 'age': 42, 'work_experience': 22}
+2025-08-09 18:16:51.168 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王宝强.jpg
+2025-08-09 18:16:51.168 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王宝强.jpg, 使用切分器: RecursiveCharacter
+2025-08-09 18:16:51.169 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王宝强.jpg 共生成 2 个子块
+2025-08-09 18:16:53.116 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 6bb5b76f8eac3235eb3bee38b16f6c4f
+2025-08-09 18:16:53.116 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王宝强.jpg
+2025-08-09 18:16:53.217 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王强.md
+2025-08-09 18:16:53.243 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王强.md, hash: 2c6e673a7b2e06addee354021ad1453c
+2025-08-09 18:16:53.243 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:16:54.459 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王强', 'gender': '未提供', 'age': -1, 'work_experience': 1}
+2025-08-09 18:16:54.459 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王强.md
+2025-08-09 18:16:54.460 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王强.md, 使用切分器: Markdown
+2025-08-09 18:16:54.461 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王强.md 共生成 5 个子块
+2025-08-09 18:16:58.312 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 2c6e673a7b2e06addee354021ad1453c
+2025-08-09 18:16:58.312 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王强.md
+2025-08-09 18:16:58.413 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王明数据工程师简历.md
+2025-08-09 18:16:58.466 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6
+2025-08-09 18:16:58.466 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:17:00.294 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王明', 'gender': '未提供', 'age': 27, 'work_experience': 3}
+2025-08-09 18:17:00.294 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王明数据工程师简历.md
+2025-08-09 18:17:00.295 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王明数据工程师简历.md, 使用切分器: Markdown
+2025-08-09 18:17:00.296 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王明数据工程师简历.md 共生成 7 个子块
+2025-08-09 18:17:05.641 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 21160040a62910ab2e43a6f1cc17a5b6
+2025-08-09 18:17:05.642 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王明数据工程师简历.md
+2025-08-09 18:17:05.743 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\赵可的简历.pdf
+2025-08-09 18:17:06.033 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\赵可的简历.pdf, hash: a1f819a55416ca2721ecb5d720db9691
+2025-08-09 18:17:06.033 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:17:08.204 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '赵可', 'gender': '未提供', 'age': 23, 'work_experience': 2}
+2025-08-09 18:17:08.204 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\赵可的简历.pdf
+2025-08-09 18:17:08.205 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\赵可的简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 18:17:08.206 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\赵可的简历.pdf 共生成 4 个子块
+2025-08-09 18:17:11.578 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: a1f819a55416ca2721ecb5d720db9691
+2025-08-09 18:17:11.578 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 赵可的简历.pdf
+2025-08-09 18:17:11.680 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\郭杰的简历 _20250806075537.pdf
+2025-08-09 18:17:11.923 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765
+2025-08-09 18:17:11.923 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:17:13.150 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '郭杰', 'gender': '男', 'age': 28, 'work_experience': 5}
+2025-08-09 18:17:13.150 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\郭杰的简历 _20250806075537.pdf
+2025-08-09 18:17:13.150 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\郭杰的简历 _20250806075537.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 18:17:13.151 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\郭杰的简历 _20250806075537.pdf 共生成 5 个子块
+2025-08-09 18:17:16.690 | INFO     | utils.vector_store:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 2508647664778702bff4db7fee1da765
+2025-08-09 18:17:16.690 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 郭杰的简历 _20250806075537.pdf
+2025-08-09 18:17:16.790 | INFO     | __main__:initialize_system_data:102 - ==================================================
+2025-08-09 18:17:16.790 | INFO     | __main__:initialize_system_data:103 - 系统数据初始化完成！
+2025-08-09 18:17:16.790 | INFO     | __main__:initialize_system_data:104 - 处理结果总结:
+2025-08-09 18:17:16.791 | INFO     | __main__:initialize_system_data:105 -   - 成功新增: 15 份
+2025-08-09 18:17:16.791 | INFO     | __main__:initialize_system_data:106 -   - 已存在 (跳过): 0 份
+2025-08-09 18:17:16.791 | INFO     | __main__:initialize_system_data:107 -   - 处理失败: 0 份
+2025-08-09 18:17:16.791 | INFO     | __main__:initialize_system_data:108 - 详细日志请查看: logs\system_init.log
+2025-08-09 18:17:16.791 | INFO     | __main__:initialize_system_data:109 - ==================================================
+2025-08-30 05:33:57.536 | INFO     | __main__:initialize_system_data:26 - ==================================================
+2025-08-30 05:33:57.539 | INFO     | __main__:initialize_system_data:27 - 开始执行系统数据初始化...
+2025-08-30 05:33:57.539 | INFO     | __main__:initialize_system_data:28 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume
+2025-08-30 05:33:57.539 | ERROR    | __main__:initialize_system_data:31 - 错误：简历目录 'D:\LLM_Codes\Chapter3_RAG\app_new\data\resume' 不存在。
+2025-08-30 05:35:06.129 | INFO     | __main__:initialize_system_data:26 - ==================================================
+2025-08-30 05:35:06.130 | INFO     | __main__:initialize_system_data:27 - 开始执行系统数据初始化...
+2025-08-30 05:35:06.130 | INFO     | __main__:initialize_system_data:28 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume
+2025-08-30 05:35:06.130 | INFO     | utils.vector_store:_initialize_components:30 - 开始初始化向量存储及检索组件...
+2025-08-30 05:35:12.128 | INFO     | utils.vector_store:_initialize_components:73 - 向量存储及检索组件初始化完成
+2025-08-30 05:35:12.663 | INFO     | __main__:initialize_system_data:53 - 发现 19 个简历文件待处理。
+2025-08-30 05:35:12.666 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-08-30 05:35:12.701 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx, hash: f89443b16c4f3a7d79fd988b601d0f82
+2025-08-30 05:35:12.701 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:35:15.571 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-08-30 05:35:15.571 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-08-30 05:35:15.572 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx, 使用切分器: RecursiveCharacter
+2025-08-30 05:35:15.576 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx 共生成 23 个子块
+2025-08-30 05:35:23.033 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: f89443b16c4f3a7d79fd988b601d0f82
+2025-08-30 05:35:23.033 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-08-30 05:35:23.134 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-08-30 05:35:23.625 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf, hash: 26d07d497507278334fea0fb6c539a72
+2025-08-30 05:35:23.625 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:35:26.012 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-08-30 05:35:26.012 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-08-30 05:35:26.012 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 05:35:26.012 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf 共生成 3 个子块
+2025-08-30 05:35:27.385 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 26d07d497507278334fea0fb6c539a72
+2025-08-30 05:35:27.386 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历_20250806095046.pdf
+2025-08-30 05:35:27.487 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-08-30 05:35:27.765 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-30 05:35:27.765 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:35:29.154 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '刘天宝', 'gender': '男', 'age': 25, 'work_experience': 2}
+2025-08-30 05:35:29.155 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-08-30 05:35:29.155 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 05:35:29.155 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf 共生成 3 个子块
+2025-08-30 05:35:30.534 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-30 05:35:30.534 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 刘宝.pdf
+2025-08-30 05:35:30.635 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf
+2025-08-30 05:35:30.882 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf, hash: 12b290a99929f37072774abb2dd2fef9
+2025-08-30 05:35:30.882 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:35:32.387 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '庄宇', 'gender': '男', 'age': 24, 'work_experience': 1}
+2025-08-30 05:35:32.387 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf
+2025-08-30 05:35:32.387 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 05:35:32.387 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf 共生成 4 个子块
+2025-08-30 05:35:33.993 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 12b290a99929f37072774abb2dd2fef9
+2025-08-30 05:35:33.994 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 庄宇_简历_20250807105559.pdf
+2025-08-30 05:35:34.096 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md
+2025-08-30 05:35:37.117 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef
+2025-08-30 05:35:37.117 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:35:38.307 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张丰', 'gender': '未提供', 'age': -1, 'work_experience': 5}
+2025-08-30 05:35:38.307 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md
+2025-08-30 05:35:38.308 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md, 使用切分器: Markdown
+2025-08-30 05:35:38.309 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md 共生成 7 个子块
+2025-08-30 05:35:40.887 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 336bede497765123a6f144ee6fa010ef
+2025-08-30 05:35:40.888 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张丰前端开发工程师简历.md
+2025-08-30 05:35:40.989 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md
+2025-08-30 05:35:41.009 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9
+2025-08-30 05:35:41.009 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:35:42.399 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张伟', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 05:35:42.399 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md
+2025-08-30 05:35:42.399 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md, 使用切分器: Markdown
+2025-08-30 05:35:42.399 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md 共生成 5 个子块
+2025-08-30 05:35:44.630 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 507862e1a6c2919347dd01f6c75f5eb9
+2025-08-30 05:35:44.631 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张伟开发工程师.md
+2025-08-30 05:35:44.732 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt
+2025-08-30 05:35:44.735 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt, hash: d9db4bc938a743c0a41f956bac77d81d
+2025-08-30 05:35:44.736 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:35:46.542 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张笑霞', 'gender': '女', 'age': 66, 'work_experience': 52}
+2025-08-30 05:35:46.543 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt
+2025-08-30 05:35:46.543 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt, 使用切分器: RecursiveCharacter
+2025-08-30 05:35:46.545 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt 共生成 4 个子块
+2025-08-30 05:35:49.582 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: d9db4bc938a743c0a41f956bac77d81d
+2025-08-30 05:35:49.583 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张笑霞_20250809165744.txt
+2025-08-30 05:35:49.684 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md
+2025-08-30 05:35:49.715 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59
+2025-08-30 05:35:49.715 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:35:51.143 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李娜', 'gender': '女', 'age': 34, 'work_experience': 6}
+2025-08-30 05:35:51.144 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md
+2025-08-30 05:35:51.144 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md, 使用切分器: Markdown
+2025-08-30 05:35:51.145 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md 共生成 5 个子块
+2025-08-30 05:35:54.044 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 9aa01a4b1424ef367eb21a5aa929fa59
+2025-08-30 05:35:54.045 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李娜.md
+2025-08-30 05:35:54.147 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx
+2025-08-30 05:35:54.173 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c
+2025-08-30 05:35:54.173 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:35:55.707 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李旭', 'gender': '未提供', 'age': 26, 'work_experience': 3}
+2025-08-30 05:35:55.708 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx
+2025-08-30 05:35:55.708 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx, 使用切分器: RecursiveCharacter
+2025-08-30 05:35:55.716 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx 共生成 11 个子块
+2025-08-30 05:36:02.726 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 1c0f34327bbbfaee55b8238bf8b7676c
+2025-08-30 05:36:02.727 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李旭-简历.docx
+2025-08-30 05:36:02.829 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 05:36:02.988 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 05:36:02.988 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:36:04.985 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 05:36:04.986 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 05:36:04.986 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 05:36:04.987 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-30 05:36:07.918 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 05:36:07.918 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李明AI大模型产品经理简历.pdf
+2025-08-30 05:36:08.021 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt
+2025-08-30 05:36:08.030 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt, hash: 27c71050893c05dd92ca62655304eb63
+2025-08-30 05:36:08.030 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:36:09.382 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 66, 'work_experience': 52}
+2025-08-30 05:36:09.382 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt
+2025-08-30 05:36:09.382 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt, 使用切分器: RecursiveCharacter
+2025-08-30 05:36:09.383 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt 共生成 4 个子块
+2025-08-30 05:36:12.391 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 27c71050893c05dd92ca62655304eb63
+2025-08-30 05:36:12.392 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林霞_20250809164313.txt
+2025-08-30 05:36:12.493 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt
+2025-08-30 05:36:12.501 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt, hash: 846c387153e1061340eb30b5ce7e6e73
+2025-08-30 05:36:12.502 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:36:14.654 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 70, 'work_experience': 52}
+2025-08-30 05:36:14.655 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt
+2025-08-30 05:36:14.655 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt, 使用切分器: RecursiveCharacter
+2025-08-30 05:36:14.655 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt 共生成 4 个子块
+2025-08-30 05:36:17.722 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 846c387153e1061340eb30b5ce7e6e73
+2025-08-30 05:36:17.722 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林青霞.txt
+2025-08-30 05:36:17.824 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt
+2025-08-30 05:36:17.826 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt, hash: 6ffb2e8ed59aeb71db3cdaab15b83168
+2025-08-30 05:36:17.826 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:36:19.144 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 58, 'work_experience': 22}
+2025-08-30 05:36:19.145 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt
+2025-08-30 05:36:19.145 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt, 使用切分器: RecursiveCharacter
+2025-08-30 05:36:19.145 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt 共生成 1 个子块
+2025-08-30 05:36:20.326 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 6ffb2e8ed59aeb71db3cdaab15b83168
+2025-08-30 05:36:20.327 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林青霞_test.txt
+2025-08-30 05:36:20.428 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg
+2025-08-30 05:36:29.612 | INFO     | utils.document_processor:extract_text_from_image:117 - 图片提取文本成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, 内容长度: 473
+2025-08-30 05:36:29.613 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, hash: 6bb5b76f8eac3235eb3bee38b16f6c4f
+2025-08-30 05:36:29.613 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:36:31.679 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王宝强', 'gender': '男', 'age': 42, 'work_experience': 22}
+2025-08-30 05:36:31.680 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg
+2025-08-30 05:36:31.680 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, 使用切分器: RecursiveCharacter
+2025-08-30 05:36:31.681 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg 共生成 2 个子块
+2025-08-30 05:36:33.842 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 6bb5b76f8eac3235eb3bee38b16f6c4f
+2025-08-30 05:36:33.843 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王宝强.jpg
+2025-08-30 05:36:33.945 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md
+2025-08-30 05:36:33.986 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md, hash: 2c6e673a7b2e06addee354021ad1453c
+2025-08-30 05:36:33.987 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:36:35.302 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王强', 'gender': '未提供', 'age': -1, 'work_experience': 1}
+2025-08-30 05:36:35.302 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md
+2025-08-30 05:36:35.303 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md, 使用切分器: Markdown
+2025-08-30 05:36:35.304 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md 共生成 5 个子块
+2025-08-30 05:36:38.784 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 2c6e673a7b2e06addee354021ad1453c
+2025-08-30 05:36:38.785 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王强.md
+2025-08-30 05:36:38.888 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md
+2025-08-30 05:36:38.932 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6
+2025-08-30 05:36:38.932 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:36:40.343 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王明', 'gender': '未提供', 'age': 27, 'work_experience': 3}
+2025-08-30 05:36:40.344 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md
+2025-08-30 05:36:40.345 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md, 使用切分器: Markdown
+2025-08-30 05:36:40.348 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md 共生成 7 个子块
+2025-08-30 05:36:44.766 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 21160040a62910ab2e43a6f1cc17a5b6
+2025-08-30 05:36:44.768 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王明数据工程师简历.md
+2025-08-30 05:36:44.868 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf
+2025-08-30 05:36:45.299 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-30 05:36:45.299 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:36:46.607 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王顺吉', 'gender': '未提供', 'age': 24, 'work_experience': 2}
+2025-08-30 05:36:46.607 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf
+2025-08-30 05:36:46.607 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 05:36:46.609 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf 共生成 4 个子块
+2025-08-30 05:36:49.843 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-30 05:36:49.844 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王顺简历.pdf
+2025-08-30 05:36:49.945 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf
+2025-08-30 05:36:50.215 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf, hash: a1f819a55416ca2721ecb5d720db9691
+2025-08-30 05:36:50.216 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:36:51.770 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '赵可', 'gender': '未提供', 'age': 23, 'work_experience': 2}
+2025-08-30 05:36:51.771 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf
+2025-08-30 05:36:51.771 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 05:36:51.773 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf 共生成 4 个子块
+2025-08-30 05:36:54.780 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: a1f819a55416ca2721ecb5d720db9691
+2025-08-30 05:36:54.781 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 赵可的简历.pdf
+2025-08-30 05:36:54.882 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf
+2025-08-30 05:36:55.558 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765
+2025-08-30 05:36:55.558 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 05:36:56.852 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '郭杰', 'gender': '男', 'age': 28, 'work_experience': 5}
+2025-08-30 05:36:56.853 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf
+2025-08-30 05:36:56.853 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 05:36:56.857 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf 共生成 5 个子块
+2025-08-30 05:37:00.619 | INFO     | utils.vector_store:store_resume:182 - 成功存储简历到Milvus, ES和MongoDB, hash: 2508647664778702bff4db7fee1da765
+2025-08-30 05:37:00.619 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 郭杰的简历 _20250806075537.pdf
+2025-08-30 05:37:00.720 | INFO     | __main__:initialize_system_data:102 - ==================================================
+2025-08-30 05:37:00.720 | INFO     | __main__:initialize_system_data:103 - 系统数据初始化完成！
+2025-08-30 05:37:00.720 | INFO     | __main__:initialize_system_data:104 - 处理结果总结:
+2025-08-30 05:37:00.720 | INFO     | __main__:initialize_system_data:105 -   - 成功新增: 19 份
+2025-08-30 05:37:00.721 | INFO     | __main__:initialize_system_data:106 -   - 已存在 (跳过): 0 份
+2025-08-30 05:37:00.721 | INFO     | __main__:initialize_system_data:107 -   - 处理失败: 0 份
+2025-08-30 05:37:00.722 | INFO     | __main__:initialize_system_data:108 - 详细日志请查看: logs\system_init.log
+2025-08-30 05:37:00.723 | INFO     | __main__:initialize_system_data:109 - ==================================================
+2025-08-30 06:28:53.934 | INFO     | __main__:initialize_system_data:26 - ==================================================
+2025-08-30 06:28:53.935 | INFO     | __main__:initialize_system_data:27 - 开始执行系统数据初始化...
+2025-08-30 06:28:53.935 | INFO     | __main__:initialize_system_data:28 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume
+2025-08-30 06:28:53.935 | INFO     | utils.vector_store:_initialize_components:30 - 开始初始化向量存储及检索组件...
+2025-08-30 06:29:01.567 | INFO     | utils.vector_store:_initialize_components:73 - 向量存储及检索组件初始化完成
+2025-08-30 06:29:02.099 | INFO     | __main__:initialize_system_data:53 - 发现 19 个简历文件待处理。
+2025-08-30 06:29:02.100 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-08-30 06:29:02.126 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx, hash: f89443b16c4f3a7d79fd988b601d0f82
+2025-08-30 06:29:02.126 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:29:04.708 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-08-30 06:29:04.708 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-08-30 06:29:04.708 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx, 使用切分器: RecursiveCharacter
+2025-08-30 06:29:04.713 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx 共生成 23 个子块
+2025-08-30 06:29:30.998 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: f89443b16c4f3a7d79fd988b601d0f82
+2025-08-30 06:29:30.999 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-08-30 06:29:31.100 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-08-30 06:29:31.550 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf, hash: 26d07d497507278334fea0fb6c539a72
+2025-08-30 06:29:31.551 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:29:33.534 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-08-30 06:29:33.534 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-08-30 06:29:33.534 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:29:33.535 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf 共生成 3 个子块
+2025-08-30 06:29:34.863 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 26d07d497507278334fea0fb6c539a72
+2025-08-30 06:29:34.863 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历_20250806095046.pdf
+2025-08-30 06:29:34.964 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-08-30 06:29:35.237 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-30 06:29:35.237 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:29:36.858 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '刘天宝', 'gender': '男', 'age': 25, 'work_experience': 2}
+2025-08-30 06:29:36.858 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-08-30 06:29:36.858 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:29:36.859 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf 共生成 3 个子块
+2025-08-30 06:29:38.262 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-30 06:29:38.262 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 刘宝.pdf
+2025-08-30 06:29:38.363 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf
+2025-08-30 06:29:38.617 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf, hash: 12b290a99929f37072774abb2dd2fef9
+2025-08-30 06:29:38.617 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:29:39.744 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '庄宇', 'gender': '男', 'age': 24, 'work_experience': 1}
+2025-08-30 06:29:39.744 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf
+2025-08-30 06:29:39.744 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:29:39.744 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf 共生成 4 个子块
+2025-08-30 06:29:41.419 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 12b290a99929f37072774abb2dd2fef9
+2025-08-30 06:29:41.419 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 庄宇_简历_20250807105559.pdf
+2025-08-30 06:29:41.520 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md
+2025-08-30 06:29:43.985 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef
+2025-08-30 06:29:43.985 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:29:45.196 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张丰', 'gender': '未提供', 'age': -1, 'work_experience': 5}
+2025-08-30 06:29:45.196 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md
+2025-08-30 06:29:45.197 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md, 使用切分器: Markdown
+2025-08-30 06:29:45.198 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md 共生成 7 个子块
+2025-08-30 06:29:47.795 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 336bede497765123a6f144ee6fa010ef
+2025-08-30 06:29:47.796 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张丰前端开发工程师简历.md
+2025-08-30 06:29:47.897 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md
+2025-08-30 06:29:47.924 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9
+2025-08-30 06:29:47.925 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:29:49.183 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张伟', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 06:29:49.183 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md
+2025-08-30 06:29:49.183 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md, 使用切分器: Markdown
+2025-08-30 06:29:49.184 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md 共生成 5 个子块
+2025-08-30 06:29:50.988 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 507862e1a6c2919347dd01f6c75f5eb9
+2025-08-30 06:29:50.988 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张伟开发工程师.md
+2025-08-30 06:29:51.089 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt
+2025-08-30 06:29:51.089 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt, hash: d9db4bc938a743c0a41f956bac77d81d
+2025-08-30 06:29:51.089 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:29:52.616 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张笑霞', 'gender': '女', 'age': 66, 'work_experience': 52}
+2025-08-30 06:29:52.616 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt
+2025-08-30 06:29:52.616 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt, 使用切分器: RecursiveCharacter
+2025-08-30 06:29:52.616 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt 共生成 4 个子块
+2025-08-30 06:29:54.395 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: d9db4bc938a743c0a41f956bac77d81d
+2025-08-30 06:29:54.395 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张笑霞_20250809165744.txt
+2025-08-30 06:29:54.497 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md
+2025-08-30 06:29:54.515 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59
+2025-08-30 06:29:54.515 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:29:56.214 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李娜', 'gender': '女', 'age': 34, 'work_experience': 6}
+2025-08-30 06:29:56.214 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md
+2025-08-30 06:29:56.214 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md, 使用切分器: Markdown
+2025-08-30 06:29:56.215 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md 共生成 5 个子块
+2025-08-30 06:29:58.115 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 9aa01a4b1424ef367eb21a5aa929fa59
+2025-08-30 06:29:58.116 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李娜.md
+2025-08-30 06:29:58.216 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx
+2025-08-30 06:29:58.225 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c
+2025-08-30 06:29:58.225 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:29:59.780 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李旭', 'gender': '未提供', 'age': 26, 'work_experience': 3}
+2025-08-30 06:29:59.780 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx
+2025-08-30 06:29:59.780 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx, 使用切分器: RecursiveCharacter
+2025-08-30 06:29:59.785 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx 共生成 11 个子块
+2025-08-30 06:30:04.312 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 1c0f34327bbbfaee55b8238bf8b7676c
+2025-08-30 06:30:04.312 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李旭-简历.docx
+2025-08-30 06:30:04.413 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 06:30:04.472 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:30:04.472 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:30:05.857 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 06:30:05.857 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 06:30:05.857 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:30:05.858 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-30 06:30:07.499 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:30:07.500 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李明AI大模型产品经理简历.pdf
+2025-08-30 06:30:07.601 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt
+2025-08-30 06:30:07.601 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt, hash: 27c71050893c05dd92ca62655304eb63
+2025-08-30 06:30:07.601 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:30:09.189 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 66, 'work_experience': 52}
+2025-08-30 06:30:09.189 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt
+2025-08-30 06:30:09.189 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt, 使用切分器: RecursiveCharacter
+2025-08-30 06:30:09.190 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt 共生成 4 个子块
+2025-08-30 06:30:10.926 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 27c71050893c05dd92ca62655304eb63
+2025-08-30 06:30:10.926 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林霞_20250809164313.txt
+2025-08-30 06:30:11.027 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt
+2025-08-30 06:30:11.027 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt, hash: 846c387153e1061340eb30b5ce7e6e73
+2025-08-30 06:30:11.027 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:30:12.477 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 70, 'work_experience': 52}
+2025-08-30 06:30:12.477 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt
+2025-08-30 06:30:12.477 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt, 使用切分器: RecursiveCharacter
+2025-08-30 06:30:12.477 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt 共生成 4 个子块
+2025-08-30 06:30:14.190 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 846c387153e1061340eb30b5ce7e6e73
+2025-08-30 06:30:14.190 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林青霞.txt
+2025-08-30 06:30:14.291 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt
+2025-08-30 06:30:14.292 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt, hash: 6ffb2e8ed59aeb71db3cdaab15b83168
+2025-08-30 06:30:14.292 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:30:15.883 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 60, 'work_experience': 22}
+2025-08-30 06:30:15.883 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt
+2025-08-30 06:30:15.883 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt, 使用切分器: RecursiveCharacter
+2025-08-30 06:30:15.883 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt 共生成 1 个子块
+2025-08-30 06:30:16.526 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 6ffb2e8ed59aeb71db3cdaab15b83168
+2025-08-30 06:30:16.527 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林青霞_test.txt
+2025-08-30 06:30:16.627 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg
+2025-08-30 06:30:34.322 | INFO     | utils.document_processor:extract_text_from_image:117 - 图片提取文本成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, 内容长度: 473
+2025-08-30 06:30:34.324 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, hash: 6bb5b76f8eac3235eb3bee38b16f6c4f
+2025-08-30 06:30:34.324 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:30:36.794 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王宝强', 'gender': '男', 'age': 42, 'work_experience': 22}
+2025-08-30 06:30:36.794 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg
+2025-08-30 06:30:36.795 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, 使用切分器: RecursiveCharacter
+2025-08-30 06:30:36.795 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg 共生成 2 个子块
+2025-08-30 06:30:57.073 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 6bb5b76f8eac3235eb3bee38b16f6c4f
+2025-08-30 06:30:57.073 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王宝强.jpg
+2025-08-30 06:30:57.174 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md
+2025-08-30 06:30:57.188 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md, hash: 2c6e673a7b2e06addee354021ad1453c
+2025-08-30 06:30:57.188 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:30:59.144 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王强', 'gender': '未提供', 'age': 25, 'work_experience': 1}
+2025-08-30 06:30:59.144 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md
+2025-08-30 06:30:59.144 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md, 使用切分器: Markdown
+2025-08-30 06:30:59.145 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md 共生成 5 个子块
+2025-08-30 06:31:01.089 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 2c6e673a7b2e06addee354021ad1453c
+2025-08-30 06:31:01.090 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王强.md
+2025-08-30 06:31:01.190 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md
+2025-08-30 06:31:01.218 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6
+2025-08-30 06:31:01.218 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:31:02.934 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王明', 'gender': '未提供', 'age': 27, 'work_experience': 3}
+2025-08-30 06:31:02.934 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md
+2025-08-30 06:31:02.934 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md, 使用切分器: Markdown
+2025-08-30 06:31:02.935 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md 共生成 7 个子块
+2025-08-30 06:31:05.558 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 21160040a62910ab2e43a6f1cc17a5b6
+2025-08-30 06:31:05.558 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王明数据工程师简历.md
+2025-08-30 06:31:05.659 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf
+2025-08-30 06:31:05.817 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-30 06:31:05.818 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:31:07.725 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王顺吉', 'gender': '未提供', 'age': 24, 'work_experience': 1}
+2025-08-30 06:31:07.725 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf
+2025-08-30 06:31:07.725 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:31:07.726 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf 共生成 4 个子块
+2025-08-30 06:31:09.578 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-30 06:31:09.578 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王顺简历.pdf
+2025-08-30 06:31:09.680 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf
+2025-08-30 06:31:09.779 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf, hash: a1f819a55416ca2721ecb5d720db9691
+2025-08-30 06:31:09.779 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:31:11.000 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '赵可', 'gender': '未提供', 'age': 23, 'work_experience': 2}
+2025-08-30 06:31:11.000 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf
+2025-08-30 06:31:11.000 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:31:11.001 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf 共生成 4 个子块
+2025-08-30 06:31:12.639 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: a1f819a55416ca2721ecb5d720db9691
+2025-08-30 06:31:12.639 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 赵可的简历.pdf
+2025-08-30 06:31:12.740 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf
+2025-08-30 06:31:13.011 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765
+2025-08-30 06:31:13.011 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:31:14.316 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '郭杰', 'gender': '男', 'age': 28, 'work_experience': 5}
+2025-08-30 06:31:14.316 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf
+2025-08-30 06:31:14.316 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:31:14.317 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf 共生成 5 个子块
+2025-08-30 06:31:16.489 | INFO     | utils.vector_store:store_resume:185 - 成功存储简历到Milvus, ES和MongoDB, hash: 2508647664778702bff4db7fee1da765
+2025-08-30 06:31:16.489 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 郭杰的简历 _20250806075537.pdf
+2025-08-30 06:31:16.591 | INFO     | __main__:initialize_system_data:102 - ==================================================
+2025-08-30 06:31:16.591 | INFO     | __main__:initialize_system_data:103 - 系统数据初始化完成！
+2025-08-30 06:31:16.591 | INFO     | __main__:initialize_system_data:104 - 处理结果总结:
+2025-08-30 06:31:16.591 | INFO     | __main__:initialize_system_data:105 -   - 成功新增: 19 份
+2025-08-30 06:31:16.591 | INFO     | __main__:initialize_system_data:106 -   - 已存在 (跳过): 0 份
+2025-08-30 06:31:16.591 | INFO     | __main__:initialize_system_data:107 -   - 处理失败: 0 份
+2025-08-30 06:31:16.591 | INFO     | __main__:initialize_system_data:108 - 详细日志请查看: logs\system_init.log
+2025-08-30 06:31:16.591 | INFO     | __main__:initialize_system_data:109 - ==================================================
+2025-08-30 06:59:02.459 | INFO     | __main__:initialize_system_data:26 - ==================================================
+2025-08-30 06:59:02.460 | INFO     | __main__:initialize_system_data:27 - 开始执行系统数据初始化...
+2025-08-30 06:59:02.460 | INFO     | __main__:initialize_system_data:28 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume
+2025-08-30 06:59:02.460 | INFO     | utils.vector_store:_initialize_components:38 - 步骤 2.1: 开始初始化向量存储及检索组件...
+2025-08-30 06:59:06.774 | ERROR    | utils.vector_store:_initialize_components:110 - 步骤 2.12: 初始化失败: 'list' object has no attribute 'verify'
+2025-08-30 06:59:06.774 | CRITICAL | __main__:initialize_system_data:43 - 初始化核心组件失败: 'list' object has no attribute 'verify'
+2025-08-30 06:59:28.905 | INFO     | __main__:initialize_system_data:26 - ==================================================
+2025-08-30 06:59:28.905 | INFO     | __main__:initialize_system_data:27 - 开始执行系统数据初始化...
+2025-08-30 06:59:28.905 | INFO     | __main__:initialize_system_data:28 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume
+2025-08-30 06:59:28.905 | INFO     | utils.vector_store:_initialize_components:25 - 开始初始化向量存储及检索组件...
+2025-08-30 06:59:33.989 | INFO     | utils.vector_store:_initialize_components:51 - 向量存储及检索组件初始化完成
+2025-08-30 06:59:34.575 | INFO     | __main__:initialize_system_data:53 - 发现 19 个简历文件待处理。
+2025-08-30 06:59:34.576 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-08-30 06:59:34.618 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx, hash: f89443b16c4f3a7d79fd988b601d0f82
+2025-08-30 06:59:34.618 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:59:37.560 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-08-30 06:59:37.560 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-08-30 06:59:37.560 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx, 使用切分器: RecursiveCharacter
+2025-08-30 06:59:37.562 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx 共生成 23 个子块
+2025-08-30 06:59:47.579 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: f89443b16c4f3a7d79fd988b601d0f82
+2025-08-30 06:59:47.579 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-08-30 06:59:47.680 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-08-30 06:59:48.912 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf, hash: 26d07d497507278334fea0fb6c539a72
+2025-08-30 06:59:48.912 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:59:50.904 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-08-30 06:59:50.904 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-08-30 06:59:50.905 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:59:50.907 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf 共生成 3 个子块
+2025-08-30 06:59:53.315 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 26d07d497507278334fea0fb6c539a72
+2025-08-30 06:59:53.316 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历_20250806095046.pdf
+2025-08-30 06:59:53.417 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-08-30 06:59:54.199 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-30 06:59:54.200 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:59:55.875 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '刘天宝', 'gender': '男', 'age': 25, 'work_experience': 2}
+2025-08-30 06:59:55.876 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-08-30 06:59:55.876 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:59:55.877 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf 共生成 3 个子块
+2025-08-30 06:59:58.465 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-30 06:59:58.466 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 刘宝.pdf
+2025-08-30 06:59:58.568 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf
+2025-08-30 06:59:59.249 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf, hash: 12b290a99929f37072774abb2dd2fef9
+2025-08-30 06:59:59.250 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:00:00.906 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '庄宇', 'gender': '男', 'age': 24, 'work_experience': 1}
+2025-08-30 07:00:00.907 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf
+2025-08-30 07:00:00.907 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 07:00:00.909 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf 共生成 4 个子块
+2025-08-30 07:00:03.825 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 12b290a99929f37072774abb2dd2fef9
+2025-08-30 07:00:03.825 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 庄宇_简历_20250807105559.pdf
+2025-08-30 07:00:03.927 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md
+2025-08-30 07:00:08.169 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef
+2025-08-30 07:00:08.169 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:00:10.446 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张丰', 'gender': '未提供', 'age': -1, 'work_experience': 5}
+2025-08-30 07:00:10.446 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md
+2025-08-30 07:00:10.446 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md, 使用切分器: Markdown
+2025-08-30 07:00:10.449 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md 共生成 7 个子块
+2025-08-30 07:00:14.246 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 336bede497765123a6f144ee6fa010ef
+2025-08-30 07:00:14.246 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张丰前端开发工程师简历.md
+2025-08-30 07:00:14.347 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md
+2025-08-30 07:00:14.368 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9
+2025-08-30 07:00:14.368 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:00:15.833 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张伟', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 07:00:15.834 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md
+2025-08-30 07:00:15.834 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md, 使用切分器: Markdown
+2025-08-30 07:00:15.836 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md 共生成 5 个子块
+2025-08-30 07:00:17.594 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 507862e1a6c2919347dd01f6c75f5eb9
+2025-08-30 07:00:17.594 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张伟开发工程师.md
+2025-08-30 07:00:17.695 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt
+2025-08-30 07:00:17.700 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt, hash: d9db4bc938a743c0a41f956bac77d81d
+2025-08-30 07:00:17.700 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:00:19.743 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张笑霞', 'gender': '未提供', 'age': 66, 'work_experience': 52}
+2025-08-30 07:00:19.744 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt
+2025-08-30 07:00:19.744 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt, 使用切分器: RecursiveCharacter
+2025-08-30 07:00:19.744 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt 共生成 4 个子块
+2025-08-30 07:00:21.414 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: d9db4bc938a743c0a41f956bac77d81d
+2025-08-30 07:00:21.415 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张笑霞_20250809165744.txt
+2025-08-30 07:00:21.515 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md
+2025-08-30 07:00:21.541 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59
+2025-08-30 07:00:21.541 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:00:23.021 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李娜', 'gender': '女', 'age': -1, 'work_experience': 5}
+2025-08-30 07:00:23.021 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md
+2025-08-30 07:00:23.021 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md, 使用切分器: Markdown
+2025-08-30 07:00:23.022 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md 共生成 5 个子块
+2025-08-30 07:00:24.691 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 9aa01a4b1424ef367eb21a5aa929fa59
+2025-08-30 07:00:24.691 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李娜.md
+2025-08-30 07:00:24.792 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx
+2025-08-30 07:00:24.809 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c
+2025-08-30 07:00:24.809 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:00:26.877 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李旭', 'gender': '未提供', 'age': 26, 'work_experience': 3}
+2025-08-30 07:00:26.877 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx
+2025-08-30 07:00:26.877 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx, 使用切分器: RecursiveCharacter
+2025-08-30 07:00:26.881 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx 共生成 11 个子块
+2025-08-30 07:00:30.807 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 1c0f34327bbbfaee55b8238bf8b7676c
+2025-08-30 07:00:30.808 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李旭-简历.docx
+2025-08-30 07:00:30.910 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 07:00:30.969 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:00:30.969 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:00:32.499 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 07:00:32.499 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 07:00:32.499 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 07:00:32.499 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-30 07:00:34.100 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:00:34.100 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李明AI大模型产品经理简历.pdf
+2025-08-30 07:00:34.202 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt
+2025-08-30 07:00:34.205 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt, hash: 27c71050893c05dd92ca62655304eb63
+2025-08-30 07:00:34.206 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:00:35.634 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 66, 'work_experience': 52}
+2025-08-30 07:00:35.634 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt
+2025-08-30 07:00:35.634 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt, 使用切分器: RecursiveCharacter
+2025-08-30 07:00:35.635 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt 共生成 4 个子块
+2025-08-30 07:00:37.338 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 27c71050893c05dd92ca62655304eb63
+2025-08-30 07:00:37.338 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林霞_20250809164313.txt
+2025-08-30 07:00:37.439 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt
+2025-08-30 07:00:37.443 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt, hash: 846c387153e1061340eb30b5ce7e6e73
+2025-08-30 07:00:37.444 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:00:38.920 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 70, 'work_experience': 52}
+2025-08-30 07:00:38.921 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt
+2025-08-30 07:00:38.921 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt, 使用切分器: RecursiveCharacter
+2025-08-30 07:00:38.922 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt 共生成 4 个子块
+2025-08-30 07:00:40.643 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 846c387153e1061340eb30b5ce7e6e73
+2025-08-30 07:00:40.643 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林青霞.txt
+2025-08-30 07:00:40.745 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt
+2025-08-30 07:00:40.748 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt, hash: 6ffb2e8ed59aeb71db3cdaab15b83168
+2025-08-30 07:00:40.748 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:00:42.245 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 60, 'work_experience': 22}
+2025-08-30 07:00:42.245 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt
+2025-08-30 07:00:42.245 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt, 使用切分器: RecursiveCharacter
+2025-08-30 07:00:42.245 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt 共生成 1 个子块
+2025-08-30 07:00:42.947 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 6ffb2e8ed59aeb71db3cdaab15b83168
+2025-08-30 07:00:42.947 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林青霞_test.txt
+2025-08-30 07:00:43.049 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg
+2025-08-30 07:00:50.682 | ERROR    | utils.document_processor:extract_text_from_image:120 - 图片提取失败: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, 错误: Connection error.
+2025-08-30 07:00:50.683 | ERROR    | utils.document_processor:load_and_hash_document:156 - 加载或哈希文件失败: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, 错误: Connection error.
+2025-08-30 07:00:50.683 | ERROR    | __main__:initialize_system_data:95 - 处理文件失败: 王宝强.jpg, 错误: Connection error.
+2025-08-30 07:00:50.784 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md
+2025-08-30 07:00:50.802 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md, hash: 2c6e673a7b2e06addee354021ad1453c
+2025-08-30 07:00:50.802 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:00:58.159 | ERROR    | utils.document_processor:parse_resume_structure:79 - 解析简历结构化信息失败: Connection error.
+2025-08-30 07:00:58.160 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md
+2025-08-30 07:00:58.160 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md, 使用切分器: Markdown
+2025-08-30 07:00:58.161 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md 共生成 5 个子块
+2025-08-30 07:01:00.087 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 2c6e673a7b2e06addee354021ad1453c
+2025-08-30 07:01:00.087 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王强.md
+2025-08-30 07:01:00.188 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md
+2025-08-30 07:01:00.224 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6
+2025-08-30 07:01:00.224 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:01:07.745 | ERROR    | utils.document_processor:parse_resume_structure:79 - 解析简历结构化信息失败: Connection error.
+2025-08-30 07:01:07.745 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md
+2025-08-30 07:01:07.745 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md, 使用切分器: Markdown
+2025-08-30 07:01:07.746 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md 共生成 7 个子块
+2025-08-30 07:01:10.343 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 21160040a62910ab2e43a6f1cc17a5b6
+2025-08-30 07:01:10.343 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王明数据工程师简历.md
+2025-08-30 07:01:10.444 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf
+2025-08-30 07:01:10.607 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-30 07:01:10.607 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:01:17.970 | ERROR    | utils.document_processor:parse_resume_structure:79 - 解析简历结构化信息失败: Connection error.
+2025-08-30 07:01:17.970 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf
+2025-08-30 07:01:17.970 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 07:01:17.971 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf 共生成 4 个子块
+2025-08-30 07:01:19.884 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-30 07:01:19.884 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王顺简历.pdf
+2025-08-30 07:01:19.985 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf
+2025-08-30 07:01:20.084 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf, hash: a1f819a55416ca2721ecb5d720db9691
+2025-08-30 07:01:20.084 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:01:27.505 | ERROR    | utils.document_processor:parse_resume_structure:79 - 解析简历结构化信息失败: Connection error.
+2025-08-30 07:01:27.506 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf
+2025-08-30 07:01:27.506 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 07:01:27.506 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf 共生成 4 个子块
+2025-08-30 07:01:29.218 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: a1f819a55416ca2721ecb5d720db9691
+2025-08-30 07:01:29.218 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 赵可的简历.pdf
+2025-08-30 07:01:29.319 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf
+2025-08-30 07:01:29.602 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765
+2025-08-30 07:01:29.602 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:01:37.158 | ERROR    | utils.document_processor:parse_resume_structure:79 - 解析简历结构化信息失败: Connection error.
+2025-08-30 07:01:37.158 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf
+2025-08-30 07:01:37.158 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 07:01:37.159 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf 共生成 5 个子块
+2025-08-30 07:01:39.290 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 2508647664778702bff4db7fee1da765
+2025-08-30 07:01:39.291 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 郭杰的简历 _20250806075537.pdf
+2025-08-30 07:01:39.391 | INFO     | __main__:initialize_system_data:102 - ==================================================
+2025-08-30 07:01:39.392 | INFO     | __main__:initialize_system_data:103 - 系统数据初始化完成！
+2025-08-30 07:01:39.392 | INFO     | __main__:initialize_system_data:104 - 处理结果总结:
+2025-08-30 07:01:39.392 | INFO     | __main__:initialize_system_data:105 -   - 成功新增: 18 份
+2025-08-30 07:01:39.392 | INFO     | __main__:initialize_system_data:106 -   - 已存在 (跳过): 0 份
+2025-08-30 07:01:39.392 | INFO     | __main__:initialize_system_data:107 -   - 处理失败: 1 份
+2025-08-30 07:01:39.392 | INFO     | __main__:initialize_system_data:108 - 详细日志请查看: logs\system_init.log
+2025-08-30 07:01:39.392 | INFO     | __main__:initialize_system_data:109 - ==================================================
+2025-08-30 07:06:04.438 | INFO     | __main__:initialize_system_data:26 - ==================================================
+2025-08-30 07:06:04.439 | INFO     | __main__:initialize_system_data:27 - 开始执行系统数据初始化...
+2025-08-30 07:06:04.440 | INFO     | __main__:initialize_system_data:28 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume
+2025-08-30 07:06:04.440 | INFO     | utils.vector_store:_initialize_components:25 - 开始初始化向量存储及检索组件...
+2025-08-30 07:06:11.209 | INFO     | utils.vector_store:_initialize_components:51 - 向量存储及检索组件初始化完成
+2025-08-30 07:06:12.411 | INFO     | __main__:initialize_system_data:53 - 发现 19 个简历文件待处理。
+2025-08-30 07:06:12.412 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-08-30 07:06:12.460 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx, hash: f89443b16c4f3a7d79fd988b601d0f82
+2025-08-30 07:06:12.460 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:06:15.631 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-08-30 07:06:15.632 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-08-30 07:06:15.632 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx, 使用切分器: RecursiveCharacter
+2025-08-30 07:06:15.645 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx 共生成 23 个子块
+2025-08-30 07:06:29.055 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: f89443b16c4f3a7d79fd988b601d0f82
+2025-08-30 07:06:29.056 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-08-30 07:06:29.157 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-08-30 07:06:30.264 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf, hash: 26d07d497507278334fea0fb6c539a72
+2025-08-30 07:06:30.264 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:06:32.320 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-08-30 07:06:32.321 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-08-30 07:06:32.321 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 07:06:32.322 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf 共生成 3 个子块
+2025-08-30 07:06:34.737 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: 26d07d497507278334fea0fb6c539a72
+2025-08-30 07:06:34.739 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历_20250806095046.pdf
+2025-08-30 07:06:34.840 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-08-30 07:06:35.483 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-30 07:06:35.484 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:06:36.830 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '刘天宝', 'gender': '男', 'age': 25, 'work_experience': 2}
+2025-08-30 07:06:36.830 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-08-30 07:06:36.831 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 07:06:36.831 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf 共生成 3 个子块
+2025-08-30 07:06:39.438 | INFO     | utils.vector_store:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-30 07:06:39.438 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 刘宝.pdf
+2025-08-30 07:06:39.539 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf
+2025-09-01 10:13:55.318 | INFO     | __main__:initialize_system_data:26 - ==================================================
+2025-09-01 10:13:55.321 | INFO     | __main__:initialize_system_data:27 - 开始执行系统数据初始化...
+2025-09-01 10:13:55.321 | INFO     | __main__:initialize_system_data:28 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume
+2025-09-01 10:13:55.321 | INFO     | utils.vector_store:_initialize_components:30 - 开始初始化向量存储及检索组件...
+2025-09-01 10:13:59.706 | INFO     | utils.vector_store:_initialize_components:73 - 向量存储及检索组件初始化完成
+2025-09-01 10:14:00.225 | INFO     | __main__:initialize_system_data:53 - 发现 19 个简历文件待处理。
+2025-09-01 10:14:00.229 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-09-01 10:14:00.262 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx, hash: f89443b16c4f3a7d79fd988b601d0f82
+2025-09-01 10:14:00.262 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:14:03.774 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-09-01 10:14:03.774 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-09-01 10:14:03.774 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx, 使用切分器: RecursiveCharacter
+2025-09-01 10:14:03.780 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx 共生成 23 个子块
+2025-09-01 10:14:10.949 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: f89443b16c4f3a7d79fd988b601d0f82
+2025-09-01 10:14:10.949 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-09-01 10:14:11.051 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-09-01 10:14:11.463 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf, hash: 26d07d497507278334fea0fb6c539a72
+2025-09-01 10:14:11.463 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:14:14.283 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-09-01 10:14:14.284 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-09-01 10:14:14.284 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:14:14.284 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf 共生成 3 个子块
+2025-09-01 10:14:15.651 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 26d07d497507278334fea0fb6c539a72
+2025-09-01 10:14:15.651 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历_20250806095046.pdf
+2025-09-01 10:14:15.752 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-09-01 10:14:16.147 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-09-01 10:14:16.147 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:14:18.435 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '刘天宝', 'gender': '男', 'age': 25, 'work_experience': 2}
+2025-09-01 10:14:18.435 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-09-01 10:14:18.435 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:14:18.435 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf 共生成 3 个子块
+2025-09-01 10:14:19.869 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-09-01 10:14:19.869 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 刘宝.pdf
+2025-09-01 10:14:19.970 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf
+2025-09-01 10:14:20.206 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf, hash: 12b290a99929f37072774abb2dd2fef9
+2025-09-01 10:14:20.206 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:14:21.782 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '庄宇', 'gender': '男', 'age': 24, 'work_experience': 1}
+2025-09-01 10:14:21.782 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf
+2025-09-01 10:14:21.783 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:14:21.784 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf 共生成 4 个子块
+2025-09-01 10:14:23.443 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 12b290a99929f37072774abb2dd2fef9
+2025-09-01 10:14:23.443 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 庄宇_简历_20250807105559.pdf
+2025-09-01 10:14:23.544 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md
+2025-09-01 10:14:26.597 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef
+2025-09-01 10:14:26.597 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:14:28.027 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张丰', 'gender': '未提供', 'age': 29, 'work_experience': 5}
+2025-09-01 10:14:28.028 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md
+2025-09-01 10:14:28.028 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md, 使用切分器: Markdown
+2025-09-01 10:14:28.031 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md 共生成 7 个子块
+2025-09-01 10:14:30.428 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 336bede497765123a6f144ee6fa010ef
+2025-09-01 10:14:30.429 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张丰前端开发工程师简历.md
+2025-09-01 10:14:30.530 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md
+2025-09-01 10:14:30.559 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9
+2025-09-01 10:14:30.559 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:14:31.990 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张伟', 'gender': '未提供', 'age': 26, 'work_experience': 3}
+2025-09-01 10:14:31.990 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md
+2025-09-01 10:14:31.990 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md, 使用切分器: Markdown
+2025-09-01 10:14:31.991 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md 共生成 5 个子块
+2025-09-01 10:14:33.840 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 507862e1a6c2919347dd01f6c75f5eb9
+2025-09-01 10:14:33.840 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张伟开发工程师.md
+2025-09-01 10:14:33.942 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt
+2025-09-01 10:14:33.943 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt, hash: d9db4bc938a743c0a41f956bac77d81d
+2025-09-01 10:14:33.943 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:14:35.449 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '张笑霞', 'gender': '女', 'age': 66, 'work_experience': 52}
+2025-09-01 10:14:35.449 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt
+2025-09-01 10:14:35.449 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt, 使用切分器: RecursiveCharacter
+2025-09-01 10:14:35.450 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt 共生成 4 个子块
+2025-09-01 10:14:37.115 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: d9db4bc938a743c0a41f956bac77d81d
+2025-09-01 10:14:37.115 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张笑霞_20250809165744.txt
+2025-09-01 10:14:37.216 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md
+2025-09-01 10:14:37.242 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59
+2025-09-01 10:14:37.242 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:14:38.392 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李娜', 'gender': '女', 'age': -1, 'work_experience': 5}
+2025-09-01 10:14:38.392 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md
+2025-09-01 10:14:38.392 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md, 使用切分器: Markdown
+2025-09-01 10:14:38.394 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md 共生成 5 个子块
+2025-09-01 10:14:40.002 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 9aa01a4b1424ef367eb21a5aa929fa59
+2025-09-01 10:14:40.003 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李娜.md
+2025-09-01 10:14:40.104 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx
+2025-09-01 10:14:40.113 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c
+2025-09-01 10:14:40.113 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:14:41.909 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李旭', 'gender': '未提供', 'age': 26, 'work_experience': 3}
+2025-09-01 10:14:41.909 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx
+2025-09-01 10:14:41.909 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx, 使用切分器: RecursiveCharacter
+2025-09-01 10:14:41.910 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx 共生成 11 个子块
+2025-09-01 10:14:46.047 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 1c0f34327bbbfaee55b8238bf8b7676c
+2025-09-01 10:14:46.047 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李旭-简历.docx
+2025-09-01 10:14:46.148 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-09-01 10:14:46.207 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-09-01 10:14:46.208 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:14:49.936 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-09-01 10:14:49.936 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-09-01 10:14:49.937 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:14:49.938 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-09-01 10:14:51.542 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 91a04a181f1d14e05af733e349f9add2
+2025-09-01 10:14:51.543 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李明AI大模型产品经理简历.pdf
+2025-09-01 10:14:51.644 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt
+2025-09-01 10:14:51.646 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt, hash: 27c71050893c05dd92ca62655304eb63
+2025-09-01 10:14:51.646 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:14:53.156 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 66, 'work_experience': 52}
+2025-09-01 10:14:53.156 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt
+2025-09-01 10:14:53.156 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt, 使用切分器: RecursiveCharacter
+2025-09-01 10:14:53.157 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt 共生成 4 个子块
+2025-09-01 10:14:54.989 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 27c71050893c05dd92ca62655304eb63
+2025-09-01 10:14:54.989 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林霞_20250809164313.txt
+2025-09-01 10:14:55.090 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt
+2025-09-01 10:14:55.093 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt, hash: 846c387153e1061340eb30b5ce7e6e73
+2025-09-01 10:14:55.093 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:14:57.000 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 70, 'work_experience': 52}
+2025-09-01 10:14:57.000 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt
+2025-09-01 10:14:57.001 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt, 使用切分器: RecursiveCharacter
+2025-09-01 10:14:57.002 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt 共生成 4 个子块
+2025-09-01 10:14:58.844 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 846c387153e1061340eb30b5ce7e6e73
+2025-09-01 10:14:58.845 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林青霞.txt
+2025-09-01 10:14:58.947 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt
+2025-09-01 10:14:58.948 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt, hash: 6ffb2e8ed59aeb71db3cdaab15b83168
+2025-09-01 10:14:58.948 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:15:00.453 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 60, 'work_experience': 22}
+2025-09-01 10:15:00.453 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt
+2025-09-01 10:15:00.454 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt, 使用切分器: RecursiveCharacter
+2025-09-01 10:15:00.455 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt 共生成 1 个子块
+2025-09-01 10:15:01.113 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 6ffb2e8ed59aeb71db3cdaab15b83168
+2025-09-01 10:15:01.114 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林青霞_test.txt
+2025-09-01 10:15:01.215 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg
+2025-09-01 10:15:11.428 | INFO     | utils.document_processor:extract_text_from_image:117 - 图片提取文本成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, 内容长度: 472
+2025-09-01 10:15:11.430 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, hash: 6bb5b76f8eac3235eb3bee38b16f6c4f
+2025-09-01 10:15:11.430 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:15:14.084 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王宝强', 'gender': '男', 'age': 42, 'work_experience': 22}
+2025-09-01 10:15:14.084 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg
+2025-09-01 10:15:14.084 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, 使用切分器: RecursiveCharacter
+2025-09-01 10:15:14.084 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg 共生成 2 个子块
+2025-09-01 10:15:15.051 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 6bb5b76f8eac3235eb3bee38b16f6c4f
+2025-09-01 10:15:15.051 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王宝强.jpg
+2025-09-01 10:15:15.152 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md
+2025-09-01 10:15:15.167 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md, hash: 2c6e673a7b2e06addee354021ad1453c
+2025-09-01 10:15:15.167 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:15:16.548 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王强', 'gender': '未提供', 'age': 24, 'work_experience': 1}
+2025-09-01 10:15:16.548 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md
+2025-09-01 10:15:16.548 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md, 使用切分器: Markdown
+2025-09-01 10:15:16.548 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md 共生成 5 个子块
+2025-09-01 10:15:18.440 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 2c6e673a7b2e06addee354021ad1453c
+2025-09-01 10:15:18.441 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王强.md
+2025-09-01 10:15:18.542 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md
+2025-09-01 10:15:18.568 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6
+2025-09-01 10:15:18.569 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:15:20.132 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王明', 'gender': '未提供', 'age': 27, 'work_experience': 3}
+2025-09-01 10:15:20.132 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md
+2025-09-01 10:15:20.132 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md, 使用切分器: Markdown
+2025-09-01 10:15:20.133 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md 共生成 7 个子块
+2025-09-01 10:15:22.718 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 21160040a62910ab2e43a6f1cc17a5b6
+2025-09-01 10:15:22.718 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王明数据工程师简历.md
+2025-09-01 10:15:22.820 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf
+2025-09-01 10:15:22.982 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-09-01 10:15:22.982 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:15:24.605 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王顺吉', 'gender': '未提供', 'age': 24, 'work_experience': 1}
+2025-09-01 10:15:24.605 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf
+2025-09-01 10:15:24.605 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:15:24.605 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf 共生成 4 个子块
+2025-09-01 10:15:26.438 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-09-01 10:15:26.438 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王顺简历.pdf
+2025-09-01 10:15:26.540 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf
+2025-09-01 10:15:26.803 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf, hash: a1f819a55416ca2721ecb5d720db9691
+2025-09-01 10:15:26.803 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:15:28.100 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '赵可', 'gender': '未提供', 'age': 23, 'work_experience': 2}
+2025-09-01 10:15:28.100 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf
+2025-09-01 10:15:28.100 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:15:28.100 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf 共生成 4 个子块
+2025-09-01 10:15:29.695 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: a1f819a55416ca2721ecb5d720db9691
+2025-09-01 10:15:29.695 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 赵可的简历.pdf
+2025-09-01 10:15:29.796 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf
+2025-09-01 10:15:29.907 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765
+2025-09-01 10:15:29.907 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:15:31.530 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '郭杰', 'gender': '男', 'age': 28, 'work_experience': 5}
+2025-09-01 10:15:31.530 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf
+2025-09-01 10:15:31.530 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:15:31.532 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf 共生成 5 个子块
+2025-09-01 10:15:33.649 | INFO     | utils.vector_store:store_resume:175 - 成功存储简历到Milvus, ES和MongoDB, hash: 2508647664778702bff4db7fee1da765
+2025-09-01 10:15:33.650 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 郭杰的简历 _20250806075537.pdf
+2025-09-01 10:15:33.750 | INFO     | __main__:initialize_system_data:102 - ==================================================
+2025-09-01 10:15:33.751 | INFO     | __main__:initialize_system_data:103 - 系统数据初始化完成！
+2025-09-01 10:15:33.751 | INFO     | __main__:initialize_system_data:104 - 处理结果总结:
+2025-09-01 10:15:33.751 | INFO     | __main__:initialize_system_data:105 -   - 成功新增: 19 份
+2025-09-01 10:15:33.751 | INFO     | __main__:initialize_system_data:106 -   - 已存在 (跳过): 0 份
+2025-09-01 10:15:33.751 | INFO     | __main__:initialize_system_data:107 -   - 处理失败: 0 份
+2025-09-01 10:15:33.752 | INFO     | __main__:initialize_system_data:108 - 详细日志请查看: logs\system_init.log
+2025-09-01 10:15:33.752 | INFO     | __main__:initialize_system_data:109 - ==================================================
+2025-09-01 10:50:55.299 | INFO     | __main__:initialize_system_data:26 - ==================================================
+2025-09-01 10:50:55.300 | INFO     | __main__:initialize_system_data:27 - 开始执行系统数据初始化...
+2025-09-01 10:50:55.300 | INFO     | __main__:initialize_system_data:28 - 扫描简历目录: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume
+2025-09-01 10:50:55.300 | INFO     | utils.vector_store:_initialize_components:30 - 开始初始化向量存储及检索组件...
+2025-09-01 10:51:00.308 | INFO     | utils.vector_store:_initialize_components:73 - 向量存储及检索组件初始化完成
+2025-09-01 10:51:00.819 | INFO     | __main__:initialize_system_data:53 - 发现 19 个简历文件待处理。
+2025-09-01 10:51:00.822 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-09-01 10:51:00.854 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx, hash: f89443b16c4f3a7d79fd988b601d0f82
+2025-09-01 10:51:00.854 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:51:04.227 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-09-01 10:51:04.227 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-09-01 10:51:04.227 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx, 使用切分器: RecursiveCharacter
+2025-09-01 10:51:04.231 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历(豪)_2024.03.23_20250809205730.docx 共生成 23 个子块
+2025-09-01 10:51:10.958 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: f89443b16c4f3a7d79fd988b601d0f82
+2025-09-01 10:51:10.959 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历(豪)_2024.03.23_20250809205730.docx
+2025-09-01 10:51:11.061 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-09-01 10:51:11.452 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf, hash: 26d07d497507278334fea0fb6c539a72
+2025-09-01 10:51:11.453 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:51:13.544 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '黎豪', 'gender': '男', 'age': 33, 'work_experience': 7}
+2025-09-01 10:51:13.544 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf
+2025-09-01 10:51:13.544 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:51:13.545 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\AI大模型个人简历_20250806095046.pdf 共生成 3 个子块
+2025-09-01 10:51:14.915 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 26d07d497507278334fea0fb6c539a72
+2025-09-01 10:51:14.915 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: AI大模型个人简历_20250806095046.pdf
+2025-09-01 10:51:15.017 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-09-01 10:51:15.403 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-09-01 10:51:15.403 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:51:17.406 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '刘天宝', 'gender': '男', 'age': 25, 'work_experience': 2}
+2025-09-01 10:51:17.406 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-09-01 10:51:17.406 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:51:17.406 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf 共生成 3 个子块
+2025-09-01 10:51:18.830 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-09-01 10:51:18.830 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 刘宝.pdf
+2025-09-01 10:51:18.931 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf
+2025-09-01 10:51:19.218 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf, hash: 12b290a99929f37072774abb2dd2fef9
+2025-09-01 10:51:19.219 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:51:20.898 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '庄宇', 'gender': '男', 'age': 24, 'work_experience': 3}
+2025-09-01 10:51:20.898 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf
+2025-09-01 10:51:20.898 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:51:20.899 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\庄宇_简历_20250807105559.pdf 共生成 4 个子块
+2025-09-01 10:51:23.805 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 12b290a99929f37072774abb2dd2fef9
+2025-09-01 10:51:23.805 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 庄宇_简历_20250807105559.pdf
+2025-09-01 10:51:23.905 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md
+2025-09-01 10:51:28.504 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef
+2025-09-01 10:51:28.504 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:51:35.893 | ERROR    | utils.document_processor:parse_resume_structure:79 - 解析简历结构化信息失败: Connection error.
+2025-09-01 10:51:35.893 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md
+2025-09-01 10:51:35.893 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md, 使用切分器: Markdown
+2025-09-01 10:51:35.895 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张丰前端开发工程师简历.md 共生成 7 个子块
+2025-09-01 10:51:40.148 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 336bede497765123a6f144ee6fa010ef
+2025-09-01 10:51:40.148 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张丰前端开发工程师简历.md
+2025-09-01 10:51:40.250 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md
+2025-09-01 10:51:40.287 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9
+2025-09-01 10:51:40.287 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:51:47.870 | ERROR    | utils.document_processor:parse_resume_structure:79 - 解析简历结构化信息失败: Connection error.
+2025-09-01 10:51:47.872 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md
+2025-09-01 10:51:47.872 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md, 使用切分器: Markdown
+2025-09-01 10:51:47.875 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张伟开发工程师.md 共生成 5 个子块
+2025-09-01 10:51:51.342 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 507862e1a6c2919347dd01f6c75f5eb9
+2025-09-01 10:51:51.343 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张伟开发工程师.md
+2025-09-01 10:51:51.444 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt
+2025-09-01 10:51:51.447 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt, hash: d9db4bc938a743c0a41f956bac77d81d
+2025-09-01 10:51:51.447 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:51:58.969 | ERROR    | utils.document_processor:parse_resume_structure:79 - 解析简历结构化信息失败: Connection error.
+2025-09-01 10:51:58.970 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt
+2025-09-01 10:51:58.971 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt, 使用切分器: RecursiveCharacter
+2025-09-01 10:51:58.972 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\张笑霞_20250809165744.txt 共生成 4 个子块
+2025-09-01 10:52:02.756 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: d9db4bc938a743c0a41f956bac77d81d
+2025-09-01 10:52:02.758 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 张笑霞_20250809165744.txt
+2025-09-01 10:52:02.860 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md
+2025-09-01 10:52:02.888 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59
+2025-09-01 10:52:02.888 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:52:10.407 | ERROR    | utils.document_processor:parse_resume_structure:79 - 解析简历结构化信息失败: Connection error.
+2025-09-01 10:52:10.408 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md
+2025-09-01 10:52:10.408 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md, 使用切分器: Markdown
+2025-09-01 10:52:10.410 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李娜.md 共生成 5 个子块
+2025-09-01 10:52:13.516 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 9aa01a4b1424ef367eb21a5aa929fa59
+2025-09-01 10:52:13.517 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李娜.md
+2025-09-01 10:52:13.618 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx
+2025-09-01 10:52:13.632 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c
+2025-09-01 10:52:13.632 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:52:21.018 | ERROR    | utils.document_processor:parse_resume_structure:79 - 解析简历结构化信息失败: Connection error.
+2025-09-01 10:52:21.019 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx
+2025-09-01 10:52:21.019 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx, 使用切分器: RecursiveCharacter
+2025-09-01 10:52:21.024 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李旭-简历.docx 共生成 11 个子块
+2025-09-01 10:52:25.056 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 1c0f34327bbbfaee55b8238bf8b7676c
+2025-09-01 10:52:25.057 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李旭-简历.docx
+2025-09-01 10:52:25.158 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-09-01 10:52:25.214 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-09-01 10:52:25.214 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:52:32.794 | ERROR    | utils.document_processor:parse_resume_structure:79 - 解析简历结构化信息失败: Connection error.
+2025-09-01 10:52:32.795 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-09-01 10:52:32.795 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:52:32.797 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-09-01 10:52:34.366 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 91a04a181f1d14e05af733e349f9add2
+2025-09-01 10:52:34.366 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 李明AI大模型产品经理简历.pdf
+2025-09-01 10:52:34.467 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt
+2025-09-01 10:52:34.469 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt, hash: 27c71050893c05dd92ca62655304eb63
+2025-09-01 10:52:34.469 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:52:38.577 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 66, 'work_experience': 52}
+2025-09-01 10:52:38.579 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt
+2025-09-01 10:52:38.579 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt, 使用切分器: RecursiveCharacter
+2025-09-01 10:52:38.580 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林霞_20250809164313.txt 共生成 4 个子块
+2025-09-01 10:52:40.440 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 27c71050893c05dd92ca62655304eb63
+2025-09-01 10:52:40.440 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林霞_20250809164313.txt
+2025-09-01 10:52:40.541 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt
+2025-09-01 10:52:40.543 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt, hash: 846c387153e1061340eb30b5ce7e6e73
+2025-09-01 10:52:40.543 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:52:41.994 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 70, 'work_experience': 52}
+2025-09-01 10:52:41.994 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt
+2025-09-01 10:52:41.994 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt, 使用切分器: RecursiveCharacter
+2025-09-01 10:52:41.994 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞.txt 共生成 4 个子块
+2025-09-01 10:52:43.729 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 846c387153e1061340eb30b5ce7e6e73
+2025-09-01 10:52:43.730 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林青霞.txt
+2025-09-01 10:52:43.831 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt
+2025-09-01 10:52:43.834 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt, hash: 6ffb2e8ed59aeb71db3cdaab15b83168
+2025-09-01 10:52:43.834 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:52:45.217 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '林青霞', 'gender': '女', 'age': 59, 'work_experience': 22}
+2025-09-01 10:52:45.217 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt
+2025-09-01 10:52:45.218 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt, 使用切分器: RecursiveCharacter
+2025-09-01 10:52:45.218 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\林青霞_test.txt 共生成 1 个子块
+2025-09-01 10:52:45.870 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 6ffb2e8ed59aeb71db3cdaab15b83168
+2025-09-01 10:52:45.870 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 林青霞_test.txt
+2025-09-01 10:52:45.971 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg
+2025-09-01 10:52:56.356 | INFO     | utils.document_processor:extract_text_from_image:117 - 图片提取文本成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, 内容长度: 473
+2025-09-01 10:52:56.356 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, hash: 6bb5b76f8eac3235eb3bee38b16f6c4f
+2025-09-01 10:52:56.356 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:52:58.766 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王宝强', 'gender': '男', 'age': 42, 'work_experience': 22}
+2025-09-01 10:52:58.766 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg
+2025-09-01 10:52:58.767 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg, 使用切分器: RecursiveCharacter
+2025-09-01 10:52:58.767 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王宝强.jpg 共生成 2 个子块
+2025-09-01 10:52:59.729 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 6bb5b76f8eac3235eb3bee38b16f6c4f
+2025-09-01 10:52:59.730 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王宝强.jpg
+2025-09-01 10:52:59.831 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md
+2025-09-01 10:52:59.848 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md, hash: 2c6e673a7b2e06addee354021ad1453c
+2025-09-01 10:52:59.849 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:53:01.264 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王强', 'gender': '未提供', 'age': -1, 'work_experience': 1}
+2025-09-01 10:53:01.264 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md
+2025-09-01 10:53:01.264 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md, 使用切分器: Markdown
+2025-09-01 10:53:01.266 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王强.md 共生成 5 个子块
+2025-09-01 10:53:03.177 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 2c6e673a7b2e06addee354021ad1453c
+2025-09-01 10:53:03.178 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王强.md
+2025-09-01 10:53:03.279 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md
+2025-09-01 10:53:03.311 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6
+2025-09-01 10:53:03.312 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:53:04.973 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-09-01 10:53:04.973 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md
+2025-09-01 10:53:04.973 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md, 使用切分器: Markdown
+2025-09-01 10:53:04.974 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王明数据工程师简历.md 共生成 7 个子块
+2025-09-01 10:53:07.621 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 21160040a62910ab2e43a6f1cc17a5b6
+2025-09-01 10:53:07.621 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王明数据工程师简历.md
+2025-09-01 10:53:07.723 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf
+2025-09-01 10:53:07.893 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-09-01 10:53:07.893 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:53:09.902 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王顺吉', 'gender': '未提供', 'age': 24, 'work_experience': 2}
+2025-09-01 10:53:09.902 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf
+2025-09-01 10:53:09.902 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:53:09.905 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\王顺简历.pdf 共生成 4 个子块
+2025-09-01 10:53:11.670 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-09-01 10:53:11.671 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 王顺简历.pdf
+2025-09-01 10:53:11.772 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf
+2025-09-01 10:53:12.041 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf, hash: a1f819a55416ca2721ecb5d720db9691
+2025-09-01 10:53:12.042 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:53:13.792 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '赵可', 'gender': '未提供', 'age': 23, 'work_experience': 2}
+2025-09-01 10:53:13.792 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf
+2025-09-01 10:53:13.792 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:53:13.793 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\赵可的简历.pdf 共生成 4 个子块
+2025-09-01 10:53:15.416 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: a1f819a55416ca2721ecb5d720db9691
+2025-09-01 10:53:15.417 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 赵可的简历.pdf
+2025-09-01 10:53:15.518 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf
+2025-09-01 10:53:15.625 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765
+2025-09-01 10:53:15.627 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-01 10:53:17.040 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '郭杰', 'gender': '男', 'age': 28, 'work_experience': 5}
+2025-09-01 10:53:17.040 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf
+2025-09-01 10:53:17.041 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf, 使用切分器: RecursiveCharacter
+2025-09-01 10:53:17.042 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\郭杰的简历 _20250806075537.pdf 共生成 5 个子块
+2025-09-01 10:53:19.127 | INFO     | utils.vector_store:store_resume:176 - 成功存储简历到Milvus, ES和MongoDB, hash: 2508647664778702bff4db7fee1da765
+2025-09-01 10:53:19.127 | INFO     | __main__:initialize_system_data:88 - 成功处理并存储: 郭杰的简历 _20250806075537.pdf
+2025-09-01 10:53:19.228 | INFO     | __main__:initialize_system_data:102 - ==================================================
+2025-09-01 10:53:19.228 | INFO     | __main__:initialize_system_data:103 - 系统数据初始化完成！
+2025-09-01 10:53:19.229 | INFO     | __main__:initialize_system_data:104 - 处理结果总结:
+2025-09-01 10:53:19.229 | INFO     | __main__:initialize_system_data:105 -   - 成功新增: 19 份
+2025-09-01 10:53:19.229 | INFO     | __main__:initialize_system_data:106 -   - 已存在 (跳过): 0 份
+2025-09-01 10:53:19.229 | INFO     | __main__:initialize_system_data:107 -   - 处理失败: 0 份
+2025-09-01 10:53:19.229 | INFO     | __main__:initialize_system_data:108 - 详细日志请查看: logs\system_init.log
+2025-09-01 10:53:19.229 | INFO     | __main__:initialize_system_data:109 - ==================================================

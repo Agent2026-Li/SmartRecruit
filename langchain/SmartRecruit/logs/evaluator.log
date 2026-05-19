@@ -1,0 +1,1397 @@
+2025-08-05 15:41:29.676 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 15:41:30.173 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 15:41:32.650 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 15:41:33.700 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 15:41:34.538 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 1
+2025-08-05 15:41:34.538 | INFO     | vector_store:hybrid_search_with_rerank:173 - 检索到父文档数量: 1，无需重排序
+2025-08-05 15:41:41.763 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 15:41:41.764 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 14.02204155921936s
+2025-08-05 15:41:41.764 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 14.02204155921936s, 返回候选人: 2
+2025-08-05 15:41:43.695 | ERROR    | __main__:evaluate_rag:40 - RAG 评估失败: 'OpenAI' object has no attribute 'set_run_config'
+2025-08-05 15:43:45.432 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 15:43:45.949 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 15:43:49.115 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 15:43:50.173 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 15:43:51.857 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 1
+2025-08-05 15:43:51.857 | INFO     | vector_store:hybrid_search_with_rerank:173 - 检索到父文档数量: 1，无需重排序
+2025-08-05 15:43:56.057 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 15:43:56.058 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 12.553323030471802s
+2025-08-05 15:43:56.058 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 12.553323030471802s, 返回候选人: 2
+2025-08-05 15:43:57.948 | ERROR    | __main__:evaluate_rag:40 - RAG 评估失败: 'OpenAI' object has no attribute 'set_run_config'
+2025-08-05 15:47:30.285 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 15:47:30.832 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 15:47:38.246 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 15:47:39.095 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 15:47:40.595 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 1
+2025-08-05 15:47:40.595 | INFO     | vector_store:hybrid_search_with_rerank:173 - 检索到父文档数量: 1，无需重排序
+2025-08-05 15:47:48.220 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 15:47:48.220 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 19.99113655090332s
+2025-08-05 15:47:48.220 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 19.99113655090332s, 返回候选人: 2
+2025-08-05 15:47:50.652 | ERROR    | __main__:evaluate_rag:59 - RAG 评估失败: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-05 15:59:47.414 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 15:59:47.925 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 15:59:50.099 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 15:59:50.858 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 15:59:51.764 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 15:59:52.549 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:00:00.027 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:00:00.028 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 14.586610078811646s
+2025-08-05 16:00:00.028 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 14.586610078811646s, 返回候选人: 2
+2025-08-05 16:00:02.114 | ERROR    | __main__:evaluate_rag:70 - RAG 评估失败: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-05 16:00:47.778 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:00:48.258 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:00:50.755 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:00:52.487 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:00:53.551 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:00:53.899 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:01:03.703 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:01:03.703 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 17.947818279266357s
+2025-08-05 16:01:03.703 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 17.947818279266357s, 返回候选人: 2
+2025-08-05 16:01:05.842 | ERROR    | __main__:evaluate_rag:59 - RAG 评估失败: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-05 16:01:37.857 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:01:38.350 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:01:40.666 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:01:41.753 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:01:42.913 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:01:43.266 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:01:48.480 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:01:48.480 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 12.53308391571045s
+2025-08-05 16:01:48.481 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 12.53308391571045s, 返回候选人: 2
+2025-08-05 16:01:50.254 | ERROR    | __main__:evaluate_rag:59 - RAG 评估失败: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-05 16:02:08.117 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:02:08.589 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:02:10.576 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:02:12.409 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:02:13.368 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:02:13.705 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:02:24.829 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:02:24.830 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 18.802047967910767s
+2025-08-05 16:02:24.830 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 18.802047967910767s, 返回候选人: 2
+2025-08-05 16:02:27.224 | ERROR    | __main__:evaluate_rag:70 - RAG 评估失败: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-05 16:05:08.058 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:05:09.131 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:05:11.897 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:05:12.721 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:05:15.136 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:05:15.749 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:05:28.708 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:05:28.708 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 24.583324670791626s
+2025-08-05 16:05:28.708 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 24.583324670791626s, 返回候选人: 2
+2025-08-05 16:05:30.870 | ERROR    | __main__:evaluate_rag:70 - RAG 评估失败: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-08-05 16:11:37.981 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:11:38.455 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:11:41.867 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:11:43.241 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:11:44.469 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:11:44.834 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:11:49.806 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:11:49.806 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 13.982805252075195s
+2025-08-05 16:11:49.806 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 13.982805252075195s, 返回候选人: 2
+2025-08-05 16:11:51.840 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:11:52.315 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:11:55.564 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:11:56.806 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:11:57.875 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:11:58.205 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:12:05.813 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:12:05.814 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 16.0351140499115s
+2025-08-05 16:12:05.814 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 16.0351140499115s, 返回候选人: 2
+2025-08-05 16:12:13.834 | INFO     | __main__:evaluate_rag:48 - RAG 评估完成: {'faithfulness': 0.0000, 'answer_relevancy': nan, 'context_recall': 0.0000}
+2025-08-05 16:12:37.458 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:12:37.959 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:12:39.928 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:12:40.643 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:12:41.758 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:12:42.169 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:12:46.952 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:12:46.952 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 11.567747354507446s
+2025-08-05 16:12:46.952 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 11.567747354507446s, 返回候选人: 2
+2025-08-05 16:12:47.372 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:12:47.890 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:12:50.230 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:12:50.961 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:12:51.814 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:12:52.206 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:13:00.480 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:13:00.480 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 15.070997953414917s
+2025-08-05 16:13:00.480 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 15.070997953414917s, 返回候选人: 2
+2025-08-05 16:13:23.573 | INFO     | __main__:evaluate_rag:48 - RAG 评估完成: {'faithfulness': 0.0000, 'answer_relevancy': nan, 'context_recall': 0.0000}
+2025-08-05 16:16:02.832 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:16:03.309 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:16:05.120 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:16:05.837 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:16:06.658 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:16:06.997 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:16:15.778 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:16:15.778 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 14.821911811828613s
+2025-08-05 16:16:15.778 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 14.821911811828613s, 返回候选人: 2
+2025-08-05 16:16:45.921 | INFO     | __main__:evaluate_rag:76 - RAG 评估完成: {'faithfulness': 0.5833, 'answer_relevancy': nan, 'context_precision': 1.0000, 'context_recall': 0.0000}
+2025-08-05 16:20:39.022 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:20:40.016 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:20:42.019 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:20:42.815 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:20:43.966 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:20:44.569 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:20:52.649 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:20:52.650 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 17.94902467727661s
+2025-08-05 16:20:52.650 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 17.94902467727661s, 返回候选人: 2
+2025-08-05 16:21:10.549 | INFO     | __main__:evaluate_rag:76 - RAG 评估完成: {'faithfulness': 0.0000, 'answer_relevancy': nan, 'context_precision': 1.0000, 'context_recall': 0.0000}
+2025-08-05 16:26:33.595 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:26:34.077 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:26:35.950 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:26:36.696 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:26:37.904 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:26:38.342 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:26:48.949 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验，清华大学毕业, 返回候选人: 2
+2025-08-05 16:26:48.949 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 17.321240663528442s
+2025-08-05 16:26:48.949 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 17.321240663528442s, 返回候选人: 2
+2025-08-05 16:26:50.807 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:26:51.400 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:26:52.150 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:26:53.245 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:26:54.278 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:26:54.615 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:26:56.481 | ERROR    | __main__:evaluate_rag:72 - RAG 评估失败: 'OpenAI' object has no attribute 'set_run_config'
+2025-08-05 16:27:01.714 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:27:02.200 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:27:04.621 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:27:05.743 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:27:06.796 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:27:07.141 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:27:12.468 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:27:12.469 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 12.782514810562134s
+2025-08-05 16:27:12.469 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 12.782514810562134s, 返回候选人: 2
+2025-08-05 16:27:31.265 | INFO     | __main__:evaluate_rag:83 - RAG 评估完成: {'faithfulness': 0.0000, 'answer_relevancy': 0.4683, 'context_precision': 1.0000, 'context_recall': 0.0000}
+2025-08-05 16:31:35.559 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:31:36.026 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:31:38.427 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:31:39.673 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:31:41.277 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:31:41.619 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:31:52.546 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 2
+2025-08-05 16:31:52.546 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 18.909640550613403s
+2025-08-05 16:31:52.547 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 18.909640550613403s, 返回候选人: 2
+2025-08-05 16:31:54.080 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:31:54.555 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:31:55.463 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:31:56.187 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:31:57.002 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:31:57.346 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:32:04.631 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 寻找一位熟悉PyTorch和TensorFlow的算法工程师，需要硕士学历, 返回候选人: 2
+2025-08-05 16:32:04.632 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 11.716049432754517s
+2025-08-05 16:32:04.632 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 11.716049432754517s, 返回候选人: 2
+2025-08-05 16:32:06.372 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:32:06.826 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:32:07.744 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:32:08.465 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:32:09.294 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:32:09.632 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:32:14.652 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 需要一个有5年以上项目管理经验，并且有PMP认证的候选人, 返回候选人: 2
+2025-08-05 16:32:14.652 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 9.473245620727539s
+2025-08-05 16:32:14.652 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 9.473245620727539s, 返回候选人: 2
+2025-08-05 16:32:16.334 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:32:16.781 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:32:17.512 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:32:18.802 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:32:20.170 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:32:20.505 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:32:26.426 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 招聘一名UI设计师，要求精通Figma和Sketch, 返回候选人: 2
+2025-08-05 16:32:26.427 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 11.28343415260315s
+2025-08-05 16:32:26.427 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 11.28343415260315s, 返回候选人: 2
+2025-08-05 16:32:45.976 | INFO     | __main__:evaluate_rag:83 - RAG 评估完成: {'faithfulness': 0.0000, 'answer_relevancy': 0.5794, 'context_precision': 0.2500, 'context_recall': 0.0000}
+2025-08-05 16:36:59.163 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:36:59.667 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:37:03.269 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:37:04.215 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:37:05.239 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:37:05.602 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:37:09.575 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 1
+2025-08-05 16:37:09.575 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 11.527441501617432s
+2025-08-05 16:37:09.575 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 11.527441501617432s, 返回候选人: 1
+2025-08-05 16:37:11.141 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:37:11.611 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:37:12.359 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:37:14.079 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:37:14.933 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:37:15.295 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:37:19.061 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 寻找一位熟悉PyTorch和TensorFlow的算法工程师，需要硕士学历, 返回候选人: 1
+2025-08-05 16:37:19.062 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 9.197811365127563s
+2025-08-05 16:37:19.062 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 9.197811365127563s, 返回候选人: 1
+2025-08-05 16:37:20.649 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:37:21.130 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:37:21.950 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:37:22.938 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:37:24.413 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:37:24.781 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:37:30.259 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 需要一个有5年以上项目管理经验，并且有PMP认证的候选人, 返回候选人: 1
+2025-08-05 16:37:30.259 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 10.75926923751831s
+2025-08-05 16:37:30.260 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 10.75926923751831s, 返回候选人: 1
+2025-08-05 16:37:31.825 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:37:32.320 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:37:33.263 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:37:33.992 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:37:34.917 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:37:35.235 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:37:38.721 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 招聘一名UI设计师，要求精通Figma和Sketch, 返回候选人: 1
+2025-08-05 16:37:38.721 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 8.04837417602539s
+2025-08-05 16:37:38.721 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 8.04837417602539s, 返回候选人: 1
+2025-08-05 16:42:13.566 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:42:13.566 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:42:14.026 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:42:14.026 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:42:16.188 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:42:16.188 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:42:16.932 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:42:16.932 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:42:17.949 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:42:17.949 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:42:18.367 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:42:18.367 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:42:25.344 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 1
+2025-08-05 16:42:25.344 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 1
+2025-08-05 16:42:25.345 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 12.881219863891602s
+2025-08-05 16:42:25.345 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 12.881219863891602s
+2025-08-05 16:42:25.345 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 12.881219863891602s, 返回候选人: 1
+2025-08-05 16:42:25.345 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 12.881219863891602s, 返回候选人: 1
+2025-08-05 16:42:25.642 | WARNING  | __main__:run_end_to_end_evaluation:188 - 无法从RAG响应中解析推荐理由: ```json
+[
+    {
+        "candidate_id": "候选人1",
+        "reason": "该候选人具备计算机专业背景，并拥有3年Web开发经验，符合岗位的基本要求。其技能涵盖前端（HTML、CSS、JavaScript、React/Vue/Angular）和后端（Node.js/Python/Java）开发，同时具备数据库操作（MySQL、MongoDB）和版本控制工具（Git）的使用经验。此外，候选人熟悉性能优化、跨浏览器兼容性及响应式设计，具备良好的团队协作和沟通能力，能够胜任Web开发工程师岗位的职责。",
+        "file_path": "D:\\LLM_Codes\\Chapter3_RAG\\data\\resume\\Web开发工程师.md"
+    }
+]
+```, 错误: Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:42:25.642 | WARNING  | __main__:run_end_to_end_evaluation:188 - 无法从RAG响应中解析推荐理由: ```json
+[
+    {
+        "candidate_id": "候选人1",
+        "reason": "该候选人具备计算机专业背景，并拥有3年Web开发经验，符合岗位的基本要求。其技能涵盖前端（HTML、CSS、JavaScript、React/Vue/Angular）和后端（Node.js/Python/Java）开发，同时具备数据库操作（MySQL、MongoDB）和版本控制工具（Git）的使用经验。此外，候选人熟悉性能优化、跨浏览器兼容性及响应式设计，具备良好的团队协作和沟通能力，能够胜任Web开发工程师岗位的职责。",
+        "file_path": "D:\\LLM_Codes\\Chapter3_RAG\\data\\resume\\Web开发工程师.md"
+    }
+]
+```, 错误: Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:42:26.769 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:42:26.769 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:42:27.218 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:42:27.218 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:42:27.958 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:42:27.958 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:42:30.039 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:42:30.039 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:42:31.210 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:42:31.210 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:42:31.577 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:42:31.577 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:42:36.099 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 寻找一位熟悉PyTorch和TensorFlow的算法工程师，需要硕士学历, 返回候选人: 1
+2025-08-05 16:42:36.099 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 寻找一位熟悉PyTorch和TensorFlow的算法工程师，需要硕士学历, 返回候选人: 1
+2025-08-05 16:42:36.100 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 10.456528186798096s
+2025-08-05 16:42:36.100 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 10.456528186798096s
+2025-08-05 16:42:36.100 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 10.456528186798096s, 返回候选人: 1
+2025-08-05 16:42:36.100 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 10.456528186798096s, 返回候选人: 1
+2025-08-05 16:42:36.525 | WARNING  | __main__:run_end_to_end_evaluation:188 - 无法从RAG响应中解析推荐理由: ```json
+[
+    {
+        "candidate_id": "1",
+        "reason": "简历中提到候选人是计算机专业，拥有3年工作经验，并且毕业于清华大学，符合硕士学历要求。虽然未明确提及其熟悉PyTorch和TensorFlow，但清华大学的背景和算法工程师的常见技能栈使其成为潜在合适人选。",
+        "file_path": "test_resume.txt"
+    }
+]
+```, 错误: Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:42:36.525 | WARNING  | __main__:run_end_to_end_evaluation:188 - 无法从RAG响应中解析推荐理由: ```json
+[
+    {
+        "candidate_id": "1",
+        "reason": "简历中提到候选人是计算机专业，拥有3年工作经验，并且毕业于清华大学，符合硕士学历要求。虽然未明确提及其熟悉PyTorch和TensorFlow，但清华大学的背景和算法工程师的常见技能栈使其成为潜在合适人选。",
+        "file_path": "test_resume.txt"
+    }
+]
+```, 错误: Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:42:37.627 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:42:37.627 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:42:38.071 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:42:38.071 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:42:39.450 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:42:39.450 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:42:40.601 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:42:40.601 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:42:41.606 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:42:41.606 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:42:41.971 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:42:41.971 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:42:50.629 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 需要一个有5年以上项目管理经验，并且有PMP认证的候选人, 返回候选人: 1
+2025-08-05 16:42:50.629 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 需要一个有5年以上项目管理经验，并且有PMP认证的候选人, 返回候选人: 1
+2025-08-05 16:42:50.630 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 14.105252027511597s
+2025-08-05 16:42:50.630 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 14.105252027511597s
+2025-08-05 16:42:50.630 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 14.105252027511597s, 返回候选人: 1
+2025-08-05 16:42:50.630 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 14.105252027511597s, 返回候选人: 1
+2025-08-05 16:42:51.057 | WARNING  | __main__:run_end_to_end_evaluation:188 - 无法从RAG响应中解析推荐理由: ```json
+[
+    {
+        "candidate_id": "候选人1",
+        "reason": "该候选人具备Web开发工程师岗位所需的技能和经验，包括精通前端技术（HTML、CSS、JavaScript）、主流框架（React、Vue.js、Angular），熟悉后端开发（Node.js、Python、Java）和数据库（MySQL、MongoDB）。此外，候选人具有2-5年Web开发经验，并参与过成功上线的项目，符合项目管理经验的初步要求。虽然未明确提及PMP认证，但其在项目协作、需求分析和方案设计方面的经验与项目管理能力高度相关。",
+        "file_path": "D:\\LLM_Codes\\Chapter3_RAG\\data\\resume\\Web开发工程师.md"
+    }
+]
+```, 错误: Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:42:51.057 | WARNING  | __main__:run_end_to_end_evaluation:188 - 无法从RAG响应中解析推荐理由: ```json
+[
+    {
+        "candidate_id": "候选人1",
+        "reason": "该候选人具备Web开发工程师岗位所需的技能和经验，包括精通前端技术（HTML、CSS、JavaScript）、主流框架（React、Vue.js、Angular），熟悉后端开发（Node.js、Python、Java）和数据库（MySQL、MongoDB）。此外，候选人具有2-5年Web开发经验，并参与过成功上线的项目，符合项目管理经验的初步要求。虽然未明确提及PMP认证，但其在项目协作、需求分析和方案设计方面的经验与项目管理能力高度相关。",
+        "file_path": "D:\\LLM_Codes\\Chapter3_RAG\\data\\resume\\Web开发工程师.md"
+    }
+]
+```, 错误: Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:42:52.160 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:42:52.160 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:42:52.609 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:42:52.609 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:42:54.317 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:42:54.317 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:42:55.039 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:42:55.039 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:42:56.261 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:42:56.261 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:42:56.624 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:42:56.624 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:42:59.989 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 招聘一名UI设计师，要求精通Figma和Sketch, 返回候选人: 1
+2025-08-05 16:42:59.989 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 招聘一名UI设计师，要求精通Figma和Sketch, 返回候选人: 1
+2025-08-05 16:42:59.990 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 8.93284559249878s
+2025-08-05 16:42:59.990 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 8.93284559249878s
+2025-08-05 16:42:59.990 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 8.93284559249878s, 返回候选人: 1
+2025-08-05 16:42:59.990 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 8.93284559249878s, 返回候选人: 1
+2025-08-05 16:43:00.416 | WARNING  | __main__:run_end_to_end_evaluation:188 - 无法从RAG响应中解析推荐理由: ```json
+[
+    {
+        "candidate_id": "候选人1",
+        "reason": "虽然该简历提到了计算机专业背景和3年工作经验，并且毕业于清华大学，但没有明确提到精通Figma和Sketch工具，不完全符合UI设计师岗位要求。",
+        "file_path": "test_resume.txt"
+    }
+]
+```, 错误: Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:43:00.416 | WARNING  | __main__:run_end_to_end_evaluation:188 - 无法从RAG响应中解析推荐理由: ```json
+[
+    {
+        "candidate_id": "候选人1",
+        "reason": "虽然该简历提到了计算机专业背景和3年工作经验，并且毕业于清华大学，但没有明确提到精通Figma和Sketch工具，不完全符合UI设计师岗位要求。",
+        "file_path": "test_resume.txt"
+    }
+]
+```, 错误: Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:43:44.353 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:43:44.353 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:43:44.803 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:43:44.803 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:43:45.813 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:43:45.813 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:43:46.862 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:43:46.862 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:43:47.980 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:43:47.980 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:43:48.336 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:43:48.336 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:43:53.471 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 1
+2025-08-05 16:43:53.471 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 1
+2025-08-05 16:43:53.471 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 10.136399030685425s
+2025-08-05 16:43:53.471 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 10.136399030685425s
+2025-08-05 16:43:53.471 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 10.136399030685425s, 返回候选人: 1
+2025-08-05 16:43:53.471 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 10.136399030685425s, 返回候选人: 1
+2025-08-05 16:43:55.008 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:43:55.008 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:43:55.450 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:43:55.450 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:43:56.522 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:43:56.522 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:43:57.673 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:43:57.673 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:43:58.710 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:43:58.710 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:43:59.065 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:43:59.065 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:44:06.519 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 寻找一位熟悉PyTorch和TensorFlow的算法工程师，需要硕士学历, 返回候选人: 1
+2025-08-05 16:44:06.519 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 寻找一位熟悉PyTorch和TensorFlow的算法工程师，需要硕士学历, 返回候选人: 1
+2025-08-05 16:44:06.519 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 12.573835611343384s
+2025-08-05 16:44:06.519 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 12.573835611343384s
+2025-08-05 16:44:06.519 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 12.573835611343384s, 返回候选人: 1
+2025-08-05 16:44:06.519 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 12.573835611343384s, 返回候选人: 1
+2025-08-05 16:44:08.225 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:44:08.225 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:44:08.777 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:44:08.777 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:44:10.161 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:44:10.161 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:44:10.909 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:44:10.909 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:44:11.761 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:44:11.761 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:44:12.129 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:44:12.129 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:44:17.025 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 需要一个有5年以上项目管理经验，并且有PMP认证的候选人, 返回候选人: 1
+2025-08-05 16:44:17.025 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 需要一个有5年以上项目管理经验，并且有PMP认证的候选人, 返回候选人: 1
+2025-08-05 16:44:17.026 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 10.095381498336792s
+2025-08-05 16:44:17.026 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 10.095381498336792s
+2025-08-05 16:44:17.026 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 10.095381498336792s, 返回候选人: 1
+2025-08-05 16:44:17.026 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 10.095381498336792s, 返回候选人: 1
+2025-08-05 16:44:18.536 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:44:18.536 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:44:18.985 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:44:18.985 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:44:19.713 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:44:19.713 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:44:20.643 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:44:20.643 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:44:21.690 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:44:21.690 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:44:22.048 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:44:22.048 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:44:26.576 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 招聘一名UI设计师，要求精通Figma和Sketch, 返回候选人: 1
+2025-08-05 16:44:26.576 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 招聘一名UI设计师，要求精通Figma和Sketch, 返回候选人: 1
+2025-08-05 16:44:26.577 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 9.128721475601196s
+2025-08-05 16:44:26.577 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 9.128721475601196s
+2025-08-05 16:44:26.577 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 9.128721475601196s, 返回候选人: 1
+2025-08-05 16:44:26.577 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 9.128721475601196s, 返回候选人: 1
+2025-08-05 16:46:36.150 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:46:36.150 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:46:36.602 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:46:36.602 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:46:39.641 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:46:39.641 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:46:42.005 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:46:42.005 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:46:42.900 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:46:42.900 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:46:43.261 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:46:43.261 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:46:48.165 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 1
+2025-08-05 16:46:48.165 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验, 返回候选人: 1
+2025-08-05 16:46:48.165 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 13.093347787857056s
+2025-08-05 16:46:48.165 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 13.093347787857056s
+2025-08-05 16:46:48.165 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 13.093347787857056s, 返回候选人: 1
+2025-08-05 16:46:48.165 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 13.093347787857056s, 返回候选人: 1
+2025-08-05 16:46:48.469 | WARNING  | __main__:run_end_to_end_evaluation:188 - 无法从RAG响应中解析推荐理由: ```json
+[
+    {
+        "candidate_id": "1",
+        "reason": "该候选人符合用人需求，具备计算机专业背景，并拥有3年相关工作经验，同时毕业于知名高校清华大学，综合条件优越。",
+        "file_path": "test_resume.txt"
+    }
+]
+```, 错误: Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:46:48.469 | WARNING  | __main__:run_end_to_end_evaluation:188 - 无法从RAG响应中解析推荐理由: ```json
+[
+    {
+        "candidate_id": "1",
+        "reason": "该候选人符合用人需求，具备计算机专业背景，并拥有3年相关工作经验，同时毕业于知名高校清华大学，综合条件优越。",
+        "file_path": "test_resume.txt"
+    }
+]
+```, 错误: Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:46:49.613 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:46:49.613 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:46:50.058 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:46:50.058 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:46:50.819 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:46:50.819 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:46:51.564 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:46:51.564 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:46:52.634 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:46:52.634 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:46:53.007 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:46:53.007 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:46:56.555 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 寻找一位熟悉PyTorch和TensorFlow的算法工程师，需要硕士学历, 返回候选人: 1
+2025-08-05 16:46:56.555 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 寻找一位熟悉PyTorch和TensorFlow的算法工程师，需要硕士学历, 返回候选人: 1
+2025-08-05 16:46:56.556 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 8.08651876449585s
+2025-08-05 16:46:56.556 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 8.08651876449585s
+2025-08-05 16:46:56.556 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 8.08651876449585s, 返回候选人: 1
+2025-08-05 16:46:56.556 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 8.08651876449585s, 返回候选人: 1
+2025-08-05 16:46:56.971 | WARNING  | __main__:run_end_to_end_evaluation:188 - 无法从RAG响应中解析推荐理由: ```json
+[
+    {
+        "candidate_id": "1",
+        "reason": "简历中提到候选人是计算机专业，拥有3年工作经验，并且毕业于清华大学，满足硕士学历要求。虽然未明确提及PyTorch和TensorFlow经验，但其专业背景和学历符合岗位基础要求。",
+        "file_path": "test_resume.txt"
+    }
+]
+```, 错误: Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:46:56.971 | WARNING  | __main__:run_end_to_end_evaluation:188 - 无法从RAG响应中解析推荐理由: ```json
+[
+    {
+        "candidate_id": "1",
+        "reason": "简历中提到候选人是计算机专业，拥有3年工作经验，并且毕业于清华大学，满足硕士学历要求。虽然未明确提及PyTorch和TensorFlow经验，但其专业背景和学历符合岗位基础要求。",
+        "file_path": "test_resume.txt"
+    }
+]
+```, 错误: Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:46:58.073 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:46:58.073 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:46:58.521 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:46:58.521 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:46:59.652 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:46:59.652 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:47:00.783 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:47:00.783 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:47:01.814 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:47:01.814 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:47:02.164 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:47:02.164 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:47:36.732 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:47:37.197 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:47:41.269 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:47:42.184 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:47:43.052 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:47:43.427 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:47:52.951 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: , 返回候选人: 1
+2025-08-05 16:47:52.951 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 17.412649154663086s
+2025-08-05 16:47:52.951 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 17.412649154663086s, 返回候选人: 1
+2025-08-05 16:47:53.256 | WARNING  | __main__:run_end_to_end_evaluation:108 - RAG: ```json
+[
+    {
+        "candidate_id": "Web开发工程师",
+        "reason": "该候选人具备Web开发工程师岗位所需的全栈开发能力，精通前端技术（HTML、CSS、JavaScript）和主流框架（React、Vue.js、Angular），同时掌握后端技术（Node.js、Python）和数据库操作（MySQL、MongoDB）。具有2-5年以上的Web开发经验和成功上线项目案例，熟悉RESTful API设计、性能优化、跨浏览器兼容性及响应式设计。此外，候选人具备良好的团队协作能力和对新技术的热情，符合岗位要求。",
+        "file_path": "D:\\LLM_Codes\\Chapter3_RAG\\data\\resume\\Web开发工程师.md"
+    }
+]
+```, : Expecting value: line 1 column 1 (char 0)
+2025-08-05 16:51:08.063 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:51:08.561 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:51:10.825 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:51:11.917 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:51:13.101 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:51:13.511 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 1 份文档
+2025-08-05 16:51:17.648 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。, 返回候选人: 1
+2025-08-05 16:51:17.648 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 10.784242868423462s
+2025-08-05 16:51:17.648 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 10.784242868423462s, 返回候选人: 1
+2025-08-05 16:54:57.508 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:54:58.011 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:55:00.576 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:55:02.375 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:55:04.133 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:55:04.752 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:55:13.637 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 计算机专业，3年工作经验，清华大学毕业, 返回候选人: 2
+2025-08-05 16:55:13.637 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 18.040839672088623s
+2025-08-05 16:55:13.637 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 18.040839672088623s, 返回候选人: 2
+2025-08-05 16:55:17.128 | INFO     | vector_store:__init__:34 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 16:55:18.212 | INFO     | vector_store:__init__:45 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 16:55:19.274 | INFO     | vector_store:_create_or_load_collection:86 - 已加载集合 resume_embeddings
+2025-08-05 16:55:20.004 | INFO     | vector_store:__init__:61 - 向量存储初始化完成
+2025-08-05 16:55:21.560 | DEBUG    | vector_store:hybrid_search_with_rerank:169 - 检索到子块数量: 2
+2025-08-05 16:55:22.218 | INFO     | vector_store:hybrid_search_with_rerank:184 - 混合检索完成，返回 2 份文档
+2025-08-05 16:55:25.026 | ERROR    | __main__:evaluate_rag:76 - RAG 评估失败: Pooling.__init__() missing 1 required positional argument: 'word_embedding_dimension'
+2025-08-05 18:50:15.110 | INFO     | vector_store:__init__:37 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 18:50:15.595 | INFO     | vector_store:__init__:47 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 18:50:22.117 | INFO     | vector_store:__init__:73 - MongoDB 连接成功: mongodb://admin:123456@82.156.249.211:27017/resume_db?authSource=admin
+2025-08-05 18:50:22.640 | INFO     | vector_store:_create_or_load_collection:110 - 已加载集合 resume_embeddings
+2025-08-05 18:50:23.704 | INFO     | vector_store:__init__:82 - 向量存储初始化完成
+2025-08-05 18:50:23.704 | INFO     | vector_store:hybrid_search_with_rerank:213 - 开始混合检索，查询: '需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。', k=20, m=1
+2025-08-05 18:50:23.704 | DEBUG    | vector_store:hybrid_search_with_rerank:217 - 正在生成查询嵌入...
+2025-08-05 18:50:24.094 | DEBUG    | vector_store:hybrid_search_with_rerank:219 - 查询嵌入生成成功。
+2025-08-05 18:50:24.095 | DEBUG    | vector_store:hybrid_search_with_rerank:229 - 正在进行 Milvus 混合召回...
+2025-08-05 18:50:24.934 | INFO     | vector_store:hybrid_search_with_rerank:245 - Milvus 召回完成，获取 4 个结果。
+2025-08-05 18:50:24.935 | DEBUG    | vector_store:hybrid_search_with_rerank:247 -   Milvus 结果 1: id=doc_af0553bc345d24a42b1427a6e4f892f4_parent_0_child_1, score=0.5006
+2025-08-05 18:50:24.935 | DEBUG    | vector_store:hybrid_search_with_rerank:247 -   Milvus 结果 2: id=doc_af0553bc345d24a42b1427a6e4f892f4_parent_0_child_2, score=0.4971
+2025-08-05 18:50:24.935 | DEBUG    | vector_store:hybrid_search_with_rerank:247 -   Milvus 结果 3: id=doc_af0553bc345d24a42b1427a6e4f892f4_parent_1_child_0, score=0.4953
+2025-08-05 18:50:24.935 | DEBUG    | vector_store:hybrid_search_with_rerank:247 -   Milvus 结果 4: id=doc_af0553bc345d24a42b1427a6e4f892f4_parent_0_child_0, score=0.4884
+2025-08-05 18:50:24.935 | DEBUG    | vector_store:hybrid_search_with_rerank:250 - 正在进行 Elasticsearch BM25 召回...
+2025-08-05 18:50:26.156 | INFO     | vector_store:hybrid_search_with_rerank:256 - ES BM25 召回完成，获取 4 个结果。
+2025-08-05 18:50:26.156 | DEBUG    | vector_store:hybrid_search_with_rerank:258 -   ES 结果 1: id=doc_af0553bc345d24a42b1427a6e4f892f4_parent_0_child_2, score=8.0465
+2025-08-05 18:50:26.156 | DEBUG    | vector_store:hybrid_search_with_rerank:258 -   ES 结果 2: id=doc_af0553bc345d24a42b1427a6e4f892f4_parent_1_child_0, score=7.2951
+2025-08-05 18:50:26.156 | DEBUG    | vector_store:hybrid_search_with_rerank:258 -   ES 结果 3: id=doc_af0553bc345d24a42b1427a6e4f892f4_parent_0_child_1, score=5.9976
+2025-08-05 18:50:26.156 | DEBUG    | vector_store:hybrid_search_with_rerank:258 -   ES 结果 4: id=doc_af0553bc345d24a42b1427a6e4f892f4_parent_0_child_0, score=4.5033
+2025-08-05 18:50:26.156 | DEBUG    | vector_store:hybrid_search_with_rerank:261 - 开始合并 Milvus 和 ES 的召回结果...
+2025-08-05 18:50:26.156 | DEBUG    | vector_store:hybrid_search_with_rerank:265 - 添加 Milvus 结果后，候选集大小: 4
+2025-08-05 18:50:26.156 | DEBUG    | vector_store:hybrid_search_with_rerank:274 - 添加 ES 结果后，最终候选集大小: 4
+2025-08-05 18:50:26.156 | INFO     | vector_store:hybrid_search_with_rerank:277 - 合并后子块数量: 4 (Milvus: 4, ES: 4)
+2025-08-05 18:50:26.156 | INFO     | vector_store:hybrid_search_with_rerank:281 - 从 4 个子块中提取了 2 个唯一的父文档。
+2025-08-05 18:50:26.156 | DEBUG    | vector_store:hybrid_search_with_rerank:287 - 准备使用 Cross-Encoder 对 2 个父文档进行重排序...
+2025-08-05 18:50:26.525 | DEBUG    | vector_store:hybrid_search_with_rerank:291 - Cross-Encoder 评分完成。
+2025-08-05 18:50:26.525 | DEBUG    | vector_store:hybrid_search_with_rerank:294 - 开始融合 Cross-Encoder 分数和 BM25 分数...
+2025-08-05 18:50:26.525 | DEBUG    | vector_store:hybrid_search_with_rerank:302 -   文档 1 (id: doc_af0553bc345d24a42b1427a6e4f892f4_parent_0_child_1): Cross-Encoder=0.5008, BM25=5.9976, Final Score=1.6001
+2025-08-05 18:50:26.525 | DEBUG    | vector_store:hybrid_search_with_rerank:302 -   文档 2 (id: doc_af0553bc345d24a42b1427a6e4f892f4_parent_1_child_0): Cross-Encoder=0.4588, BM25=7.2951, Final Score=1.8261
+2025-08-05 18:50:26.526 | INFO     | vector_store:hybrid_search_with_rerank:311 - 重排序完成，返回前 1 份文档。
+2025-08-05 18:50:30.639 | INFO     | rag_pipeline:rag_generate:47 - RAG 生成完成，查询: 需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。, 返回候选人: 1
+2025-08-05 18:50:30.639 | WARNING  | rag_pipeline:full_rag_pipeline:67 - 延迟超过5s: 16.812159776687622s
+2025-08-05 18:50:30.639 | INFO     | rag_pipeline:full_rag_pipeline:68 - RAG 管道执行完成，延迟: 16.812159776687622s, 返回候选人: 1
+2025-08-05 20:37:50.755 | INFO     | vector_store:__init__:37 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 20:37:51.256 | INFO     | vector_store:__init__:47 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 20:37:57.029 | INFO     | vector_store:__init__:73 - MongoDB 连接成功: mongodb://admin:123456@82.156.249.211:27017/resume_db?authSource=admin
+2025-08-05 20:37:57.729 | INFO     | vector_store:_create_or_load_collection:110 - 已加载集合 resume_embeddings
+2025-08-05 20:37:59.438 | INFO     | vector_store:__init__:82 - 向量存储初始化完成
+2025-08-05 20:37:59.439 | INFO     | vector_store:hybrid_search_with_rerank:206 - 开始混合检索，查询: '需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。', k=20, m=1
+2025-08-05 20:37:59.439 | DEBUG    | vector_store:hybrid_search_with_rerank:210 - 正在生成查询嵌入...
+2025-08-05 20:37:59.815 | DEBUG    | vector_store:hybrid_search_with_rerank:212 - 查询嵌入生成成功。
+2025-08-05 20:37:59.815 | DEBUG    | vector_store:hybrid_search_with_rerank:222 - 正在进行 Milvus 混合召回...
+2025-08-05 20:38:02.082 | INFO     | vector_store:hybrid_search_with_rerank:238 - Milvus 召回完成，获取 20 个结果。
+2025-08-05 20:38:02.082 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 1: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_0, score=0.5017
+2025-08-05 20:38:02.082 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 2: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=0.5006
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 3: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_2, score=0.4971
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 4: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_1, score=0.4966
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 5: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=0.4953
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 6: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=0.4945
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 7: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=0.4916
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 8: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=0.4905
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 9: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_0, score=0.4897
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 10: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=0.4893
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 11: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, score=0.4884
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 12: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=0.4858
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 13: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_2, score=0.4834
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=0.3280
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 15: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_0, score=0.3268
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 16: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_1, score=0.3249
+2025-08-05 20:38:02.083 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 17: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_2, score=0.3242
+2025-08-05 20:38:02.085 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 18: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_2, score=0.3234
+2025-08-05 20:38:02.085 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 19: id=doc_2508647664778702bff4db7fee1da765_parent_1_child_1, score=0.3229
+2025-08-05 20:38:02.085 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 20: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_1_child_1, score=0.3225
+2025-08-05 20:38:02.085 | DEBUG    | vector_store:hybrid_search_with_rerank:243 - 正在进行 Elasticsearch BM25 召回...
+2025-08-05 20:38:12.337 | INFO     | vector_store:hybrid_search_with_rerank:249 - ES BM25 召回完成，获取 20 个结果。
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 1: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_0, score=19.5494
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 2: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_2, score=17.7428
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 3: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_1, score=17.5272
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 4: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_1, score=16.6275
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 5: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=15.3336
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 6: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_1_child_0, score=13.8454
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 7: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_2, score=13.2837
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 8: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_0, score=13.1735
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 9: id=doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, score=12.0305
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 10: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=11.7384
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 11: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_0, score=11.6807
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 12: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_1, score=11.5135
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 13: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_2, score=11.4848
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=11.1710
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 15: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=11.1320
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 16: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=11.0060
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 17: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_2, score=9.7227
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 18: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_2, score=9.5678
+2025-08-05 20:38:12.338 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 19: id=doc_2508647664778702bff4db7fee1da765_parent_1_child_0, score=9.3279
+2025-08-05 20:38:12.339 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 20: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_1_child_2, score=8.9360
+2025-08-05 20:38:12.339 | DEBUG    | vector_store:hybrid_search_with_rerank:254 - 开始合并 Milvus 和 ES 的召回结果...
+2025-08-05 20:38:12.339 | DEBUG    | vector_store:hybrid_search_with_rerank:263 - 添加 Milvus 结果后，候选集大小: 20
+2025-08-05 20:38:12.339 | DEBUG    | vector_store:hybrid_search_with_rerank:276 - 添加 ES 结果后，最终候选集大小: 29
+2025-08-05 20:38:12.339 | INFO     | vector_store:hybrid_search_with_rerank:279 - 合并后子块数量: 29 (Milvus: 20, ES: 20)
+2025-08-05 20:38:12.339 | INFO     | vector_store:hybrid_search_with_rerank:283 - 从 29 个子块中提取了 13 个唯一的父文档。
+2025-08-05 20:38:12.339 | DEBUG    | vector_store:hybrid_search_with_rerank:289 - 准备使用 Cross-Encoder 对 13 个父文档进行重排序...
+2025-08-05 20:38:13.930 | DEBUG    | vector_store:hybrid_search_with_rerank:293 - Cross-Encoder 评分完成。
+2025-08-05 20:38:13.930 | DEBUG    | vector_store:hybrid_search_with_rerank:296 - 开始融合 Cross-Encoder 分数和 BM25 分数...
+2025-08-05 20:38:13.931 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 1 (Web开发工程师.md, hash: a04a78f14eba645797c65b28e90419ab): Cross-Encoder=0.5306, BM25=19.5494, Final Score=4.3344
+2025-08-05 20:38:13.931 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 2 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.5367, BM25=15.3336, Final Score=3.4960
+2025-08-05 20:38:13.931 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 3 (Web开发工程师.md, hash: a04a78f14eba645797c65b28e90419ab): Cross-Encoder=0.5142, BM25=17.5272, Final Score=3.9168
+2025-08-05 20:38:13.931 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 4 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.5244, BM25=11.7384, Final Score=2.7672
+2025-08-05 20:38:13.931 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 5 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5253, BM25=11.1710, Final Score=2.6545
+2025-08-05 20:38:13.931 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 6 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.5288, BM25=11.0060, Final Score=2.6242
+2025-08-05 20:38:13.931 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 7 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5264, BM25=0.0000, Final Score=0.4211
+2025-08-05 20:38:13.931 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 8 (郭杰的简历 .pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.4841, BM25=13.1735, Final Score=3.0220
+2025-08-05 20:38:13.931 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 9 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.5108, BM25=0.0000, Final Score=0.4086
+2025-08-05 20:38:13.931 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 10 (郭杰的简历 .pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.5222, BM25=0.0000, Final Score=0.4178
+2025-08-05 20:38:13.931 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 11 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.4946, BM25=0.0000, Final Score=0.3957
+2025-08-05 20:38:13.931 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 12 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.5087, BM25=13.8454, Final Score=3.1760
+2025-08-05 20:38:13.932 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 13 (李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2): Cross-Encoder=0.4602, BM25=12.0305, Final Score=2.7743
+2025-08-05 20:38:13.932 | INFO     | vector_store:hybrid_search_with_rerank:318 - 重排序完成，返回前 1 份文档。
+2025-08-05 20:38:21.494 | INFO     | rag_pipeline:rag_generate:58 - RAG 生成完成，查询: 需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。, 返回候选人: 1
+2025-08-05 20:38:21.494 | WARNING  | rag_pipeline:full_rag_pipeline:84 - 延迟超过5s: 22.055095911026s
+2025-08-05 20:38:21.494 | INFO     | rag_pipeline:full_rag_pipeline:85 - RAG 管道执行完成，延迟: 22.055095911026s, 返回候选人: 1
+2025-08-05 21:05:18.670 | INFO     | vector_store:__init__:37 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 21:05:19.194 | INFO     | vector_store:__init__:47 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 21:05:28.822 | INFO     | vector_store:__init__:73 - MongoDB 连接成功: mongodb://admin:123456@82.156.249.211:27017/resume_db?authSource=admin
+2025-08-05 21:05:29.274 | INFO     | vector_store:_create_or_load_collection:110 - 已加载集合 resume_embeddings
+2025-08-05 21:05:31.197 | INFO     | vector_store:__init__:82 - 向量存储初始化完成
+2025-08-05 21:05:31.197 | INFO     | vector_store:hybrid_search_with_rerank:206 - 开始混合检索，查询: '需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。', k=20, m=1
+2025-08-05 21:05:31.197 | DEBUG    | vector_store:hybrid_search_with_rerank:210 - 正在生成查询嵌入...
+2025-08-05 21:05:31.608 | DEBUG    | vector_store:hybrid_search_with_rerank:212 - 查询嵌入生成成功。
+2025-08-05 21:05:31.608 | DEBUG    | vector_store:hybrid_search_with_rerank:222 - 正在进行 Milvus 混合召回...
+2025-08-05 21:05:37.788 | INFO     | vector_store:hybrid_search_with_rerank:238 - Milvus 召回完成，获取 20 个结果。
+2025-08-05 21:05:37.788 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 1: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_0, score=0.5017
+2025-08-05 21:05:37.788 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 2: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=0.5006
+2025-08-05 21:05:37.789 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 3: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_2, score=0.4971
+2025-08-05 21:05:37.789 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 4: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_1, score=0.4966
+2025-08-05 21:05:37.789 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 5: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=0.4953
+2025-08-05 21:05:37.789 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 6: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=0.4945
+2025-08-05 21:05:37.789 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 7: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=0.4916
+2025-08-05 21:05:37.789 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 8: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=0.4905
+2025-08-05 21:05:37.789 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 9: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_0, score=0.4897
+2025-08-05 21:05:37.790 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 10: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=0.4893
+2025-08-05 21:05:37.790 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 11: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, score=0.4884
+2025-08-05 21:05:37.790 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 12: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=0.4858
+2025-08-05 21:05:37.790 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 13: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_2, score=0.4834
+2025-08-05 21:05:37.790 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=0.3280
+2025-08-05 21:05:37.790 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 15: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_0, score=0.3268
+2025-08-05 21:05:37.790 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 16: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_1, score=0.3249
+2025-08-05 21:05:37.790 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 17: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_2, score=0.3242
+2025-08-05 21:05:37.794 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 18: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_2, score=0.3234
+2025-08-05 21:05:37.794 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 19: id=doc_2508647664778702bff4db7fee1da765_parent_1_child_1, score=0.3229
+2025-08-05 21:05:37.794 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 20: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_1_child_1, score=0.3225
+2025-08-05 21:05:37.794 | DEBUG    | vector_store:hybrid_search_with_rerank:243 - 正在进行 Elasticsearch BM25 召回...
+2025-08-05 21:05:39.668 | INFO     | vector_store:hybrid_search_with_rerank:249 - ES BM25 召回完成，获取 20 个结果。
+2025-08-05 21:05:39.668 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 1: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_0, score=19.5494
+2025-08-05 21:05:39.668 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 2: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_2, score=17.7428
+2025-08-05 21:05:39.669 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 3: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_1, score=17.5272
+2025-08-05 21:05:39.669 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 4: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_1, score=16.6275
+2025-08-05 21:05:39.669 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 5: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=15.3336
+2025-08-05 21:05:39.669 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 6: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_1_child_0, score=13.8454
+2025-08-05 21:05:39.669 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 7: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_2, score=13.2837
+2025-08-05 21:05:39.670 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 8: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_0, score=13.1735
+2025-08-05 21:05:39.670 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 9: id=doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, score=12.0305
+2025-08-05 21:05:39.670 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 10: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=11.7384
+2025-08-05 21:05:39.670 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 11: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_0, score=11.6807
+2025-08-05 21:05:39.670 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 12: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_1, score=11.5135
+2025-08-05 21:05:39.670 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 13: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_2, score=11.4848
+2025-08-05 21:05:39.670 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=11.1710
+2025-08-05 21:05:39.670 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 15: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=11.1320
+2025-08-05 21:05:39.671 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 16: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=11.0060
+2025-08-05 21:05:39.671 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 17: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_2, score=9.7227
+2025-08-05 21:05:39.671 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 18: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_2, score=9.5678
+2025-08-05 21:05:39.671 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 19: id=doc_2508647664778702bff4db7fee1da765_parent_1_child_0, score=9.3279
+2025-08-05 21:05:39.671 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 20: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_1_child_2, score=8.9360
+2025-08-05 21:05:39.671 | DEBUG    | vector_store:hybrid_search_with_rerank:254 - 开始合并 Milvus 和 ES 的召回结果...
+2025-08-05 21:05:39.671 | DEBUG    | vector_store:hybrid_search_with_rerank:263 - 添加 Milvus 结果后，候选集大小: 20
+2025-08-05 21:05:39.671 | DEBUG    | vector_store:hybrid_search_with_rerank:276 - 添加 ES 结果后，最终候选集大小: 29
+2025-08-05 21:05:39.671 | INFO     | vector_store:hybrid_search_with_rerank:279 - 合并后子块数量: 29 (Milvus: 20, ES: 20)
+2025-08-05 21:05:39.671 | INFO     | vector_store:hybrid_search_with_rerank:283 - 从 29 个子块中提取了 13 个唯一的父文档。
+2025-08-05 21:05:39.671 | DEBUG    | vector_store:hybrid_search_with_rerank:289 - 准备使用 Cross-Encoder 对 13 个父文档进行重排序...
+2025-08-05 21:05:41.318 | DEBUG    | vector_store:hybrid_search_with_rerank:293 - Cross-Encoder 评分完成。
+2025-08-05 21:05:41.318 | DEBUG    | vector_store:hybrid_search_with_rerank:296 - 开始融合 Cross-Encoder 分数和 BM25 分数...
+2025-08-05 21:05:41.319 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 1 (Web开发工程师.md, hash: a04a78f14eba645797c65b28e90419ab): Cross-Encoder=0.4867, BM25=19.5494, Final Score=4.2993
+2025-08-05 21:05:41.319 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 2 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.4681, BM25=15.3336, Final Score=3.4412
+2025-08-05 21:05:41.319 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 3 (Web开发工程师.md, hash: a04a78f14eba645797c65b28e90419ab): Cross-Encoder=0.5099, BM25=17.5272, Final Score=3.9134
+2025-08-05 21:05:41.320 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 4 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.4975, BM25=11.7384, Final Score=2.7457
+2025-08-05 21:05:41.320 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 5 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.4960, BM25=11.1710, Final Score=2.6310
+2025-08-05 21:05:41.320 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 6 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.4902, BM25=11.0060, Final Score=2.5934
+2025-08-05 21:05:41.320 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 7 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.4944, BM25=0.0000, Final Score=0.3955
+2025-08-05 21:05:41.321 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 8 (郭杰的简历 .pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.5355, BM25=13.1735, Final Score=3.0631
+2025-08-05 21:05:41.321 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 9 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.5133, BM25=0.0000, Final Score=0.4107
+2025-08-05 21:05:41.321 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 10 (郭杰的简历 .pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.5004, BM25=0.0000, Final Score=0.4003
+2025-08-05 21:05:41.322 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 11 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.5270, BM25=0.0000, Final Score=0.4216
+2025-08-05 21:05:41.322 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 12 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.5153, BM25=13.8454, Final Score=3.1814
+2025-08-05 21:05:41.322 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 13 (李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2): Cross-Encoder=0.5500, BM25=12.0305, Final Score=2.8461
+2025-08-05 21:05:41.322 | INFO     | vector_store:hybrid_search_with_rerank:318 - 重排序完成，返回前 1 份文档。
+2025-08-05 21:05:45.105 | INFO     | rag_pipeline:rag_generate:58 - RAG 生成完成，查询: 需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。, 返回候选人: 1
+2025-08-05 21:05:45.106 | WARNING  | rag_pipeline:full_rag_pipeline:84 - 延迟超过5s: 13.908671855926514s
+2025-08-05 21:05:45.106 | INFO     | rag_pipeline:full_rag_pipeline:85 - RAG 管道执行完成，延迟: 13.908671855926514s, 返回候选人: 1
+2025-08-05 21:12:19.782 | DEBUG    | __main__:run_evaluator_sanity_check:93 - 健全性检查数据集创建成功，contexts 类型: <class 'list'>, 长度: 1
+2025-08-05 21:12:35.315 | INFO     | __main__:run_evaluation:64 - Ragas 评估完成，结果: {'faithfulness': 1.0000, 'answer_relevancy': 0.8572, 'context_precision': 0.0000, 'context_recall': 0.0000}
+2025-08-05 21:12:35.316 | ERROR    | __main__:run_end_to_end_evaluation:123 - 调用 full_rag_pipeline 失败: full_rag_pipeline() missing 1 required positional argument: 'vector_store'
+2025-08-05 21:13:04.036 | DEBUG    | __main__:run_evaluator_sanity_check:93 - 健全性检查数据集创建成功，contexts 类型: <class 'list'>, 长度: 1
+2025-08-05 21:13:28.482 | INFO     | __main__:run_evaluation:64 - Ragas 评估完成，结果: {'faithfulness': 1.0000, 'answer_relevancy': 0.8572, 'context_precision': 0.0000, 'context_recall': 0.0000}
+2025-08-05 21:13:29.796 | INFO     | vector_store:__init__:37 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-05 21:13:30.266 | INFO     | vector_store:__init__:47 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-05 21:13:38.216 | INFO     | vector_store:__init__:73 - MongoDB 连接成功: mongodb://admin:123456@82.156.249.211:27017/resume_db?authSource=admin
+2025-08-05 21:13:38.638 | INFO     | vector_store:_create_or_load_collection:110 - 已加载集合 resume_embeddings
+2025-08-05 21:13:39.468 | INFO     | vector_store:__init__:82 - 向量存储初始化完成
+2025-08-05 21:13:39.468 | INFO     | vector_store:hybrid_search_with_rerank:206 - 开始混合检索，查询: '需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。', k=20, m=1
+2025-08-05 21:13:39.468 | DEBUG    | vector_store:hybrid_search_with_rerank:210 - 正在生成查询嵌入...
+2025-08-05 21:13:39.833 | DEBUG    | vector_store:hybrid_search_with_rerank:212 - 查询嵌入生成成功。
+2025-08-05 21:13:39.833 | DEBUG    | vector_store:hybrid_search_with_rerank:222 - 正在进行 Milvus 混合召回...
+2025-08-05 21:13:41.270 | INFO     | vector_store:hybrid_search_with_rerank:238 - Milvus 召回完成，获取 20 个结果。
+2025-08-05 21:13:41.270 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 1: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_0, score=0.5017
+2025-08-05 21:13:41.270 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 2: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=0.5006
+2025-08-05 21:13:41.270 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 3: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_2, score=0.4971
+2025-08-05 21:13:41.270 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 4: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_1, score=0.4966
+2025-08-05 21:13:41.270 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 5: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=0.4953
+2025-08-05 21:13:41.271 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 6: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=0.4945
+2025-08-05 21:13:41.271 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 7: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=0.4916
+2025-08-05 21:13:41.271 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 8: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=0.4905
+2025-08-05 21:13:41.271 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 9: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_0, score=0.4897
+2025-08-05 21:13:41.271 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 10: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=0.4893
+2025-08-05 21:13:41.271 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 11: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, score=0.4884
+2025-08-05 21:13:41.271 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 12: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=0.4858
+2025-08-05 21:13:41.271 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 13: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_2, score=0.4834
+2025-08-05 21:13:41.271 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=0.3280
+2025-08-05 21:13:41.272 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 15: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_0, score=0.3268
+2025-08-05 21:13:41.272 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 16: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_1, score=0.3249
+2025-08-05 21:13:41.272 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 17: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_2, score=0.3242
+2025-08-05 21:13:41.273 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 18: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_2, score=0.3234
+2025-08-05 21:13:41.273 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 19: id=doc_2508647664778702bff4db7fee1da765_parent_1_child_1, score=0.3229
+2025-08-05 21:13:41.273 | DEBUG    | vector_store:hybrid_search_with_rerank:240 -   Milvus 结果 20: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_1_child_1, score=0.3225
+2025-08-05 21:13:41.273 | DEBUG    | vector_store:hybrid_search_with_rerank:243 - 正在进行 Elasticsearch BM25 召回...
+2025-08-05 21:13:43.606 | INFO     | vector_store:hybrid_search_with_rerank:249 - ES BM25 召回完成，获取 20 个结果。
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 1: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_0, score=19.5494
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 2: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_2, score=17.7428
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 3: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_1, score=17.5272
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 4: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_1, score=16.6275
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 5: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=15.3336
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 6: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_1_child_0, score=13.8454
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 7: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_2, score=13.2837
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 8: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_0, score=13.1735
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 9: id=doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, score=12.0305
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 10: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=11.7384
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 11: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_0, score=11.6807
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 12: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_1, score=11.5135
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 13: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_2, score=11.4848
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=11.1710
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 15: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=11.1320
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 16: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=11.0060
+2025-08-05 21:13:43.607 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 17: id=doc_a04a78f14eba645797c65b28e90419ab_parent_1_child_2, score=9.7227
+2025-08-05 21:13:43.608 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 18: id=doc_a04a78f14eba645797c65b28e90419ab_parent_0_child_2, score=9.5678
+2025-08-05 21:13:43.608 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 19: id=doc_2508647664778702bff4db7fee1da765_parent_1_child_0, score=9.3279
+2025-08-05 21:13:43.608 | DEBUG    | vector_store:hybrid_search_with_rerank:251 -   ES 结果 20: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_1_child_2, score=8.9360
+2025-08-05 21:13:43.608 | DEBUG    | vector_store:hybrid_search_with_rerank:254 - 开始合并 Milvus 和 ES 的召回结果...
+2025-08-05 21:13:43.609 | DEBUG    | vector_store:hybrid_search_with_rerank:263 - 添加 Milvus 结果后，候选集大小: 20
+2025-08-05 21:13:43.609 | DEBUG    | vector_store:hybrid_search_with_rerank:276 - 添加 ES 结果后，最终候选集大小: 29
+2025-08-05 21:13:43.609 | INFO     | vector_store:hybrid_search_with_rerank:279 - 合并后子块数量: 29 (Milvus: 20, ES: 20)
+2025-08-05 21:13:43.609 | INFO     | vector_store:hybrid_search_with_rerank:283 - 从 29 个子块中提取了 13 个唯一的父文档。
+2025-08-05 21:13:43.609 | DEBUG    | vector_store:hybrid_search_with_rerank:289 - 准备使用 Cross-Encoder 对 13 个父文档进行重排序...
+2025-08-05 21:13:45.096 | DEBUG    | vector_store:hybrid_search_with_rerank:293 - Cross-Encoder 评分完成。
+2025-08-05 21:13:45.096 | DEBUG    | vector_store:hybrid_search_with_rerank:296 - 开始融合 Cross-Encoder 分数和 BM25 分数...
+2025-08-05 21:13:45.096 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 1 (Web开发工程师.md, hash: a04a78f14eba645797c65b28e90419ab): Cross-Encoder=0.4354, BM25=19.5494, Final Score=4.2582
+2025-08-05 21:13:45.096 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 2 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.4513, BM25=15.3336, Final Score=3.4278
+2025-08-05 21:13:45.096 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 3 (Web开发工程师.md, hash: a04a78f14eba645797c65b28e90419ab): Cross-Encoder=0.4180, BM25=17.5272, Final Score=3.8399
+2025-08-05 21:13:45.097 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 4 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.4268, BM25=11.7384, Final Score=2.6891
+2025-08-05 21:13:45.097 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 5 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.4279, BM25=11.1710, Final Score=2.5765
+2025-08-05 21:13:45.097 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 6 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.4324, BM25=11.0060, Final Score=2.5471
+2025-08-05 21:13:45.097 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 7 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.4291, BM25=0.0000, Final Score=0.3433
+2025-08-05 21:13:45.097 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 8 (郭杰的简历 .pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.4049, BM25=13.1735, Final Score=2.9586
+2025-08-05 21:13:45.097 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 9 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.4158, BM25=0.0000, Final Score=0.3327
+2025-08-05 21:13:45.098 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 10 (郭杰的简历 .pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.4246, BM25=0.0000, Final Score=0.3397
+2025-08-05 21:13:45.098 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 11 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.4081, BM25=0.0000, Final Score=0.3265
+2025-08-05 21:13:45.098 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 12 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.4146, BM25=13.8454, Final Score=3.1008
+2025-08-05 21:13:45.098 | DEBUG    | vector_store:hybrid_search_with_rerank:309 -   文档 13 (李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2): Cross-Encoder=0.4091, BM25=12.0305, Final Score=2.7334
+2025-08-05 21:13:45.098 | INFO     | vector_store:hybrid_search_with_rerank:318 - 重排序完成，返回前 1 份文档。
+2025-08-05 21:13:49.548 | INFO     | rag_pipeline:rag_generate:58 - RAG 生成完成，查询: 需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。, 返回候选人: 1
+2025-08-05 21:13:49.548 | WARNING  | rag_pipeline:full_rag_pipeline:84 - 延迟超过5s: 10.080045938491821s
+2025-08-05 21:13:49.548 | INFO     | rag_pipeline:full_rag_pipeline:85 - RAG 管道执行完成，延迟: 10.080045938491821s, 返回候选人: 1
+2025-08-05 21:13:49.548 | ERROR    | __main__:run_end_to_end_evaluation:124 - 调用 full_rag_pipeline 失败: name 'raw_contexts' is not defined
+2025-08-06 08:40:50.360 | INFO     | vector_store:__init__:37 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-06 08:40:50.863 | INFO     | vector_store:__init__:47 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-06 08:40:55.234 | INFO     | vector_store:__init__:73 - MongoDB 连接成功: mongodb://admin:123456@82.156.249.211:27017/resume_db?authSource=admin
+2025-08-06 08:40:56.000 | INFO     | vector_store:_create_or_load_collection:110 - 已加载集合 resume_embeddings
+2025-08-06 08:40:57.123 | INFO     | vector_store:__init__:82 - 向量存储初始化完成
+2025-08-06 08:40:57.123 | INFO     | vector_store:hybrid_search_with_rerank:222 - 开始混合检索，查询: '需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。', k=20, m=1
+2025-08-06 08:40:57.123 | DEBUG    | vector_store:hybrid_search_with_rerank:226 - 正在生成查询嵌入...
+2025-08-06 08:40:57.567 | DEBUG    | vector_store:hybrid_search_with_rerank:228 - 查询嵌入生成成功。
+2025-08-06 08:40:57.568 | DEBUG    | vector_store:hybrid_search_with_rerank:238 - 正在进行 Milvus 混合召回...
+2025-08-06 08:40:59.105 | INFO     | vector_store:hybrid_search_with_rerank:254 - Milvus 召回完成，获取 20 个结果。
+2025-08-06 08:40:59.105 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 1: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=0.5006
+2025-08-06 08:40:59.105 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 2: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_2, score=0.4971
+2025-08-06 08:40:59.106 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 3: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=0.4953
+2025-08-06 08:40:59.106 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 4: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=0.4945
+2025-08-06 08:40:59.106 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 5: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=0.4916
+2025-08-06 08:40:59.106 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 6: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=0.4905
+2025-08-06 08:40:59.106 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 7: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_0, score=0.4897
+2025-08-06 08:40:59.106 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 8: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=0.4893
+2025-08-06 08:40:59.106 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 9: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, score=0.4884
+2025-08-06 08:40:59.106 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 10: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=0.4884
+2025-08-06 08:40:59.106 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 11: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=0.4858
+2025-08-06 08:40:59.106 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 12: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_2, score=0.4848
+2025-08-06 08:40:59.106 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 13: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_1, score=0.4833
+2025-08-06 08:40:59.107 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=0.3280
+2025-08-06 08:40:59.107 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 15: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_0, score=0.3268
+2025-08-06 08:40:59.107 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 16: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=0.3254
+2025-08-06 08:40:59.107 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 17: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_0, score=0.3251
+2025-08-06 08:40:59.111 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 18: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_1, score=0.3249
+2025-08-06 08:40:59.111 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 19: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_3, score=0.3242
+2025-08-06 08:40:59.111 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 20: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_2, score=0.3242
+2025-08-06 08:40:59.111 | DEBUG    | vector_store:hybrid_search_with_rerank:259 - 正在进行 Elasticsearch BM25 召回...
+2025-08-06 08:41:00.709 | INFO     | vector_store:hybrid_search_with_rerank:265 - ES BM25 召回完成，获取 20 个结果。
+2025-08-06 08:41:00.709 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 1: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_2, score=18.9957
+2025-08-06 08:41:00.709 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 2: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_1_child_0, score=15.4125
+2025-08-06 08:41:00.709 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 3: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=14.9044
+2025-08-06 08:41:00.710 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 4: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_2, score=14.2523
+2025-08-06 08:41:00.710 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 5: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_0, score=12.9740
+2025-08-06 08:41:00.722 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 6: id=doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, score=12.9693
+2025-08-06 08:41:00.722 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 7: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_1, score=12.6430
+2025-08-06 08:41:00.722 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 8: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_2, score=12.3881
+2025-08-06 08:41:00.723 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 9: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=12.1954
+2025-08-06 08:41:00.723 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 10: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=11.9483
+2025-08-06 08:41:00.723 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 11: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=11.7859
+2025-08-06 08:41:00.723 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 12: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=11.7405
+2025-08-06 08:41:00.723 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 13: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=11.7307
+2025-08-06 08:41:00.723 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 14: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_1_child_2, score=10.7480
+2025-08-06 08:41:00.724 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 15: id=doc_2508647664778702bff4db7fee1da765_parent_1_child_0, score=10.6776
+2025-08-06 08:41:00.724 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 16: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=9.1273
+2025-08-06 08:41:00.724 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 17: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=9.0046
+2025-08-06 08:41:00.724 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 18: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_2_child_0, score=8.9659
+2025-08-06 08:41:00.724 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 19: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=8.8605
+2025-08-06 08:41:00.724 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 20: id=doc_a1f819a55416ca2721ecb5d720db9691_parent_0_child_0, score=8.6096
+2025-08-06 08:41:00.724 | DEBUG    | vector_store:hybrid_search_with_rerank:270 - 开始合并 Milvus 和 ES 的召回结果...
+2025-08-06 08:41:00.725 | DEBUG    | vector_store:hybrid_search_with_rerank:279 - 添加 Milvus 结果后，候选集大小: 20
+2025-08-06 08:41:00.725 | DEBUG    | vector_store:hybrid_search_with_rerank:292 - 添加 ES 结果后，最终候选集大小: 30
+2025-08-06 08:41:00.725 | INFO     | vector_store:hybrid_search_with_rerank:295 - 合并后子块数量: 30 (Milvus: 20, ES: 20)
+2025-08-06 08:41:00.726 | INFO     | vector_store:hybrid_search_with_rerank:299 - 从 30 个子块中提取了 15 个唯一的父文档。
+2025-08-06 08:41:00.726 | DEBUG    | vector_store:hybrid_search_with_rerank:305 - 准备使用 Cross-Encoder 对 15 个父文档进行重排序...
+2025-08-06 08:41:04.149 | DEBUG    | vector_store:hybrid_search_with_rerank:309 - Cross-Encoder 评分完成。
+2025-08-06 08:41:04.150 | DEBUG    | vector_store:hybrid_search_with_rerank:312 - 开始融合 Cross-Encoder 分数和 BM25 分数...
+2025-08-06 08:41:04.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 1 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.4739, BM25=14.9044, Final Score=3.3600
+2025-08-06 08:41:04.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 2 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.4949, BM25=12.1954, Final Score=2.8350
+2025-08-06 08:41:04.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 3 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.4939, BM25=11.7405, Final Score=2.7432
+2025-08-06 08:41:04.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 4 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.4899, BM25=11.9483, Final Score=2.7816
+2025-08-06 08:41:04.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 5 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.4927, BM25=0.0000, Final Score=0.3941
+2025-08-06 08:41:04.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 6 (郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.5284, BM25=12.9740, Final Score=3.0175
+2025-08-06 08:41:04.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 7 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.5100, BM25=9.1273, Final Score=2.2334
+2025-08-06 08:41:04.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 8 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.5082, BM25=0.0000, Final Score=0.4066
+2025-08-06 08:41:04.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 9 (李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59): Cross-Encoder=0.4971, BM25=0.0000, Final Score=0.3976
+2025-08-06 08:41:04.151 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 10 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.5076, BM25=0.0000, Final Score=0.4061
+2025-08-06 08:41:04.151 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 11 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.5093, BM25=15.4125, Final Score=3.4899
+2025-08-06 08:41:04.151 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 12 (李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2): Cross-Encoder=0.5481, BM25=12.9693, Final Score=3.0324
+2025-08-06 08:41:04.151 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 13 (郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.4971, BM25=10.6776, Final Score=2.5332
+2025-08-06 08:41:04.151 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 14 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.5351, BM25=8.9659, Final Score=2.2213
+2025-08-06 08:41:04.151 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 15 (赵可的简历.pdf, hash: a1f819a55416ca2721ecb5d720db9691): Cross-Encoder=0.5255, BM25=8.6096, Final Score=2.1423
+2025-08-06 08:41:04.152 | INFO     | vector_store:hybrid_search_with_rerank:334 - 重排序完成，返回前 1 份文档。
+2025-08-06 08:41:04.152 | INFO     | rag_pipeline:full_rag_pipeline:85 - 实际检索到 1 份相关文档，将请求LLM生成同样数量的推荐。
+2025-08-06 08:41:09.720 | INFO     | rag_pipeline:rag_generate:60 - RAG 生成完成，查询: 需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。, 返回候选人: 1
+2025-08-06 08:41:09.720 | WARNING  | rag_pipeline:full_rag_pipeline:90 - 延迟超过5s: 12.596812725067139s
+2025-08-06 08:41:09.720 | INFO     | rag_pipeline:full_rag_pipeline:91 - RAG 管道执行完成，延迟: 12.596812725067139s, 返回候选人: 1
+2025-08-06 08:56:36.648 | INFO     | vector_store:__init__:37 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-06 08:56:37.358 | INFO     | vector_store:__init__:47 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-06 08:56:41.578 | INFO     | vector_store:__init__:73 - MongoDB 连接成功: mongodb://admin:123456@82.156.249.211:27017/resume_db?authSource=admin
+2025-08-06 08:56:41.934 | INFO     | vector_store:_create_or_load_collection:110 - 已加载集合 resume_embeddings
+2025-08-06 08:56:42.650 | INFO     | vector_store:__init__:82 - 向量存储初始化完成
+2025-08-06 08:56:42.650 | INFO     | vector_store:hybrid_search_with_rerank:222 - 开始混合检索，查询: '需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。', k=20, m=1
+2025-08-06 08:56:42.650 | DEBUG    | vector_store:hybrid_search_with_rerank:226 - 正在生成查询嵌入...
+2025-08-06 08:56:43.212 | DEBUG    | vector_store:hybrid_search_with_rerank:228 - 查询嵌入生成成功。
+2025-08-06 08:56:43.212 | DEBUG    | vector_store:hybrid_search_with_rerank:238 - 正在进行 Milvus 混合召回...
+2025-08-06 08:56:44.115 | INFO     | vector_store:hybrid_search_with_rerank:254 - Milvus 召回完成，获取 20 个结果。
+2025-08-06 08:56:44.115 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 1: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=0.5006
+2025-08-06 08:56:44.115 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 2: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_2, score=0.4971
+2025-08-06 08:56:44.116 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 3: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=0.4953
+2025-08-06 08:56:44.116 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 4: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=0.4945
+2025-08-06 08:56:44.116 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 5: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=0.4916
+2025-08-06 08:56:44.117 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 6: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=0.4905
+2025-08-06 08:56:44.117 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 7: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_0, score=0.4897
+2025-08-06 08:56:44.117 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 8: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=0.4893
+2025-08-06 08:56:44.118 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 9: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, score=0.4884
+2025-08-06 08:56:44.118 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 10: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=0.4884
+2025-08-06 08:56:44.118 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 11: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=0.4858
+2025-08-06 08:56:44.118 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 12: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_2, score=0.4848
+2025-08-06 08:56:44.118 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 13: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_1, score=0.4833
+2025-08-06 08:56:44.118 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=0.3280
+2025-08-06 08:56:44.118 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 15: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_0, score=0.3268
+2025-08-06 08:56:44.119 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 16: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=0.3254
+2025-08-06 08:56:44.119 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 17: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_0, score=0.3251
+2025-08-06 08:56:44.119 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 18: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_1, score=0.3249
+2025-08-06 08:56:44.119 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 19: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_3, score=0.3242
+2025-08-06 08:56:44.132 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 20: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_2, score=0.3242
+2025-08-06 08:56:44.132 | DEBUG    | vector_store:hybrid_search_with_rerank:259 - 正在进行 Elasticsearch BM25 召回...
+2025-08-06 08:56:45.622 | INFO     | vector_store:hybrid_search_with_rerank:265 - ES BM25 召回完成，获取 20 个结果。
+2025-08-06 08:56:45.622 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 1: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_2, score=18.9957
+2025-08-06 08:56:45.622 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 2: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_1_child_0, score=15.4125
+2025-08-06 08:56:45.622 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 3: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=14.9044
+2025-08-06 08:56:45.623 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 4: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_2, score=14.2523
+2025-08-06 08:56:45.623 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 5: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_0, score=12.9740
+2025-08-06 08:56:45.623 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 6: id=doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, score=12.9693
+2025-08-06 08:56:45.624 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 7: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_1, score=12.6430
+2025-08-06 08:56:45.624 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 8: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_2, score=12.3881
+2025-08-06 08:56:45.624 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 9: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=12.1954
+2025-08-06 08:56:45.624 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 10: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=11.9483
+2025-08-06 08:56:45.624 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 11: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=11.7859
+2025-08-06 08:56:45.624 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 12: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=11.7405
+2025-08-06 08:56:45.624 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 13: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=11.7307
+2025-08-06 08:56:45.624 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 14: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_1_child_2, score=10.7480
+2025-08-06 08:56:45.625 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 15: id=doc_2508647664778702bff4db7fee1da765_parent_1_child_0, score=10.6776
+2025-08-06 08:56:45.625 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 16: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=9.1273
+2025-08-06 08:56:45.625 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 17: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=9.0046
+2025-08-06 08:56:45.629 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 18: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_2_child_0, score=8.9659
+2025-08-06 08:56:45.629 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 19: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=8.8605
+2025-08-06 08:56:45.629 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 20: id=doc_a1f819a55416ca2721ecb5d720db9691_parent_0_child_0, score=8.6096
+2025-08-06 08:56:45.629 | DEBUG    | vector_store:hybrid_search_with_rerank:270 - 开始合并 Milvus 和 ES 的召回结果...
+2025-08-06 08:56:45.629 | DEBUG    | vector_store:hybrid_search_with_rerank:279 - 添加 Milvus 结果后，候选集大小: 20
+2025-08-06 08:56:45.630 | DEBUG    | vector_store:hybrid_search_with_rerank:292 - 添加 ES 结果后，最终候选集大小: 30
+2025-08-06 08:56:45.630 | INFO     | vector_store:hybrid_search_with_rerank:295 - 合并后子块数量: 30 (Milvus: 20, ES: 20)
+2025-08-06 08:56:45.630 | INFO     | vector_store:hybrid_search_with_rerank:299 - 从 30 个子块中提取了 15 个唯一的父文档。
+2025-08-06 08:56:45.630 | DEBUG    | vector_store:hybrid_search_with_rerank:305 - 准备使用 Cross-Encoder 对 15 个父文档进行重排序...
+2025-08-06 08:56:49.362 | DEBUG    | vector_store:hybrid_search_with_rerank:309 - Cross-Encoder 评分完成。
+2025-08-06 08:56:49.362 | DEBUG    | vector_store:hybrid_search_with_rerank:312 - 开始融合 Cross-Encoder 分数和 BM25 分数...
+2025-08-06 08:56:49.362 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 1 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.5104, BM25=14.9044, Final Score=3.3892
+2025-08-06 08:56:49.362 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 2 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.5260, BM25=12.1954, Final Score=2.8598
+2025-08-06 08:56:49.363 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 3 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5251, BM25=11.7405, Final Score=2.7681
+2025-08-06 08:56:49.363 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 4 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.5214, BM25=11.9483, Final Score=2.8068
+2025-08-06 08:56:49.363 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 5 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5240, BM25=0.0000, Final Score=0.4192
+2025-08-06 08:56:49.363 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 6 (郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.5378, BM25=12.9740, Final Score=3.0251
+2025-08-06 08:56:49.363 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 7 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.5352, BM25=9.1273, Final Score=2.2537
+2025-08-06 08:56:49.364 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 8 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.5345, BM25=0.0000, Final Score=0.4276
+2025-08-06 08:56:49.364 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 9 (李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59): Cross-Encoder=0.5275, BM25=0.0000, Final Score=0.4220
+2025-08-06 08:56:49.364 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 10 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.5342, BM25=0.0000, Final Score=0.4274
+2025-08-06 08:56:49.364 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 11 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.5349, BM25=15.4125, Final Score=3.5104
+2025-08-06 08:56:49.364 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 12 (李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2): Cross-Encoder=0.5535, BM25=12.9693, Final Score=3.0367
+2025-08-06 08:56:49.365 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 13 (郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.5277, BM25=10.6776, Final Score=2.5577
+2025-08-06 08:56:49.365 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 14 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.5381, BM25=8.9659, Final Score=2.2236
+2025-08-06 08:56:49.378 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 15 (赵可的简历.pdf, hash: a1f819a55416ca2721ecb5d720db9691): Cross-Encoder=0.5380, BM25=8.6096, Final Score=2.1523
+2025-08-06 08:56:49.379 | INFO     | vector_store:hybrid_search_with_rerank:350 - 重排序并过滤后，返回前 1 份文档。
+2025-08-06 08:56:49.379 | INFO     | rag_pipeline:full_rag_pipeline:85 - 实际检索到 1 份相关文档，将请求LLM生成同样数量的推荐。
+2025-08-06 08:56:51.310 | INFO     | rag_pipeline:rag_generate:60 - RAG 生成完成，查询: 需要一名有3年以上Java开发经验，并熟悉Spring Boot的工程师。, 返回候选人: 1
+2025-08-06 08:56:51.310 | WARNING  | rag_pipeline:full_rag_pipeline:90 - 延迟超过5s: 8.660024642944336s
+2025-08-06 08:56:51.310 | INFO     | rag_pipeline:full_rag_pipeline:91 - RAG 管道执行完成，延迟: 8.660024642944336s, 返回候选人: 1
+2025-08-06 08:56:51.311 | WARNING  | __main__:run_end_to_end_evaluation:125 - 无法从RAG响应中解析推荐理由: [], 错误: list index out of range
+2025-08-06 08:58:30.292 | INFO     | vector_store:__init__:37 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-06 08:58:30.797 | INFO     | vector_store:__init__:47 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-06 08:58:36.515 | INFO     | vector_store:__init__:73 - MongoDB 连接成功: mongodb://admin:123456@82.156.249.211:27017/resume_db?authSource=admin
+2025-08-06 08:58:36.886 | INFO     | vector_store:_create_or_load_collection:110 - 已加载集合 resume_embeddings
+2025-08-06 08:58:37.609 | INFO     | vector_store:__init__:82 - 向量存储初始化完成
+2025-08-06 08:58:37.609 | INFO     | vector_store:hybrid_search_with_rerank:222 - 开始混合检索，查询: '需要WEB前端开发工程师', k=20, m=1
+2025-08-06 08:58:37.609 | DEBUG    | vector_store:hybrid_search_with_rerank:226 - 正在生成查询嵌入...
+2025-08-06 08:58:38.079 | DEBUG    | vector_store:hybrid_search_with_rerank:228 - 查询嵌入生成成功。
+2025-08-06 08:58:38.080 | DEBUG    | vector_store:hybrid_search_with_rerank:238 - 正在进行 Milvus 混合召回...
+2025-08-06 08:58:38.941 | INFO     | vector_store:hybrid_search_with_rerank:254 - Milvus 召回完成，获取 20 个结果。
+2025-08-06 08:58:38.942 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 1: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=0.5093
+2025-08-06 08:58:38.942 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 2: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=0.5073
+2025-08-06 08:58:38.943 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 3: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=0.5071
+2025-08-06 08:58:38.943 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 4: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=0.5069
+2025-08-06 08:58:38.943 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 5: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=0.5065
+2025-08-06 08:58:38.943 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 6: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_0, score=0.5061
+2025-08-06 08:58:38.943 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 7: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_2, score=0.5058
+2025-08-06 08:58:38.943 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 8: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=0.5053
+2025-08-06 08:58:38.943 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 9: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_0, score=0.5052
+2025-08-06 08:58:38.944 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 10: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_1, score=0.5051
+2025-08-06 08:58:38.944 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 11: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, score=0.5021
+2025-08-06 08:58:38.944 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 12: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_1, score=0.5020
+2025-08-06 08:58:38.944 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 13: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=0.5020
+2025-08-06 08:58:38.944 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 14: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=0.4999
+2025-08-06 08:58:38.944 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 15: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_2, score=0.4995
+2025-08-06 08:58:38.944 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 16: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=0.3437
+2025-08-06 08:58:38.946 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 17: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=0.3389
+2025-08-06 08:58:38.946 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 18: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=0.3380
+2025-08-06 08:58:38.946 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 19: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_3, score=0.3374
+2025-08-06 08:58:38.947 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 20: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_1_child_0, score=0.3369
+2025-08-06 08:58:38.948 | DEBUG    | vector_store:hybrid_search_with_rerank:259 - 正在进行 Elasticsearch BM25 召回...
+2025-08-06 08:58:40.418 | INFO     | vector_store:hybrid_search_with_rerank:265 - ES BM25 召回完成，获取 20 个结果。
+2025-08-06 08:58:40.418 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 1: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=10.5144
+2025-08-06 08:58:40.418 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 2: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_0, score=9.6202
+2025-08-06 08:58:40.419 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 3: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=9.5794
+2025-08-06 08:58:40.419 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 4: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_0, score=9.3127
+2025-08-06 08:58:40.419 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 5: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=8.7351
+2025-08-06 08:58:40.419 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 6: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=8.4227
+2025-08-06 08:58:40.419 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 7: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=8.3719
+2025-08-06 08:58:40.419 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 8: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_2, score=8.1744
+2025-08-06 08:58:40.419 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 9: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_1, score=8.1029
+2025-08-06 08:58:40.419 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 10: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=7.8269
+2025-08-06 08:58:40.419 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 11: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_1, score=7.5331
+2025-08-06 08:58:40.419 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 12: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_1, score=7.2480
+2025-08-06 08:58:40.419 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 13: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_2, score=7.2307
+2025-08-06 08:58:40.420 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=6.1160
+2025-08-06 08:58:40.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 15: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=6.0043
+2025-08-06 08:58:40.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 16: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_2, score=5.4636
+2025-08-06 08:58:40.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 17: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_2, score=5.3893
+2025-08-06 08:58:40.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 18: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_2, score=5.3476
+2025-08-06 08:58:40.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 19: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_1_child_0, score=5.2619
+2025-08-06 08:58:40.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 20: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_2, score=4.9754
+2025-08-06 08:58:40.422 | DEBUG    | vector_store:hybrid_search_with_rerank:270 - 开始合并 Milvus 和 ES 的召回结果...
+2025-08-06 08:58:40.422 | DEBUG    | vector_store:hybrid_search_with_rerank:279 - 添加 Milvus 结果后，候选集大小: 20
+2025-08-06 08:58:40.422 | DEBUG    | vector_store:hybrid_search_with_rerank:292 - 添加 ES 结果后，最终候选集大小: 25
+2025-08-06 08:58:40.422 | INFO     | vector_store:hybrid_search_with_rerank:295 - 合并后子块数量: 25 (Milvus: 20, ES: 20)
+2025-08-06 08:58:40.423 | INFO     | vector_store:hybrid_search_with_rerank:299 - 从 25 个子块中提取了 12 个唯一的父文档。
+2025-08-06 08:58:40.423 | DEBUG    | vector_store:hybrid_search_with_rerank:305 - 准备使用 Cross-Encoder 对 12 个父文档进行重排序...
+2025-08-06 08:58:43.332 | DEBUG    | vector_store:hybrid_search_with_rerank:309 - Cross-Encoder 评分完成。
+2025-08-06 08:58:43.332 | DEBUG    | vector_store:hybrid_search_with_rerank:312 - 开始融合 Cross-Encoder 分数和 BM25 分数...
+2025-08-06 08:58:43.333 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 1 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5112, BM25=7.8269, Final Score=1.9743
+2025-08-06 08:58:43.333 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 2 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5099, BM25=6.1160, Final Score=1.6311
+2025-08-06 08:58:43.333 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 3 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.5252, BM25=9.5794, Final Score=2.3360
+2025-08-06 08:58:43.333 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 4 (李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59): Cross-Encoder=0.5215, BM25=9.3127, Final Score=2.2797
+2025-08-06 08:58:43.334 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 5 (王强.md, hash: 2c6e673a7b2e06addee354021ad1453c): Cross-Encoder=0.5258, BM25=9.6202, Final Score=2.3447
+2025-08-06 08:58:43.334 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 6 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.4905, BM25=0.0000, Final Score=0.3924
+2025-08-06 08:58:43.334 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 7 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.4974, BM25=6.0043, Final Score=1.5988
+2025-08-06 08:58:43.334 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 8 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.4878, BM25=0.0000, Final Score=0.3903
+2025-08-06 08:58:43.335 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 9 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.4892, BM25=0.0000, Final Score=0.3914
+2025-08-06 08:58:43.335 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 10 (李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59): Cross-Encoder=0.4910, BM25=5.2619, Final Score=1.4452
+2025-08-06 08:58:43.335 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 11 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.4890, BM25=5.4636, Final Score=1.4839
+2025-08-06 08:58:43.335 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 12 (郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.4850, BM25=5.3476, Final Score=1.4576
+2025-08-06 08:58:43.336 | INFO     | vector_store:hybrid_search_with_rerank:350 - 重排序并过滤后，返回前 1 份文档。
+2025-08-06 08:58:43.336 | INFO     | rag_pipeline:full_rag_pipeline:85 - 实际检索到 1 份相关文档，将请求LLM生成同样数量的推荐。
+2025-08-06 08:58:48.376 | INFO     | rag_pipeline:rag_generate:60 - RAG 生成完成，查询: 需要WEB前端开发工程师, 返回候选人: 1
+2025-08-06 08:58:48.376 | WARNING  | rag_pipeline:full_rag_pipeline:90 - 延迟超过5s: 10.767772912979126s
+2025-08-06 08:58:48.376 | INFO     | rag_pipeline:full_rag_pipeline:91 - RAG 管道执行完成，延迟: 10.767772912979126s, 返回候选人: 1
+2025-08-06 09:05:11.262 | INFO     | vector_store:__init__:37 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-06 09:05:11.826 | INFO     | vector_store:__init__:47 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-06 09:05:16.672 | INFO     | vector_store:__init__:73 - MongoDB 连接成功: mongodb://admin:123456@82.156.249.211:27017/resume_db?authSource=admin
+2025-08-06 09:05:17.033 | INFO     | vector_store:_create_or_load_collection:110 - 已加载集合 resume_embeddings
+2025-08-06 09:05:17.751 | INFO     | vector_store:__init__:82 - 向量存储初始化完成
+2025-08-06 09:05:17.751 | INFO     | vector_store:hybrid_search_with_rerank:222 - 开始混合检索，查询: '需要WEB前端开发工程师', k=20, m=1
+2025-08-06 09:05:17.751 | DEBUG    | vector_store:hybrid_search_with_rerank:226 - 正在生成查询嵌入...
+2025-08-06 09:05:18.174 | DEBUG    | vector_store:hybrid_search_with_rerank:228 - 查询嵌入生成成功。
+2025-08-06 09:05:18.174 | DEBUG    | vector_store:hybrid_search_with_rerank:238 - 正在进行 Milvus 混合召回...
+2025-08-06 09:05:19.039 | INFO     | vector_store:hybrid_search_with_rerank:254 - Milvus 召回完成，获取 20 个结果。
+2025-08-06 09:05:19.040 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 1: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=0.5093
+2025-08-06 09:05:19.040 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 2: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=0.5073
+2025-08-06 09:05:19.040 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 3: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=0.5071
+2025-08-06 09:05:19.040 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 4: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=0.5069
+2025-08-06 09:05:19.040 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 5: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=0.5065
+2025-08-06 09:05:19.040 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 6: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_0, score=0.5061
+2025-08-06 09:05:19.040 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 7: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_2, score=0.5058
+2025-08-06 09:05:19.040 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 8: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=0.5053
+2025-08-06 09:05:19.040 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 9: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_0, score=0.5052
+2025-08-06 09:05:19.040 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 10: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_1, score=0.5051
+2025-08-06 09:05:19.040 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 11: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, score=0.5021
+2025-08-06 09:05:19.040 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 12: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_1, score=0.5020
+2025-08-06 09:05:19.041 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 13: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=0.5020
+2025-08-06 09:05:19.041 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 14: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=0.4999
+2025-08-06 09:05:19.041 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 15: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_2, score=0.4995
+2025-08-06 09:05:19.041 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 16: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=0.3437
+2025-08-06 09:05:19.041 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 17: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=0.3389
+2025-08-06 09:05:19.042 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 18: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=0.3380
+2025-08-06 09:05:19.042 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 19: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_3, score=0.3374
+2025-08-06 09:05:19.042 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 20: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_1_child_0, score=0.3369
+2025-08-06 09:05:19.042 | DEBUG    | vector_store:hybrid_search_with_rerank:259 - 正在进行 Elasticsearch BM25 召回...
+2025-08-06 09:05:20.421 | INFO     | vector_store:hybrid_search_with_rerank:265 - ES BM25 召回完成，获取 20 个结果。
+2025-08-06 09:05:20.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 1: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=10.5144
+2025-08-06 09:05:20.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 2: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_0, score=9.6202
+2025-08-06 09:05:20.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 3: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=9.5794
+2025-08-06 09:05:20.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 4: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_0, score=9.3127
+2025-08-06 09:05:20.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 5: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=8.7351
+2025-08-06 09:05:20.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 6: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=8.4227
+2025-08-06 09:05:20.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 7: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=8.3719
+2025-08-06 09:05:20.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 8: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_2, score=8.1744
+2025-08-06 09:05:20.421 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 9: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_1, score=8.1029
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 10: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=7.8269
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 11: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_1, score=7.5331
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 12: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_1, score=7.2480
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 13: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_2, score=7.2307
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=6.1160
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 15: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=6.0043
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 16: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_2, score=5.4636
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 17: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_2, score=5.3893
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 18: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_2, score=5.3476
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 19: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_1_child_0, score=5.2619
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 20: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_2, score=4.9754
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:270 - 开始合并 Milvus 和 ES 的召回结果...
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:279 - 添加 Milvus 结果后，候选集大小: 20
+2025-08-06 09:05:20.422 | DEBUG    | vector_store:hybrid_search_with_rerank:292 - 添加 ES 结果后，最终候选集大小: 25
+2025-08-06 09:05:20.422 | INFO     | vector_store:hybrid_search_with_rerank:295 - 合并后子块数量: 25 (Milvus: 20, ES: 20)
+2025-08-06 09:05:20.423 | INFO     | vector_store:hybrid_search_with_rerank:299 - 从 25 个子块中提取了 12 个唯一的父文档。
+2025-08-06 09:05:20.423 | DEBUG    | vector_store:hybrid_search_with_rerank:305 - 准备使用 Cross-Encoder 对 12 个父文档进行重排序...
+2025-08-06 09:05:23.166 | DEBUG    | vector_store:hybrid_search_with_rerank:309 - Cross-Encoder 评分完成。
+2025-08-06 09:05:23.166 | DEBUG    | vector_store:hybrid_search_with_rerank:312 - 开始融合 Cross-Encoder 分数和 BM25 分数...
+2025-08-06 09:05:23.166 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 1 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5979, BM25=7.8269, Final Score=2.0437
+2025-08-06 09:05:23.166 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 2 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5980, BM25=6.1160, Final Score=1.7016
+2025-08-06 09:05:23.167 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 3 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.5931, BM25=9.5794, Final Score=2.3903
+2025-08-06 09:05:23.167 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 4 (李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59): Cross-Encoder=0.5953, BM25=9.3127, Final Score=2.3388
+2025-08-06 09:05:23.167 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 5 (王强.md, hash: 2c6e673a7b2e06addee354021ad1453c): Cross-Encoder=0.5926, BM25=9.6202, Final Score=2.3981
+2025-08-06 09:05:23.167 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 6 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.6138, BM25=0.0000, Final Score=0.4910
+2025-08-06 09:05:23.167 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 7 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.6024, BM25=6.0043, Final Score=1.6828
+2025-08-06 09:05:23.167 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 8 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.6200, BM25=0.0000, Final Score=0.4960
+2025-08-06 09:05:23.167 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 9 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.6166, BM25=0.0000, Final Score=0.4933
+2025-08-06 09:05:23.168 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 10 (李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59): Cross-Encoder=0.6128, BM25=5.2619, Final Score=1.5426
+2025-08-06 09:05:23.168 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 11 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.6171, BM25=5.4636, Final Score=1.5864
+2025-08-06 09:05:23.168 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 12 (郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.6271, BM25=5.3476, Final Score=1.5712
+2025-08-06 09:05:23.168 | INFO     | vector_store:hybrid_search_with_rerank:350 - 重排序并过滤后，返回前 1 份文档。
+2025-08-06 09:05:23.169 | INFO     | rag_pipeline:full_rag_pipeline:85 - 实际检索到 1 份相关文档，将请求LLM生成同样数量的推荐。
+2025-08-06 09:05:28.010 | INFO     | rag_pipeline:rag_generate:60 - RAG 生成完成，查询: 需要WEB前端开发工程师, 返回候选人: 1
+2025-08-06 09:05:28.010 | WARNING  | rag_pipeline:full_rag_pipeline:90 - 延迟超过5s: 10.259130954742432s
+2025-08-06 09:05:28.010 | INFO     | rag_pipeline:full_rag_pipeline:91 - RAG 管道执行完成，延迟: 10.259130954742432s, 返回候选人: 1
+2025-08-06 09:07:47.760 | INFO     | vector_store:__init__:37 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-06 09:07:48.247 | INFO     | vector_store:__init__:47 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-06 09:07:52.528 | INFO     | vector_store:__init__:73 - MongoDB 连接成功: mongodb://admin:123456@82.156.249.211:27017/resume_db?authSource=admin
+2025-08-06 09:07:52.884 | INFO     | vector_store:_create_or_load_collection:110 - 已加载集合 resume_embeddings
+2025-08-06 09:07:53.596 | INFO     | vector_store:__init__:82 - 向量存储初始化完成
+2025-08-06 09:07:53.596 | INFO     | vector_store:hybrid_search_with_rerank:222 - 开始混合检索，查询: '需要WEB前端开发工程师', k=20, m=1
+2025-08-06 09:07:53.596 | DEBUG    | vector_store:hybrid_search_with_rerank:226 - 正在生成查询嵌入...
+2025-08-06 09:07:53.970 | DEBUG    | vector_store:hybrid_search_with_rerank:228 - 查询嵌入生成成功。
+2025-08-06 09:07:53.970 | DEBUG    | vector_store:hybrid_search_with_rerank:238 - 正在进行 Milvus 混合召回...
+2025-08-06 09:07:54.839 | INFO     | vector_store:hybrid_search_with_rerank:254 - Milvus 召回完成，获取 20 个结果。
+2025-08-06 09:07:54.840 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 1: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=0.5093
+2025-08-06 09:07:54.840 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 2: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=0.5073
+2025-08-06 09:07:54.840 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 3: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=0.5071
+2025-08-06 09:07:54.840 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 4: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=0.5069
+2025-08-06 09:07:54.840 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 5: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=0.5065
+2025-08-06 09:07:54.840 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 6: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_0, score=0.5061
+2025-08-06 09:07:54.840 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 7: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_2, score=0.5058
+2025-08-06 09:07:54.840 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 8: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=0.5053
+2025-08-06 09:07:54.840 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 9: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_0, score=0.5052
+2025-08-06 09:07:54.840 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 10: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_1, score=0.5051
+2025-08-06 09:07:54.840 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 11: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, score=0.5021
+2025-08-06 09:07:54.841 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 12: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_1, score=0.5020
+2025-08-06 09:07:54.841 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 13: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=0.5020
+2025-08-06 09:07:54.841 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 14: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=0.4999
+2025-08-06 09:07:54.841 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 15: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_2, score=0.4995
+2025-08-06 09:07:54.841 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 16: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=0.3437
+2025-08-06 09:07:54.841 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 17: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=0.3389
+2025-08-06 09:07:54.844 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 18: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=0.3380
+2025-08-06 09:07:54.844 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 19: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_3, score=0.3374
+2025-08-06 09:07:54.844 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 20: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_1_child_0, score=0.3369
+2025-08-06 09:07:54.845 | DEBUG    | vector_store:hybrid_search_with_rerank:259 - 正在进行 Elasticsearch BM25 召回...
+2025-08-06 09:07:56.187 | INFO     | vector_store:hybrid_search_with_rerank:265 - ES BM25 召回完成，获取 20 个结果。
+2025-08-06 09:07:56.187 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 1: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=10.5144
+2025-08-06 09:07:56.187 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 2: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_0, score=9.6202
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 3: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=9.5794
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 4: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_0, score=9.3127
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 5: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=8.7351
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 6: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=8.4227
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 7: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=8.3719
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 8: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_2, score=8.1744
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 9: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_1, score=8.1029
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 10: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=7.8269
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 11: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_1, score=7.5331
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 12: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_1, score=7.2480
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 13: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_2, score=7.2307
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=6.1160
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 15: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=6.0043
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 16: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_2, score=5.4636
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 17: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_2, score=5.3893
+2025-08-06 09:07:56.188 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 18: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_2, score=5.3476
+2025-08-06 09:07:56.190 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 19: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_1_child_0, score=5.2619
+2025-08-06 09:07:56.190 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 20: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_2, score=4.9754
+2025-08-06 09:07:56.190 | DEBUG    | vector_store:hybrid_search_with_rerank:270 - 开始合并 Milvus 和 ES 的召回结果...
+2025-08-06 09:07:56.190 | DEBUG    | vector_store:hybrid_search_with_rerank:279 - 添加 Milvus 结果后，候选集大小: 20
+2025-08-06 09:07:56.190 | DEBUG    | vector_store:hybrid_search_with_rerank:292 - 添加 ES 结果后，最终候选集大小: 25
+2025-08-06 09:07:56.190 | INFO     | vector_store:hybrid_search_with_rerank:295 - 合并后子块数量: 25 (Milvus: 20, ES: 20)
+2025-08-06 09:07:56.190 | INFO     | vector_store:hybrid_search_with_rerank:299 - 从 25 个子块中提取了 12 个唯一的父文档。
+2025-08-06 09:07:56.191 | DEBUG    | vector_store:hybrid_search_with_rerank:305 - 准备使用 Cross-Encoder 对 12 个父文档进行重排序...
+2025-08-06 09:07:57.627 | DEBUG    | vector_store:hybrid_search_with_rerank:309 - Cross-Encoder 评分完成。
+2025-08-06 09:07:57.627 | DEBUG    | vector_store:hybrid_search_with_rerank:312 - 开始融合 Cross-Encoder 分数和 BM25 分数...
+2025-08-06 09:07:57.627 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 1 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5056, BM25=7.8269, Final Score=1.9698
+2025-08-06 09:07:57.627 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 2 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5043, BM25=6.1160, Final Score=1.6267
+2025-08-06 09:07:57.627 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 3 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.5179, BM25=9.5794, Final Score=2.3302
+2025-08-06 09:07:57.627 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 4 (李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59): Cross-Encoder=0.5147, BM25=9.3127, Final Score=2.2743
+2025-08-06 09:07:57.628 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 5 (王强.md, hash: 2c6e673a7b2e06addee354021ad1453c): Cross-Encoder=0.5184, BM25=9.6202, Final Score=2.3387
+2025-08-06 09:07:57.628 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 6 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.4833, BM25=0.0000, Final Score=0.3867
+2025-08-06 09:07:57.628 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 7 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.4921, BM25=6.0043, Final Score=1.5945
+2025-08-06 09:07:57.628 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 8 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.4783, BM25=0.0000, Final Score=0.3826
+2025-08-06 09:07:57.628 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 9 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.4811, BM25=0.0000, Final Score=0.3849
+2025-08-06 09:07:57.628 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 10 (李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59): Cross-Encoder=0.4840, BM25=5.2619, Final Score=1.4396
+2025-08-06 09:07:57.628 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 11 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.4808, BM25=5.4636, Final Score=1.4773
+2025-08-06 09:07:57.628 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 12 (郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.4713, BM25=5.3476, Final Score=1.4466
+2025-08-06 09:07:57.628 | INFO     | vector_store:hybrid_search_with_rerank:350 - 重排序并过滤后，返回前 1 份文档。
+2025-08-06 09:07:57.629 | INFO     | rag_pipeline:full_rag_pipeline:85 - 实际检索到 1 份相关文档，将请求LLM生成同样数量的推荐。
+2025-08-06 09:08:04.213 | INFO     | rag_pipeline:rag_generate:60 - RAG 生成完成，查询: 需要WEB前端开发工程师, 返回候选人: 1
+2025-08-06 09:08:04.213 | WARNING  | rag_pipeline:full_rag_pipeline:90 - 延迟超过5s: 10.617180109024048s
+2025-08-06 09:08:04.213 | INFO     | rag_pipeline:full_rag_pipeline:91 - RAG 管道执行完成，延迟: 10.617180109024048s, 返回候选人: 1
+2025-08-06 09:09:16.065 | INFO     | vector_store:__init__:37 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-06 09:09:16.638 | INFO     | vector_store:__init__:47 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-06 09:09:22.455 | INFO     | vector_store:__init__:73 - MongoDB 连接成功: mongodb://admin:123456@82.156.249.211:27017/resume_db?authSource=admin
+2025-08-06 09:09:22.850 | INFO     | vector_store:_create_or_load_collection:110 - 已加载集合 resume_embeddings
+2025-08-06 09:09:23.620 | INFO     | vector_store:__init__:82 - 向量存储初始化完成
+2025-08-06 09:09:23.620 | INFO     | vector_store:hybrid_search_with_rerank:222 - 开始混合检索，查询: '需要WEB前端开发工程师', k=20, m=1
+2025-08-06 09:09:23.620 | DEBUG    | vector_store:hybrid_search_with_rerank:226 - 正在生成查询嵌入...
+2025-08-06 09:09:24.007 | DEBUG    | vector_store:hybrid_search_with_rerank:228 - 查询嵌入生成成功。
+2025-08-06 09:09:24.007 | DEBUG    | vector_store:hybrid_search_with_rerank:238 - 正在进行 Milvus 混合召回...
+2025-08-06 09:09:24.964 | INFO     | vector_store:hybrid_search_with_rerank:254 - Milvus 召回完成，获取 20 个结果。
+2025-08-06 09:09:24.964 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 1: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=0.5093
+2025-08-06 09:09:24.964 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 2: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=0.5073
+2025-08-06 09:09:24.964 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 3: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=0.5071
+2025-08-06 09:09:24.964 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 4: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=0.5069
+2025-08-06 09:09:24.964 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 5: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=0.5065
+2025-08-06 09:09:24.965 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 6: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_0, score=0.5061
+2025-08-06 09:09:24.965 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 7: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_2, score=0.5058
+2025-08-06 09:09:24.965 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 8: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=0.5053
+2025-08-06 09:09:24.965 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 9: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_0, score=0.5052
+2025-08-06 09:09:24.965 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 10: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_1, score=0.5051
+2025-08-06 09:09:24.965 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 11: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, score=0.5021
+2025-08-06 09:09:24.965 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 12: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_1, score=0.5020
+2025-08-06 09:09:24.965 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 13: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=0.5020
+2025-08-06 09:09:24.965 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 14: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=0.4999
+2025-08-06 09:09:24.965 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 15: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_2, score=0.4995
+2025-08-06 09:09:24.965 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 16: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=0.3437
+2025-08-06 09:09:24.965 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 17: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=0.3389
+2025-08-06 09:09:24.966 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 18: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=0.3380
+2025-08-06 09:09:24.966 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 19: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_3, score=0.3374
+2025-08-06 09:09:24.966 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 20: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_1_child_0, score=0.3369
+2025-08-06 09:09:24.966 | DEBUG    | vector_store:hybrid_search_with_rerank:259 - 正在进行 Elasticsearch BM25 召回...
+2025-08-06 09:09:26.330 | INFO     | vector_store:hybrid_search_with_rerank:265 - ES BM25 召回完成，获取 20 个结果。
+2025-08-06 09:09:26.330 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 1: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=10.5144
+2025-08-06 09:09:26.330 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 2: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_0, score=9.6202
+2025-08-06 09:09:26.330 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 3: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=9.5794
+2025-08-06 09:09:26.330 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 4: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_0, score=9.3127
+2025-08-06 09:09:26.330 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 5: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=8.7351
+2025-08-06 09:09:26.330 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 6: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=8.4227
+2025-08-06 09:09:26.330 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 7: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=8.3719
+2025-08-06 09:09:26.330 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 8: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_2, score=8.1744
+2025-08-06 09:09:26.330 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 9: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_1, score=8.1029
+2025-08-06 09:09:26.330 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 10: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=7.8269
+2025-08-06 09:09:26.330 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 11: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_1, score=7.5331
+2025-08-06 09:09:26.330 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 12: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_1, score=7.2480
+2025-08-06 09:09:26.331 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 13: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_2, score=7.2307
+2025-08-06 09:09:26.331 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=6.1160
+2025-08-06 09:09:26.331 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 15: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=6.0043
+2025-08-06 09:09:26.331 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 16: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_2, score=5.4636
+2025-08-06 09:09:26.331 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 17: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_2, score=5.3893
+2025-08-06 09:09:26.331 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 18: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_2, score=5.3476
+2025-08-06 09:09:26.331 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 19: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_1_child_0, score=5.2619
+2025-08-06 09:09:26.331 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 20: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_2, score=4.9754
+2025-08-06 09:09:26.331 | DEBUG    | vector_store:hybrid_search_with_rerank:270 - 开始合并 Milvus 和 ES 的召回结果...
+2025-08-06 09:09:26.331 | DEBUG    | vector_store:hybrid_search_with_rerank:279 - 添加 Milvus 结果后，候选集大小: 20
+2025-08-06 09:09:26.331 | DEBUG    | vector_store:hybrid_search_with_rerank:292 - 添加 ES 结果后，最终候选集大小: 25
+2025-08-06 09:09:26.331 | INFO     | vector_store:hybrid_search_with_rerank:295 - 合并后子块数量: 25 (Milvus: 20, ES: 20)
+2025-08-06 09:09:26.332 | INFO     | vector_store:hybrid_search_with_rerank:299 - 从 25 个子块中提取了 12 个唯一的父文档。
+2025-08-06 09:09:26.332 | DEBUG    | vector_store:hybrid_search_with_rerank:305 - 准备使用 Cross-Encoder 对 12 个父文档进行重排序...
+2025-08-06 09:09:27.751 | DEBUG    | vector_store:hybrid_search_with_rerank:309 - Cross-Encoder 评分完成。
+2025-08-06 09:09:27.752 | DEBUG    | vector_store:hybrid_search_with_rerank:312 - 开始融合 Cross-Encoder 分数和 BM25 分数...
+2025-08-06 09:09:27.752 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 1 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5566, BM25=7.8269, Final Score=2.0106
+2025-08-06 09:09:27.752 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 2 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5563, BM25=6.1160, Final Score=1.6682
+2025-08-06 09:09:27.752 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 3 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.5552, BM25=9.5794, Final Score=2.3600
+2025-08-06 09:09:27.752 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 4 (李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59): Cross-Encoder=0.5564, BM25=9.3127, Final Score=2.3076
+2025-08-06 09:09:27.752 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 5 (王强.md, hash: 2c6e673a7b2e06addee354021ad1453c): Cross-Encoder=0.5549, BM25=9.6202, Final Score=2.3680
+2025-08-06 09:09:27.752 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 6 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.5561, BM25=0.0000, Final Score=0.4449
+2025-08-06 09:09:27.752 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 7 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.5549, BM25=6.0043, Final Score=1.6448
+2025-08-06 09:09:27.752 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 8 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.5563, BM25=0.0000, Final Score=0.4450
+2025-08-06 09:09:27.752 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 9 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.5563, BM25=0.0000, Final Score=0.4450
+2025-08-06 09:09:27.753 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 10 (李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59): Cross-Encoder=0.5561, BM25=5.2619, Final Score=1.4973
+2025-08-06 09:09:27.753 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 11 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.5562, BM25=5.4636, Final Score=1.5377
+2025-08-06 09:09:27.753 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 12 (郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.5564, BM25=5.3476, Final Score=1.5146
+2025-08-06 09:09:27.753 | INFO     | vector_store:hybrid_search_with_rerank:350 - 重排序并过滤后，返回前 1 份文档。
+2025-08-06 09:09:27.753 | INFO     | rag_pipeline:full_rag_pipeline:85 - 实际检索到 1 份相关文档，将请求LLM生成同样数量的推荐。
+2025-08-06 09:09:32.198 | INFO     | rag_pipeline:rag_generate:60 - RAG 生成完成，查询: 需要WEB前端开发工程师, 返回候选人: 1
+2025-08-06 09:09:32.199 | WARNING  | rag_pipeline:full_rag_pipeline:90 - 延迟超过5s: 8.57845139503479s
+2025-08-06 09:09:32.199 | INFO     | rag_pipeline:full_rag_pipeline:91 - RAG 管道执行完成，延迟: 8.57845139503479s, 返回候选人: 1
+2025-08-06 09:13:12.057 | INFO     | vector_store:__init__:37 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\models\bge-m3
+2025-08-06 09:13:12.613 | INFO     | vector_store:__init__:47 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\models\bge-reranker-base
+2025-08-06 09:13:16.882 | INFO     | vector_store:__init__:73 - MongoDB 连接成功: mongodb://admin:123456@82.156.249.211:27017/resume_db?authSource=admin
+2025-08-06 09:13:17.238 | INFO     | vector_store:_create_or_load_collection:110 - 已加载集合 resume_embeddings
+2025-08-06 09:13:18.060 | INFO     | vector_store:__init__:82 - 向量存储初始化完成
+2025-08-06 09:13:18.060 | INFO     | vector_store:hybrid_search_with_rerank:222 - 开始混合检索，查询: '需要WEB前端开发工程师', k=20, m=1
+2025-08-06 09:13:18.061 | DEBUG    | vector_store:hybrid_search_with_rerank:226 - 正在生成查询嵌入...
+2025-08-06 09:13:18.994 | DEBUG    | vector_store:hybrid_search_with_rerank:228 - 查询嵌入生成成功。
+2025-08-06 09:13:18.994 | DEBUG    | vector_store:hybrid_search_with_rerank:238 - 正在进行 Milvus 混合召回...
+2025-08-06 09:13:19.856 | INFO     | vector_store:hybrid_search_with_rerank:254 - Milvus 召回完成，获取 20 个结果。
+2025-08-06 09:13:19.856 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 1: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=0.5093
+2025-08-06 09:13:19.856 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 2: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=0.5073
+2025-08-06 09:13:19.856 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 3: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=0.5071
+2025-08-06 09:13:19.857 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 4: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=0.5069
+2025-08-06 09:13:19.857 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 5: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=0.5065
+2025-08-06 09:13:19.857 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 6: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_0, score=0.5061
+2025-08-06 09:13:19.858 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 7: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_2, score=0.5058
+2025-08-06 09:13:19.858 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 8: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=0.5053
+2025-08-06 09:13:19.858 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 9: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_0, score=0.5052
+2025-08-06 09:13:19.858 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 10: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_1, score=0.5051
+2025-08-06 09:13:19.858 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 11: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, score=0.5021
+2025-08-06 09:13:19.858 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 12: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_1, score=0.5020
+2025-08-06 09:13:19.858 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 13: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=0.5020
+2025-08-06 09:13:19.859 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 14: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, score=0.4999
+2025-08-06 09:13:19.859 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 15: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_2, score=0.4995
+2025-08-06 09:13:19.859 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 16: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=0.3437
+2025-08-06 09:13:19.859 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 17: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_0, score=0.3389
+2025-08-06 09:13:19.865 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 18: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=0.3380
+2025-08-06 09:13:19.865 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 19: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_3, score=0.3374
+2025-08-06 09:13:19.865 | DEBUG    | vector_store:hybrid_search_with_rerank:256 -   Milvus 结果 20: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_1_child_0, score=0.3369
+2025-08-06 09:13:19.865 | DEBUG    | vector_store:hybrid_search_with_rerank:259 - 正在进行 Elasticsearch BM25 召回...
+2025-08-06 09:13:21.278 | INFO     | vector_store:hybrid_search_with_rerank:265 - ES BM25 召回完成，获取 20 个结果。
+2025-08-06 09:13:21.278 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 1: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_3, score=10.5144
+2025-08-06 09:13:21.278 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 2: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_0, score=9.6202
+2025-08-06 09:13:21.279 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 3: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=9.5794
+2025-08-06 09:13:21.279 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 4: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_0, score=9.3127
+2025-08-06 09:13:21.280 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 5: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_2, score=8.7351
+2025-08-06 09:13:21.280 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 6: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_1, score=8.4227
+2025-08-06 09:13:21.280 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 7: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_1, score=8.3719
+2025-08-06 09:13:21.281 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 8: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_2, score=8.1744
+2025-08-06 09:13:21.281 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 9: id=doc_2c6e673a7b2e06addee354021ad1453c_parent_0_child_1, score=8.1029
+2025-08-06 09:13:21.281 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 10: id=doc_336bede497765123a6f144ee6fa010ef_parent_0_child_0, score=7.8269
+2025-08-06 09:13:21.282 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 11: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_1, score=7.5331
+2025-08-06 09:13:21.282 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 12: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_0_child_1, score=7.2480
+2025-08-06 09:13:21.283 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 13: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_2, score=7.2307
+2025-08-06 09:13:21.283 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 14: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_0, score=6.1160
+2025-08-06 09:13:21.283 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 15: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_1_child_0, score=6.0043
+2025-08-06 09:13:21.283 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 16: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_2, score=5.4636
+2025-08-06 09:13:21.283 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 17: id=doc_336bede497765123a6f144ee6fa010ef_parent_1_child_2, score=5.3893
+2025-08-06 09:13:21.284 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 18: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_2, score=5.3476
+2025-08-06 09:13:21.284 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 19: id=doc_9aa01a4b1424ef367eb21a5aa929fa59_parent_1_child_0, score=5.2619
+2025-08-06 09:13:21.285 | DEBUG    | vector_store:hybrid_search_with_rerank:267 -   ES 结果 20: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_2, score=4.9754
+2025-08-06 09:13:21.285 | DEBUG    | vector_store:hybrid_search_with_rerank:270 - 开始合并 Milvus 和 ES 的召回结果...
+2025-08-06 09:13:21.285 | DEBUG    | vector_store:hybrid_search_with_rerank:279 - 添加 Milvus 结果后，候选集大小: 20
+2025-08-06 09:13:21.286 | DEBUG    | vector_store:hybrid_search_with_rerank:292 - 添加 ES 结果后，最终候选集大小: 25
+2025-08-06 09:13:21.286 | INFO     | vector_store:hybrid_search_with_rerank:295 - 合并后子块数量: 25 (Milvus: 20, ES: 20)
+2025-08-06 09:13:21.291 | INFO     | vector_store:hybrid_search_with_rerank:299 - 从 25 个子块中提取了 12 个唯一的父文档。
+2025-08-06 09:13:21.291 | DEBUG    | vector_store:hybrid_search_with_rerank:305 - 准备使用 Cross-Encoder 对 12 个父文档进行重排序...
+2025-08-06 09:13:24.147 | DEBUG    | vector_store:hybrid_search_with_rerank:309 - Cross-Encoder 评分完成。
+2025-08-06 09:13:24.147 | DEBUG    | vector_store:hybrid_search_with_rerank:312 - 开始融合 Cross-Encoder 分数和 BM25 分数...
+2025-08-06 09:13:24.148 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 1 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5291, BM25=7.8269, Final Score=1.9886
+2025-08-06 09:13:24.148 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 2 (张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef): Cross-Encoder=0.5295, BM25=6.1160, Final Score=1.6468
+2025-08-06 09:13:24.148 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 3 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.5223, BM25=9.5794, Final Score=2.3337
+2025-08-06 09:13:24.149 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 4 (李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59): Cross-Encoder=0.5248, BM25=9.3127, Final Score=2.2823
+2025-08-06 09:13:24.149 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 5 (王强.md, hash: 2c6e673a7b2e06addee354021ad1453c): Cross-Encoder=0.5218, BM25=9.6202, Final Score=2.3415
+2025-08-06 09:13:24.149 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 6 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.5320, BM25=0.0000, Final Score=0.4256
+2025-08-06 09:13:24.149 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 7 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.5316, BM25=6.0043, Final Score=1.6262
+2025-08-06 09:13:24.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 8 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.5315, BM25=0.0000, Final Score=0.4252
+2025-08-06 09:13:24.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 9 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.5318, BM25=0.0000, Final Score=0.4254
+2025-08-06 09:13:24.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 10 (李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59): Cross-Encoder=0.5320, BM25=5.2619, Final Score=1.4780
+2025-08-06 09:13:24.150 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 11 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.5318, BM25=5.4636, Final Score=1.5181
+2025-08-06 09:13:24.151 | DEBUG    | vector_store:hybrid_search_with_rerank:325 -   文档 12 (郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.5311, BM25=5.3476, Final Score=1.4944
+2025-08-06 09:13:24.151 | INFO     | vector_store:hybrid_search_with_rerank:350 - 重排序并过滤后，返回前 1 份文档。
+2025-08-06 09:13:24.151 | INFO     | rag_pipeline:full_rag_pipeline:85 - 实际检索到 1 份相关文档，将请求LLM生成同样数量的推荐。
+2025-08-06 09:13:31.885 | INFO     | rag_pipeline:rag_generate:60 - RAG 生成完成，查询: 需要WEB前端开发工程师, 返回候选人: 1
+2025-08-06 09:13:31.885 | WARNING  | rag_pipeline:full_rag_pipeline:90 - 延迟超过5s: 13.825414180755615s
+2025-08-06 09:13:31.886 | INFO     | rag_pipeline:full_rag_pipeline:91 - RAG 管道执行完成，延迟: 13.825414180755615s, 返回候选人: 1
