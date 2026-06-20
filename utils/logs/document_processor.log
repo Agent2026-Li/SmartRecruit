@@ -1,0 +1,717 @@
+2025-08-09 14:44:07.296 | INFO     | __main__:__init__:37 - 成功加载嵌入模型: D:\LLM_Codes\Chapter3_RAG\app_new\models\bge-m3
+2025-08-09 14:44:07.812 | INFO     | __main__:__init__:47 - 成功加载重排序模型: D:\LLM_Codes\Chapter3_RAG\app_new\models\bge-reranker-base
+2025-08-09 14:44:07.954 | INFO     | __main__:__init__:73 - MongoDB 连接成功: mongodb://admin:123456@82.156.249.211:27017/resume_db?authSource=admin
+2025-08-09 14:44:07.963 | INFO     | __main__:_create_or_load_collection:110 - 已加载集合 resume_embeddings
+2025-08-09 14:44:07.983 | INFO     | __main__:__init__:82 - 向量存储初始化完成
+2025-08-09 14:44:07.994 | INFO     | app_new.utils.document_processor:process_document:164 - 开始处理单个文档: test_resume.txt
+2025-08-09 14:44:07.996 | INFO     | app_new.utils.document_processor:process_document:180 - 处理文档: test_resume.txt, 使用切分器: RecursiveCharacter
+2025-08-09 14:44:07.997 | DEBUG    | app_new.utils.document_processor:process_document:183 - 文档 test_resume.txt 切分为 2 个父块
+2025-08-09 14:44:07.997 | DEBUG    | app_new.utils.document_processor:process_document:197 - 生成子块: doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, 父块: doc_27565f9a57c128674736aa644012ce67_parent_0, 内容长度: 329
+2025-08-09 14:44:07.997 | DEBUG    | app_new.utils.document_processor:process_document:197 - 生成子块: doc_27565f9a57c128674736aa644012ce67_parent_0_child_1, 父块: doc_27565f9a57c128674736aa644012ce67_parent_0, 内容长度: 298
+2025-08-09 14:44:07.997 | DEBUG    | app_new.utils.document_processor:process_document:197 - 生成子块: doc_27565f9a57c128674736aa644012ce67_parent_0_child_2, 父块: doc_27565f9a57c128674736aa644012ce67_parent_0, 内容长度: 308
+2025-08-09 14:44:07.997 | DEBUG    | app_new.utils.document_processor:process_document:197 - 生成子块: doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, 父块: doc_27565f9a57c128674736aa644012ce67_parent_1, 内容长度: 151
+2025-08-09 14:44:07.997 | INFO     | app_new.utils.document_processor:process_document:199 - 文档 test_resume.txt 共生成 4 个子块
+2025-08-09 14:44:08.007 | WARNING  | __main__:store_resume:118 - 简历已存在，hash: 27565f9a57c128674736aa644012ce67, 文件: test_resume.txt
+2025-08-09 14:44:08.007 | INFO     | __main__:hybrid_search_with_rerank:225 - 开始混合检索，查询: '计算机专业，3年经验', k=5, m=2
+2025-08-09 14:44:08.007 | DEBUG    | __main__:hybrid_search_with_rerank:229 - 正在生成查询嵌入...
+2025-08-09 14:44:08.456 | DEBUG    | __main__:hybrid_search_with_rerank:231 - 查询嵌入生成成功。
+2025-08-09 14:44:08.456 | DEBUG    | __main__:hybrid_search_with_rerank:241 - 正在进行 Milvus 混合召回...
+2025-08-09 14:44:09.009 | INFO     | __main__:hybrid_search_with_rerank:257 - Milvus 召回完成，获取 5 个结果。
+2025-08-09 14:44:09.009 | DEBUG    | __main__:hybrid_search_with_rerank:259 -   Milvus 结果 1: id=doc_27565f9a57c128674736aa644012ce67_parent_1_child_0, score=0.5087
+2025-08-09 14:44:09.009 | DEBUG    | __main__:hybrid_search_with_rerank:259 -   Milvus 结果 2: id=doc_2508647664778702bff4db7fee1da765_parent_0_child_0, score=0.4975
+2025-08-09 14:44:09.009 | DEBUG    | __main__:hybrid_search_with_rerank:259 -   Milvus 结果 3: id=doc_26d07d497507278334fea0fb6c539a72_parent_0_child_0, score=0.3377
+2025-08-09 14:44:09.009 | DEBUG    | __main__:hybrid_search_with_rerank:259 -   Milvus 结果 4: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, score=0.3365
+2025-08-09 14:44:09.009 | DEBUG    | __main__:hybrid_search_with_rerank:259 -   Milvus 结果 5: id=doc_21160040a62910ab2e43a6f1cc17a5b6_parent_0_child_1, score=0.3362
+2025-08-09 14:44:09.009 | DEBUG    | __main__:hybrid_search_with_rerank:262 - 正在进行 Elasticsearch BM25 召回...
+2025-08-09 14:44:09.137 | INFO     | __main__:hybrid_search_with_rerank:268 - ES BM25 召回完成，获取 5 个结果。
+2025-08-09 14:44:09.137 | DEBUG    | __main__:hybrid_search_with_rerank:270 -   ES 结果 1: id=doc_26d07d497507278334fea0fb6c539a72_parent_0_child_0, score=9.3759
+2025-08-09 14:44:09.137 | DEBUG    | __main__:hybrid_search_with_rerank:270 -   ES 结果 2: id=doc_507862e1a6c2919347dd01f6c75f5eb9_parent_0_child_0, score=8.5088
+2025-08-09 14:44:09.137 | DEBUG    | __main__:hybrid_search_with_rerank:270 -   ES 结果 3: id=doc_27565f9a57c128674736aa644012ce67_parent_0_child_0, score=8.3365
+2025-08-09 14:44:09.137 | DEBUG    | __main__:hybrid_search_with_rerank:270 -   ES 结果 4: id=doc_12b290a99929f37072774abb2dd2fef9_parent_0_child_0, score=7.8493
+2025-08-09 14:44:09.138 | DEBUG    | __main__:hybrid_search_with_rerank:270 -   ES 结果 5: id=doc_1c0f34327bbbfaee55b8238bf8b7676c_parent_0_child_0, score=7.2117
+2025-08-09 14:44:09.138 | DEBUG    | __main__:hybrid_search_with_rerank:273 - 开始合并 Milvus 和 ES 的召回结果...
+2025-08-09 14:44:09.138 | DEBUG    | __main__:hybrid_search_with_rerank:282 - 添加 Milvus 结果后，候选集大小: 5
+2025-08-09 14:44:09.138 | DEBUG    | __main__:hybrid_search_with_rerank:295 - 添加 ES 结果后，最终候选集大小: 8
+2025-08-09 14:44:09.138 | INFO     | __main__:hybrid_search_with_rerank:298 - 合并后子块数量: 8 (Milvus: 5, ES: 5)
+2025-08-09 14:44:09.138 | INFO     | __main__:hybrid_search_with_rerank:302 - 从 8 个子块中提取了 8 个唯一的父文档。
+2025-08-09 14:44:09.138 | DEBUG    | __main__:hybrid_search_with_rerank:308 - 准备使用 Cross-Encoder 对 8 个父文档进行重排序...
+2025-08-09 14:44:10.567 | DEBUG    | __main__:hybrid_search_with_rerank:312 - Cross-Encoder 评分完成。
+2025-08-09 14:44:10.567 | DEBUG    | __main__:hybrid_search_with_rerank:315 - 开始融合 Cross-Encoder 分数和 BM25 分数...
+2025-08-09 14:44:10.567 | DEBUG    | __main__:hybrid_search_with_rerank:328 -   文档 1 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.4739, BM25=0.0000, Final Score=0.3791
+2025-08-09 14:44:10.568 | DEBUG    | __main__:hybrid_search_with_rerank:328 -   文档 2 (郭杰的简历 _20250806075537.pdf, hash: 2508647664778702bff4db7fee1da765): Cross-Encoder=0.4625, BM25=0.0000, Final Score=0.3700
+2025-08-09 14:44:10.568 | DEBUG    | __main__:hybrid_search_with_rerank:328 -   文档 3 (AI大模型个人简历_20250806095046.pdf, hash: 26d07d497507278334fea0fb6c539a72): Cross-Encoder=0.4711, BM25=9.3759, Final Score=2.2521
+2025-08-09 14:44:10.568 | DEBUG    | __main__:hybrid_search_with_rerank:328 -   文档 4 (test_resume.txt, hash: 27565f9a57c128674736aa644012ce67): Cross-Encoder=0.4694, BM25=8.3365, Final Score=2.0428
+2025-08-09 14:44:10.568 | DEBUG    | __main__:hybrid_search_with_rerank:328 -   文档 5 (王明数据工程师简历.md, hash: 21160040a62910ab2e43a6f1cc17a5b6): Cross-Encoder=0.4731, BM25=0.0000, Final Score=0.3785
+2025-08-09 14:44:10.568 | DEBUG    | __main__:hybrid_search_with_rerank:328 -   文档 6 (张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9): Cross-Encoder=0.4666, BM25=8.5088, Final Score=2.0750
+2025-08-09 14:44:10.568 | DEBUG    | __main__:hybrid_search_with_rerank:328 -   文档 7 (庄宇_简历_20250807105559.pdf, hash: 12b290a99929f37072774abb2dd2fef9): Cross-Encoder=0.4467, BM25=7.8493, Final Score=1.9272
+2025-08-09 14:44:10.568 | DEBUG    | __main__:hybrid_search_with_rerank:328 -   文档 8 (李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c): Cross-Encoder=0.4673, BM25=7.2117, Final Score=1.8162
+2025-08-09 14:44:10.568 | INFO     | __main__:hybrid_search_with_rerank:353 - 重排序并过滤后，返回前 2 份文档。
+2025-08-09 14:44:10.598 | INFO     | __main__:get_full_resume:198 - 成功获取完整简历: hash 27565f9a57c128674736aa644012ce67
+2025-08-09 16:41:14.070 | INFO     | __main__:load_documents_from_directory:117 - 成功加载文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\AI大模型个人简历_20250806095046.pdf, hash: 26d07d497507278334fea0fb6c539a72, 内容长度: 755
+2025-08-09 16:41:14.070 | WARNING  | __main__:load_documents_from_directory:83 - 跳过临时文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\~$魏德品_简历.doc
+2025-08-09 16:41:14.224 | INFO     | __main__:load_documents_from_directory:117 - 成功加载文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\庄宇_简历_20250807105559.pdf, hash: 12b290a99929f37072774abb2dd2fef9, 内容长度: 1189
+2025-08-09 16:41:19.542 | INFO     | __main__:load_documents_from_directory:117 - 成功加载文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张三前端开发工程师简历.md, hash: 336bede497765123a6f144ee6fa010ef, 内容长度: 1704
+2025-08-09 16:41:19.562 | INFO     | __main__:load_documents_from_directory:117 - 成功加载文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\张伟开发工程师.md, hash: 507862e1a6c2919347dd01f6c75f5eb9, 内容长度: 1208
+2025-08-09 16:41:19.576 | INFO     | __main__:load_documents_from_directory:117 - 成功加载文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李娜.md, hash: 9aa01a4b1424ef367eb21a5aa929fa59, 内容长度: 1129
+2025-08-09 16:41:19.585 | INFO     | __main__:load_documents_from_directory:117 - 成功加载文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李旭-简历.docx, hash: 1c0f34327bbbfaee55b8238bf8b7676c, 内容长度: 3042
+2025-08-09 16:41:19.643 | INFO     | __main__:load_documents_from_directory:117 - 成功加载文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2, 内容长度: 1061
+2025-08-09 16:41:19.643 | INFO     | __main__:load_documents_from_directory:104 - 使用 utf-8 编码加载成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\林青霞.txt
+2025-08-09 16:41:19.643 | INFO     | __main__:load_documents_from_directory:117 - 成功加载文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\林青霞.txt, hash: 846c387153e1061340eb30b5ce7e6e73, 内容长度: 1314
+2025-08-09 17:57:12.515 | INFO     | __main__:<module>:206 - ==================================================
+2025-08-09 17:57:12.518 | INFO     | __main__:<module>:207 - 开始独立验证 document_processor.py 模块...
+2025-08-09 17:57:12.518 | INFO     | __main__:<module>:219 - --- 1. 测试加载与哈希 ---
+2025-08-09 17:57:12.518 | INFO     | __main__:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-09 17:57:12.772 | INFO     | __main__:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-09 17:57:12.772 | INFO     | __main__:<module>:222 - 加载成功: hash=91a04a181f1d14e05af733e349f9add2, 内容长度=1061
+2025-08-09 17:57:12.773 | INFO     | __main__:<module>:225 - --- 2. 测试结构化信息解析 ---
+2025-08-09 17:57:12.773 | INFO     | __main__:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 17:57:16.267 | DEBUG    | __main__:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "李明",
+  "gender": "未提供",
+  "age": -1,
+  "work_experience": 3
+}
+```
+2025-08-09 17:57:16.268 | INFO     | __main__:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-09 17:57:16.268 | INFO     | __main__:<module>:228 - 解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-09 17:57:16.268 | INFO     | __main__:<module>:231 - --- 3. 测试文档切块 ---
+2025-08-09 17:57:16.268 | INFO     | __main__:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-09 17:57:16.268 | INFO     | __main__:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 17:57:16.268 | DEBUG    | __main__:process_document:181 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf 切分为 2 个父块
+2025-08-09 17:57:16.268 | DEBUG    | __main__:process_document:198 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 393
+2025-08-09 17:57:16.268 | DEBUG    | __main__:process_document:198 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_1, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 381
+2025-08-09 17:57:16.268 | DEBUG    | __main__:process_document:198 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_2, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 335
+2025-08-09 17:57:16.268 | DEBUG    | __main__:process_document:198 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_1_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_1, 内容长度: 147
+2025-08-09 17:57:16.268 | INFO     | __main__:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-09 17:57:16.268 | INFO     | __main__:<module>:235 - 切块成功: 共生成 4 个子块。
+2025-08-09 17:57:16.268 | INFO     | __main__:<module>:236 - 第一个子块ID: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0
+2025-08-09 17:57:16.268 | INFO     | __main__:<module>:238 - ==================================================
+2025-08-09 17:57:16.269 | SUCCESS  | __main__:<module>:239 - document_processor.py 模块所有功能验证通过！
+2025-08-09 18:02:39.735 | INFO     | __main__:<module>:206 - ==================================================
+2025-08-09 18:02:39.738 | INFO     | __main__:<module>:207 - 开始独立验证 document_processor.py 模块...
+2025-08-09 18:02:39.738 | INFO     | __main__:<module>:219 - --- 1. 测试加载与哈希 ---
+2025-08-09 18:02:39.738 | INFO     | __main__:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-09 18:02:39.974 | INFO     | __main__:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-09 18:02:39.974 | INFO     | __main__:<module>:222 - 加载成功: hash=91a04a181f1d14e05af733e349f9add2, 内容长度=1061
+2025-08-09 18:02:39.974 | INFO     | __main__:<module>:225 - --- 2. 测试结构化信息解析 ---
+2025-08-09 18:02:39.974 | INFO     | __main__:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:02:44.074 | DEBUG    | __main__:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "李明",
+  "gender": "未提供",
+  "age": -1,
+  "work_experience": 3
+}
+```
+2025-08-09 18:02:44.074 | INFO     | __main__:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-09 18:02:44.074 | INFO     | __main__:<module>:228 - 解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-09 18:02:44.074 | INFO     | __main__:<module>:231 - --- 3. 测试文档切块 ---
+2025-08-09 18:02:44.074 | INFO     | __main__:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-09 18:02:44.074 | INFO     | __main__:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 18:02:44.075 | DEBUG    | __main__:process_document:181 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf 切分为 2 个父块
+2025-08-09 18:02:44.075 | DEBUG    | __main__:process_document:198 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 393
+2025-08-09 18:02:44.075 | DEBUG    | __main__:process_document:198 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_1, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 381
+2025-08-09 18:02:44.075 | DEBUG    | __main__:process_document:198 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_2, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 335
+2025-08-09 18:02:44.075 | DEBUG    | __main__:process_document:198 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_1_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_1, 内容长度: 147
+2025-08-09 18:02:44.075 | INFO     | __main__:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-09 18:02:44.075 | INFO     | __main__:<module>:235 - 切块成功: 共生成 4 个子块。
+2025-08-09 18:02:44.075 | INFO     | __main__:<module>:236 - 第一个子块ID: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0
+2025-08-09 18:02:44.075 | INFO     | __main__:<module>:238 - ==================================================
+2025-08-09 18:02:44.075 | SUCCESS  | __main__:<module>:239 - document_processor.py 模块所有功能验证通过！
+2025-08-09 18:06:10.180 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: test.txt
+2025-08-09 18:06:10.180 | INFO     | utils.document_processor:process_document:178 - 处理文档: test.txt, 使用切分器: RecursiveCharacter
+2025-08-09 18:06:10.181 | DEBUG    | utils.document_processor:process_document:181 - 文档 test.txt 切分为 1 个父块
+2025-08-09 18:06:10.181 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_4e9fbcb1a4d0b42d4d0aa354694994a4_parent_0_child_0, 父块: doc_4e9fbcb1a4d0b42d4d0aa354694994a4_parent_0, 内容长度: 35
+2025-08-09 18:06:10.181 | INFO     | utils.document_processor:process_document:200 - 文档 test.txt 共生成 1 个子块
+2025-08-09 18:11:44.281 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: test.txt
+2025-08-09 18:11:44.281 | INFO     | utils.document_processor:process_document:178 - 处理文档: test.txt, 使用切分器: RecursiveCharacter
+2025-08-09 18:11:44.283 | DEBUG    | utils.document_processor:process_document:181 - 文档 test.txt 切分为 1 个父块
+2025-08-09 18:11:44.283 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_4e9fbcb1a4d0b42d4d0aa354694994a4_parent_0_child_0, 父块: doc_4e9fbcb1a4d0b42d4d0aa354694994a4_parent_0, 内容长度: 35
+2025-08-09 18:11:44.283 | INFO     | utils.document_processor:process_document:200 - 文档 test.txt 共生成 1 个子块
+2025-08-09 18:12:10.529 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: test.txt
+2025-08-09 18:12:10.529 | INFO     | utils.document_processor:process_document:178 - 处理文档: test.txt, 使用切分器: RecursiveCharacter
+2025-08-09 18:12:10.530 | DEBUG    | utils.document_processor:process_document:181 - 文档 test.txt 切分为 1 个父块
+2025-08-09 18:12:10.530 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_4e9fbcb1a4d0b42d4d0aa354694994a4_parent_0_child_0, 父块: doc_4e9fbcb1a4d0b42d4d0aa354694994a4_parent_0, 内容长度: 35
+2025-08-09 18:12:10.530 | INFO     | utils.document_processor:process_document:200 - 文档 test.txt 共生成 1 个子块
+2025-08-09 18:15:48.919 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: test.txt
+2025-08-09 18:15:48.920 | INFO     | utils.document_processor:process_document:178 - 处理文档: test.txt, 使用切分器: RecursiveCharacter
+2025-08-09 18:15:48.920 | DEBUG    | utils.document_processor:process_document:181 - 文档 test.txt 切分为 1 个父块
+2025-08-09 18:15:48.921 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_4e9fbcb1a4d0b42d4d0aa354694994a4_parent_0_child_0, 父块: doc_4e9fbcb1a4d0b42d4d0aa354694994a4_parent_0, 内容长度: 35
+2025-08-09 18:15:48.921 | INFO     | utils.document_processor:process_document:200 - 文档 test.txt 共生成 1 个子块
+2025-08-09 18:21:44.946 | SUCCESS  | __main__:<module>:200 - VectorStore 和 DocumentProcessor 初始化成功！
+2025-08-09 18:21:44.946 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf
+2025-08-09 18:21:45.352 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-09 18:21:45.352 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:21:47.977 | DEBUG    | utils.document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "王顺吉",
+  "gender": "未提供",
+  "age": 24,
+  "work_experience": 1
+}
+```
+2025-08-09 18:21:47.977 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王顺吉', 'gender': '未提供', 'age': 24, 'work_experience': 1}
+2025-08-09 18:21:47.977 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf
+2025-08-09 18:21:47.977 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 18:21:47.978 | DEBUG    | utils.document_processor:process_document:181 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf 切分为 2 个父块
+2025-08-09 18:21:47.978 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_0, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 366
+2025-08-09 18:21:47.978 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_1, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 383
+2025-08-09 18:21:47.978 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_2, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 383
+2025-08-09 18:21:47.978 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_1_child_0, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_1, 内容长度: 123
+2025-08-09 18:21:47.978 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf 共生成 4 个子块
+2025-08-09 18:21:47.978 | SUCCESS  | __main__:<module>:215 - 简历加载、解析、切块成功！
+2025-08-09 18:23:35.563 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: test.txt
+2025-08-09 18:23:35.564 | INFO     | utils.document_processor:process_document:178 - 处理文档: test.txt, 使用切分器: RecursiveCharacter
+2025-08-09 18:23:35.564 | DEBUG    | utils.document_processor:process_document:181 - 文档 test.txt 切分为 1 个父块
+2025-08-09 18:23:35.564 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_4e9fbcb1a4d0b42d4d0aa354694994a4_parent_0_child_0, 父块: doc_4e9fbcb1a4d0b42d4d0aa354694994a4_parent_0, 内容长度: 35
+2025-08-09 18:23:35.564 | INFO     | utils.document_processor:process_document:200 - 文档 test.txt 共生成 1 个子块
+2025-08-09 18:23:36.583 | INFO     | __main__:store_resume:112 - 成功存储简历到Milvus, ES和MongoDB, hash: 4e9fbcb1a4d0b42d4d0aa354694994a4
+2025-08-09 18:23:36.584 | SUCCESS  | __main__:<module>:232 - 简历存储功能验证通过！
+2025-08-09 18:23:36.584 | INFO     | __main__:hybrid_search_with_rerank:141 - 开始混合检索: query='有经验的算法工程师', m=1, filter='gender == '男' and work_experience >= 8'
+2025-08-09 18:23:36.895 | INFO     | __main__:hybrid_search_with_rerank:159 - Milvus召回了 3 个结果。
+2025-08-09 18:23:36.908 | INFO     | __main__:hybrid_search_with_rerank:164 - ES召回了 3 个结果。
+2025-08-09 18:23:36.908 | CRITICAL | __main__:<module>:251 - vector_store.py 模块验证失败: %s
+2025-08-09 18:24:28.353 | SUCCESS  | __main__:<module>:200 - VectorStore 和 DocumentProcessor 初始化成功！
+2025-08-09 18:24:28.354 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf
+2025-08-09 18:24:28.786 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-09 18:24:28.786 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:24:33.741 | DEBUG    | utils.document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "王顺吉",
+  "gender": "未提供",
+  "age": 24,
+  "work_experience": 1
+}
+```
+2025-08-09 18:24:33.741 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王顺吉', 'gender': '未提供', 'age': 24, 'work_experience': 1}
+2025-08-09 18:24:33.743 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf
+2025-08-09 18:24:33.743 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 18:24:33.743 | DEBUG    | utils.document_processor:process_document:181 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf 切分为 2 个父块
+2025-08-09 18:24:33.743 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_0, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 366
+2025-08-09 18:24:33.743 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_1, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 383
+2025-08-09 18:24:33.743 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_2, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 383
+2025-08-09 18:24:33.743 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_1_child_0, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_1, 内容长度: 123
+2025-08-09 18:24:33.743 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf 共生成 4 个子块
+2025-08-09 18:24:33.743 | SUCCESS  | __main__:<module>:215 - 简历加载、解析、切块成功！
+2025-08-09 18:24:33.743 | INFO     | __main__:<module>:219 - --> (2/4) 测试简历存储 (清理旧数据后)...
+2025-08-09 18:24:36.340 | INFO     | __main__:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-09 18:24:36.341 | SUCCESS  | __main__:<module>:228 - 简历存储功能验证通过！
+2025-08-09 18:24:36.341 | INFO     | __main__:hybrid_search_with_rerank:133 - 开始混合检索: query='熟悉AI大模型的产品经理', m=1, filter='gender == '男' and work_experience >= 5'
+2025-08-09 18:24:36.596 | INFO     | __main__:hybrid_search_with_rerank:148 - Milvus召回了 3 个结果。
+2025-08-09 18:24:36.612 | INFO     | __main__:hybrid_search_with_rerank:151 - ES召回了 3 个结果。
+2025-08-09 18:24:36.613 | CRITICAL | __main__:<module>:256 - vector_store.py 模块验证失败: 'dict' object has no attribute 'id'
+2025-08-09 18:29:03.465 | SUCCESS  | __main__:<module>:200 - VectorStore 和 DocumentProcessor 初始化成功！
+2025-08-09 18:29:03.465 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf
+2025-08-09 18:29:04.082 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-09 18:29:04.082 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:29:06.793 | DEBUG    | utils.document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "王顺吉",
+  "gender": "未提供",
+  "age": 24,
+  "work_experience": 1
+}
+```
+2025-08-09 18:29:06.793 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王顺吉', 'gender': '未提供', 'age': 24, 'work_experience': 1}
+2025-08-09 18:29:06.793 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf
+2025-08-09 18:29:06.793 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 18:29:06.793 | DEBUG    | utils.document_processor:process_document:181 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf 切分为 2 个父块
+2025-08-09 18:29:06.793 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_0, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 366
+2025-08-09 18:29:06.793 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_1, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 383
+2025-08-09 18:29:06.793 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_2, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 383
+2025-08-09 18:29:06.794 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_1_child_0, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_1, 内容长度: 123
+2025-08-09 18:29:06.794 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf 共生成 4 个子块
+2025-08-09 18:29:06.794 | SUCCESS  | __main__:<module>:215 - 简历加载、解析、切块成功！
+2025-08-09 18:29:06.794 | INFO     | __main__:<module>:219 - --> (2/4) 测试简历存储 (清理旧数据后)...
+2025-08-09 18:29:10.501 | INFO     | __main__:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-09 18:29:10.501 | SUCCESS  | __main__:<module>:228 - 简历存储功能验证通过！
+2025-08-09 18:29:10.501 | INFO     | __main__:hybrid_search_with_rerank:133 - 开始混合检索: query='熟悉AI大模型的产品经理', m=1, filter='gender == '男' and work_experience >= 5'
+2025-08-09 18:29:10.832 | INFO     | __main__:hybrid_search_with_rerank:148 - Milvus召回了 3 个结果。
+2025-08-09 18:29:10.846 | INFO     | __main__:hybrid_search_with_rerank:151 - ES召回了 3 个结果。
+2025-08-09 18:29:11.762 | INFO     | __main__:hybrid_search_with_rerank:179 - 重排和去重后，返回 1 份独立简历。
+2025-08-09 18:29:11.762 | CRITICAL | __main__:<module>:256 - vector_store.py 模块验证失败: 
+2025-08-09 18:31:06.067 | SUCCESS  | __main__:<module>:200 - VectorStore 和 DocumentProcessor 初始化成功！
+2025-08-09 18:31:06.068 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf
+2025-08-09 18:31:09.620 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-09 18:31:09.620 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:31:17.164 | DEBUG    | utils.document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "王顺吉",
+  "gender": "未提供",
+  "age": 24,
+  "work_experience": 1
+}
+```
+2025-08-09 18:31:17.164 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王顺吉', 'gender': '未提供', 'age': 24, 'work_experience': 1}
+2025-08-09 18:31:17.166 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf
+2025-08-09 18:31:17.166 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 18:31:17.167 | DEBUG    | utils.document_processor:process_document:181 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf 切分为 2 个父块
+2025-08-09 18:31:17.168 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_0, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 366
+2025-08-09 18:31:17.168 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_1, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 383
+2025-08-09 18:31:17.168 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_2, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 383
+2025-08-09 18:31:17.169 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_1_child_0, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_1, 内容长度: 123
+2025-08-09 18:31:17.171 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf 共生成 4 个子块
+2025-08-09 18:31:17.171 | SUCCESS  | __main__:<module>:215 - 简历加载、解析、切块成功！
+2025-08-09 18:31:17.172 | INFO     | __main__:<module>:219 - --> (2/4) 测试简历存储 (清理旧数据后)...
+2025-08-09 18:31:21.935 | INFO     | __main__:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-09 18:31:21.937 | SUCCESS  | __main__:<module>:228 - 简历存储功能验证通过！
+2025-08-09 18:31:21.939 | INFO     | __main__:hybrid_search_with_rerank:133 - 开始混合检索: query='熟悉AI大模型的产品经理', m=1, filter='gender == '男' and work_experience >= 5'
+2025-08-09 18:31:22.853 | INFO     | __main__:hybrid_search_with_rerank:148 - Milvus召回了 3 个结果。
+2025-08-09 18:31:22.890 | INFO     | __main__:hybrid_search_with_rerank:151 - ES召回了 3 个结果。
+2025-08-09 18:32:04.099 | SUCCESS  | __main__:<module>:202 - VectorStore 和 DocumentProcessor 初始化成功！
+2025-08-09 18:32:04.099 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf
+2025-08-09 18:32:04.503 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-09 18:32:04.504 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:32:07.095 | DEBUG    | utils.document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "王顺吉",
+  "gender": "未提供",
+  "age": 24,
+  "work_experience": 2
+}
+```
+2025-08-09 18:32:07.095 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '王顺吉', 'gender': '未提供', 'age': 24, 'work_experience': 2}
+2025-08-09 18:32:07.095 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf
+2025-08-09 18:32:07.095 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 18:32:07.095 | DEBUG    | utils.document_processor:process_document:181 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf 切分为 2 个父块
+2025-08-09 18:32:07.095 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_0, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 366
+2025-08-09 18:32:07.095 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_1, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 383
+2025-08-09 18:32:07.095 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0_child_2, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_0, 内容长度: 383
+2025-08-09 18:32:07.096 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_1_child_0, 父块: doc_36aec5b5abc53a4f89f050ffbd665837_parent_1, 内容长度: 123
+2025-08-09 18:32:07.096 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\王顺吉简历.pdf 共生成 4 个子块
+2025-08-09 18:32:07.096 | SUCCESS  | __main__:<module>:217 - 简历加载、解析、切块成功！
+2025-08-09 18:32:07.096 | INFO     | __main__:<module>:221 - --> (2/4) 测试简历存储 (清理旧数据后)...
+2025-08-09 18:32:09.943 | INFO     | __main__:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: 36aec5b5abc53a4f89f050ffbd665837
+2025-08-09 18:32:09.944 | SUCCESS  | __main__:<module>:230 - 简历存储功能验证通过！
+2025-08-09 18:32:09.944 | INFO     | __main__:hybrid_search_with_rerank:133 - 开始混合检索: query='熟悉AI大模型的产品经理', m=1, filter='work_experience >= 0'
+2025-08-09 18:32:10.190 | INFO     | __main__:hybrid_search_with_rerank:148 - Milvus召回了 3 个结果。
+2025-08-09 18:32:10.218 | INFO     | __main__:hybrid_search_with_rerank:151 - ES召回了 3 个结果。
+2025-08-09 18:32:10.629 | INFO     | __main__:hybrid_search_with_rerank:179 - 重排和去重后，返回 1 份独立简历。
+2025-08-09 18:32:10.629 | CRITICAL | __main__:<module>:262 - vector_store.py 模块验证失败: 
+2025-08-09 18:38:45.616 | SUCCESS  | __main__:<module>:204 - VectorStore 和 DocumentProcessor 初始化成功！
+2025-08-09 18:38:45.617 | INFO     | utils.document_processor:load_and_hash_document:126 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\刘天宝.pdf
+2025-08-09 18:38:46.178 | INFO     | utils.document_processor:load_and_hash_document:154 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\刘天宝.pdf, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-09 18:38:46.178 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-09 18:38:50.762 | DEBUG    | utils.document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "刘天宝",
+  "gender": "男",
+  "age": 25,
+  "work_experience": 2
+}
+```
+2025-08-09 18:38:50.762 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '刘天宝', 'gender': '男', 'age': 25, 'work_experience': 2}
+2025-08-09 18:38:50.762 | INFO     | utils.document_processor:process_document:162 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\刘天宝.pdf
+2025-08-09 18:38:50.762 | INFO     | utils.document_processor:process_document:178 - 处理文档: D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\刘天宝.pdf, 使用切分器: RecursiveCharacter
+2025-08-09 18:38:50.762 | DEBUG    | utils.document_processor:process_document:181 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\刘天宝.pdf 切分为 1 个父块
+2025-08-09 18:38:50.762 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0_child_0, 父块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0, 内容长度: 385
+2025-08-09 18:38:50.762 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0_child_1, 父块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0, 内容长度: 391
+2025-08-09 18:38:50.762 | DEBUG    | utils.document_processor:process_document:198 - 生成子块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0_child_2, 父块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0, 内容长度: 353
+2025-08-09 18:38:50.762 | INFO     | utils.document_processor:process_document:200 - 文档 D:\LLM_Codes\Chapter3_RAG\app_new\data\resume\刘天宝.pdf 共生成 3 个子块
+2025-08-09 18:38:50.763 | SUCCESS  | __main__:<module>:219 - 简历加载、解析、切块成功！
+2025-08-09 18:38:50.763 | INFO     | __main__:<module>:223 - --> (2/4) 测试简历存储 (清理旧数据后)...
+2025-08-09 18:38:53.022 | INFO     | __main__:store_resume:104 - 成功存储简历到Milvus, ES和MongoDB, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-09 18:38:53.022 | SUCCESS  | __main__:<module>:232 - 简历存储功能验证通过！
+2025-08-09 18:38:53.024 | INFO     | __main__:hybrid_search_with_rerank:133 - 开始混合检索: query='熟悉AI大模型的产品经理', m=1, filter='work_experience >= 0'
+2025-08-09 18:38:53.287 | INFO     | __main__:hybrid_search_with_rerank:148 - Milvus召回了 3 个结果。
+2025-08-09 18:38:53.319 | INFO     | __main__:hybrid_search_with_rerank:151 - ES召回了 3 个结果。
+2025-08-09 18:38:53.656 | INFO     | __main__:hybrid_search_with_rerank:181 - 重排和去重后，返回 1 份独立简历。
+2025-08-09 18:38:53.656 | CRITICAL | __main__:<module>:264 - vector_store.py 模块验证失败: 
+2025-08-30 06:45:29.477 | INFO     | __main__:<module>:350 - ==================================================
+2025-08-30 06:45:29.481 | INFO     | __main__:<module>:351 - 开始独立验证 vector_store.py 模块...
+2025-08-30 06:45:29.481 | INFO     | __main__:<module>:363 - --> (1/4) 测试简历加载、解析和切块...
+2025-08-30 06:45:29.481 | CRITICAL | __main__:<module>:442 - vector_store.py 模块验证失败: name 'parser_client' is not defined
+2025-08-30 06:47:44.670 | INFO     | __main__:<module>:369 - ==================================================
+2025-08-30 06:47:44.670 | INFO     | __main__:<module>:370 - 开始独立验证 vector_store.py 模块...
+2025-08-30 06:47:44.670 | INFO     | __main__:<module>:382 - --> (1/4) 测试简历加载、解析和切块...
+2025-08-30 06:47:44.671 | INFO     | document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 06:47:44.859 | INFO     | document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:47:44.859 | DEBUG    | __main__:<module>:384 - 加载简历: 文件=D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 哈希=91a04a181f1d14e05af733e349f9add2, 内容长度=1061
+2025-08-30 06:47:44.859 | INFO     | document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:47:47.011 | DEBUG    | document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "李明",
+  "gender": "未提供",
+  "age": -1,
+  "work_experience": 3
+}
+```
+2025-08-30 06:47:47.011 | INFO     | document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 06:47:47.011 | DEBUG    | __main__:<module>:386 - 解析结构化数据: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 06:47:47.011 | INFO     | document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 06:47:47.012 | INFO     | document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:47:47.012 | DEBUG    | document_processor:process_document:180 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 切分为 2 个父块
+2025-08-30 06:47:47.013 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 393
+2025-08-30 06:47:47.013 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_1, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 381
+2025-08-30 06:47:47.013 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_2, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 335
+2025-08-30 06:47:47.013 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_1_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_1, 内容长度: 147
+2025-08-30 06:47:47.013 | INFO     | document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-30 06:47:47.013 | DEBUG    | __main__:<module>:392 - 切分出 4 个子块，第一个子块ID=doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0
+2025-08-30 06:47:47.013 | SUCCESS  | __main__:<module>:394 - 简历加载、解析、切块成功！
+2025-08-30 06:47:47.013 | INFO     | __main__:<module>:398 - --> (2/4) 测试简历存储 (清理旧数据后)...
+2025-08-30 06:47:47.013 | INFO     | __main__:_initialize_components:38 - 开始初始化向量存储及检索组件...
+2025-08-30 06:47:47.047 | DEBUG    | __main__:_initialize_components:42 - Milvus客户端初始化成功: 82.156.249.211:19530
+2025-08-30 06:47:48.977 | DEBUG    | __main__:_initialize_components:54 - 嵌入函数初始化成功，稠密向量维度: 1024
+2025-08-30 06:47:50.044 | DEBUG    | __main__:_initialize_components:62 - 重排模型初始化成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\models\bge-m3
+2025-08-30 06:47:50.129 | ERROR    | __main__:_initialize_components:115 - 初始化失败: 'Config' object has no attribute 'MONGO_COLLECTION'
+2025-08-30 06:47:50.130 | CRITICAL | __main__:<module>:476 - vector_store.py 模块验证失败: 'Config' object has no attribute 'MONGO_COLLECTION'
+2025-08-30 06:51:30.207 | INFO     | __main__:<module>:361 - ==================================================
+2025-08-30 06:51:30.208 | INFO     | __main__:<module>:362 - 步骤 6.1: 开始独立验证 vector_store.py 模块...
+2025-08-30 06:51:30.208 | INFO     | __main__:<module>:374 - 步骤 6.3: 测试简历加载、解析和切块...
+2025-08-30 06:51:30.208 | INFO     | document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 06:51:30.414 | INFO     | document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:51:30.414 | DEBUG    | __main__:<module>:376 - 步骤 6.3: 加载简历: 文件=D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 哈希=91a04a181f1d14e05af733e349f9add2, 内容长度=1061
+2025-08-30 06:51:30.414 | INFO     | document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:51:33.227 | DEBUG    | document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "李明",
+  "gender": "未提供",
+  "age": -1,
+  "work_experience": 3
+}
+```
+2025-08-30 06:51:33.227 | INFO     | document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 06:51:33.227 | DEBUG    | __main__:<module>:379 - 步骤 6.3: 解析结构化数据: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 06:51:33.227 | INFO     | document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 06:51:33.228 | INFO     | document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:51:33.228 | DEBUG    | document_processor:process_document:180 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 切分为 2 个父块
+2025-08-30 06:51:33.228 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 393
+2025-08-30 06:51:33.228 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_1, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 381
+2025-08-30 06:51:33.228 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_2, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 335
+2025-08-30 06:51:33.228 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_1_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_1, 内容长度: 147
+2025-08-30 06:51:33.228 | INFO     | document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-30 06:51:33.228 | DEBUG    | __main__:<module>:385 - 步骤 6.3: 切分出 4 个子块，第一个子块ID=doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0
+2025-08-30 06:51:33.228 | SUCCESS  | __main__:<module>:387 - 步骤 6.3: 简历加载、解析、切块成功！
+2025-08-30 06:51:33.228 | INFO     | __main__:<module>:391 - 步骤 6.4: 测试简历存储 (清理旧数据后)...
+2025-08-30 06:51:33.228 | INFO     | __main__:_initialize_components:38 - 步骤 2.1: 开始初始化向量存储及检索组件...
+2025-08-30 06:51:33.259 | DEBUG    | __main__:_initialize_components:42 - 步骤 2.2: Milvus客户端初始化成功: 82.156.249.211:19530
+2025-08-30 06:51:35.261 | DEBUG    | __main__:_initialize_components:51 - 步骤 2.4: 嵌入函数初始化成功，稠密向量维度: 1024
+2025-08-30 06:51:36.339 | DEBUG    | __main__:_initialize_components:58 - 步骤 2.6: 重排模型初始化成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\models\bge-m3
+2025-08-30 06:51:36.395 | DEBUG    | __main__:_initialize_components:65 - 步骤 2.7: MongoDB连接成功: 82.156.249.211:27017, 集合: resume_collection
+2025-08-30 06:51:36.395 | ERROR    | __main__:_initialize_components:110 - 步骤 2.12: 初始化失败: 'Config' object has no attribute 'ES_USER'
+2025-08-30 06:51:36.396 | CRITICAL | __main__:<module>:470 - 步骤 6.10: vector_store.py 模块验证失败: 'Config' object has no attribute 'ES_USER'
+2025-08-30 06:53:36.082 | INFO     | __main__:<module>:361 - ==================================================
+2025-08-30 06:53:36.083 | INFO     | __main__:<module>:362 - 步骤 6.1: 开始独立验证 vector_store.py 模块...
+2025-08-30 06:53:36.083 | INFO     | __main__:<module>:374 - 步骤 6.3: 测试简历加载、解析和切块...
+2025-08-30 06:53:36.083 | INFO     | document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 06:53:36.602 | INFO     | document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:53:36.602 | DEBUG    | __main__:<module>:376 - 步骤 6.3: 加载简历: 文件=D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 哈希=91a04a181f1d14e05af733e349f9add2, 内容长度=1061
+2025-08-30 06:53:36.602 | INFO     | document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:53:39.061 | DEBUG    | document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "李明",
+  "gender": "未提供",
+  "age": -1,
+  "work_experience": 3
+}
+```
+2025-08-30 06:53:39.061 | INFO     | document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 06:53:39.061 | DEBUG    | __main__:<module>:379 - 步骤 6.3: 解析结构化数据: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 06:53:39.061 | INFO     | document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 06:53:39.061 | INFO     | document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:53:39.061 | DEBUG    | document_processor:process_document:180 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 切分为 2 个父块
+2025-08-30 06:53:39.061 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 393
+2025-08-30 06:53:39.062 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_1, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 381
+2025-08-30 06:53:39.062 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_2, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 335
+2025-08-30 06:53:39.062 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_1_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_1, 内容长度: 147
+2025-08-30 06:53:39.062 | INFO     | document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-30 06:53:39.062 | DEBUG    | __main__:<module>:385 - 步骤 6.3: 切分出 4 个子块，第一个子块ID=doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0
+2025-08-30 06:53:39.062 | SUCCESS  | __main__:<module>:387 - 步骤 6.3: 简历加载、解析、切块成功！
+2025-08-30 06:53:39.062 | INFO     | __main__:<module>:391 - 步骤 6.4: 测试简历存储 (清理旧数据后)...
+2025-08-30 06:53:39.062 | INFO     | __main__:_initialize_components:38 - 步骤 2.1: 开始初始化向量存储及检索组件...
+2025-08-30 06:53:39.102 | DEBUG    | __main__:_initialize_components:42 - 步骤 2.2: Milvus客户端初始化成功: 82.156.249.211:19530
+2025-08-30 06:53:40.926 | DEBUG    | __main__:_initialize_components:51 - 步骤 2.4: 嵌入函数初始化成功，稠密向量维度: 1024
+2025-08-30 06:53:42.013 | DEBUG    | __main__:_initialize_components:58 - 步骤 2.6: 重排模型初始化成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\models\bge-m3
+2025-08-30 06:53:42.101 | DEBUG    | __main__:_initialize_components:65 - 步骤 2.7: MongoDB连接成功: 82.156.249.211:27017, 集合: resume_collection
+2025-08-30 06:53:42.121 | DEBUG    | __main__:_initialize_components:75 - 步骤 2.8: Elasticsearch连接成功: http://82.156.249.211:9200
+2025-08-30 06:53:42.128 | INFO     | __main__:_create_or_load_collection:148 - 步骤 3.5: 加载已有Milvus集合: resume_embeddings
+2025-08-30 06:53:42.128 | INFO     | __main__:_initialize_components:79 - 步骤 2.9: Milvus集合处理完成: resume_embeddings
+2025-08-30 06:53:42.139 | INFO     | __main__:_initialize_components:106 - 步骤 2.10: 加载已有Elasticsearch索引: resume_chunks
+2025-08-30 06:53:42.139 | INFO     | __main__:_initialize_components:108 - 步骤 2.11: 向量存储及检索组件初始化完成
+2025-08-30 06:53:42.147 | DEBUG    | __main__:<module>:394 - 步骤 6.4: 清理MongoDB旧数据: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:53:42.602 | DEBUG    | __main__:<module>:397 - 步骤 6.4: 清理Milvus旧数据: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:53:42.717 | DEBUG    | __main__:<module>:400 - 步骤 6.4: 清理ES旧数据: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:53:42.804 | INFO     | __main__:store_resume:160 - 步骤 4.1: MongoDB存储成功: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:53:43.641 | ERROR    | __main__:store_resume:185 - 步骤 4.2: Milvus存储失败: 0
+2025-08-30 06:53:43.641 | CRITICAL | __main__:<module>:470 - 步骤 6.10: vector_store.py 模块验证失败: 0
+2025-08-30 06:54:58.441 | INFO     | __main__:<module>:361 - ==================================================
+2025-08-30 06:54:58.442 | INFO     | __main__:<module>:362 - 步骤 6.1: 开始独立验证 vector_store.py 模块...
+2025-08-30 06:54:58.442 | INFO     | __main__:<module>:374 - 步骤 6.3: 测试简历加载、解析和切块...
+2025-08-30 06:54:58.442 | INFO     | document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 06:54:58.643 | INFO     | document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:54:58.643 | DEBUG    | __main__:<module>:376 - 步骤 6.3: 加载简历: 文件=D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 哈希=91a04a181f1d14e05af733e349f9add2, 内容长度=1061
+2025-08-30 06:54:58.643 | INFO     | document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 06:55:01.399 | DEBUG    | document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "李明",
+  "gender": "未提供",
+  "age": -1,
+  "work_experience": 3
+}
+```
+2025-08-30 06:55:01.400 | INFO     | document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 06:55:01.400 | DEBUG    | __main__:<module>:379 - 步骤 6.3: 解析结构化数据: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 06:55:01.400 | INFO     | document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 06:55:01.400 | INFO     | document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 06:55:01.400 | DEBUG    | document_processor:process_document:180 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 切分为 2 个父块
+2025-08-30 06:55:01.400 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 393
+2025-08-30 06:55:01.400 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_1, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 381
+2025-08-30 06:55:01.401 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_2, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 335
+2025-08-30 06:55:01.401 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_1_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_1, 内容长度: 147
+2025-08-30 06:55:01.401 | INFO     | document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-30 06:55:01.401 | DEBUG    | __main__:<module>:385 - 步骤 6.3: 切分出 4 个子块，第一个子块ID=doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0
+2025-08-30 06:55:01.401 | SUCCESS  | __main__:<module>:387 - 步骤 6.3: 简历加载、解析、切块成功！
+2025-08-30 06:55:01.401 | INFO     | __main__:<module>:391 - 步骤 6.4: 测试简历存储 (清理旧数据后)...
+2025-08-30 06:55:01.401 | INFO     | __main__:_initialize_components:38 - 步骤 2.1: 开始初始化向量存储及检索组件...
+2025-08-30 06:55:01.445 | DEBUG    | __main__:_initialize_components:42 - 步骤 2.2: Milvus客户端初始化成功: 82.156.249.211:19530
+2025-08-30 06:55:03.328 | DEBUG    | __main__:_initialize_components:51 - 步骤 2.4: 嵌入函数初始化成功，稠密向量维度: 1024
+2025-08-30 06:55:04.385 | DEBUG    | __main__:_initialize_components:58 - 步骤 2.6: 重排模型初始化成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\models\bge-m3
+2025-08-30 06:55:04.487 | DEBUG    | __main__:_initialize_components:65 - 步骤 2.7: MongoDB连接成功: 82.156.249.211:27017, 集合: resume_collection
+2025-08-30 06:55:04.526 | DEBUG    | __main__:_initialize_components:75 - 步骤 2.8: Elasticsearch连接成功: http://82.156.249.211:9200
+2025-08-30 06:55:04.535 | INFO     | __main__:_create_or_load_collection:148 - 步骤 3.5: 加载已有Milvus集合: resume_embeddings
+2025-08-30 06:55:04.535 | INFO     | __main__:_initialize_components:79 - 步骤 2.9: Milvus集合处理完成: resume_embeddings
+2025-08-30 06:55:04.546 | INFO     | __main__:_initialize_components:106 - 步骤 2.10: 加载已有Elasticsearch索引: resume_chunks
+2025-08-30 06:55:04.546 | INFO     | __main__:_initialize_components:108 - 步骤 2.11: 向量存储及检索组件初始化完成
+2025-08-30 06:55:04.552 | DEBUG    | __main__:<module>:394 - 步骤 6.4: 清理MongoDB旧数据: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:55:04.788 | DEBUG    | __main__:<module>:397 - 步骤 6.4: 清理Milvus旧数据: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:55:04.798 | DEBUG    | __main__:<module>:400 - 步骤 6.4: 清理ES旧数据: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:55:04.804 | INFO     | __main__:store_resume:160 - 步骤 4.1: MongoDB存储成功: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 06:55:05.580 | ERROR    | __main__:store_resume:185 - 步骤 4.2: Milvus存储失败: 0
+2025-08-30 06:55:05.581 | CRITICAL | __main__:<module>:470 - 步骤 6.10: vector_store.py 模块验证失败: 0
+2025-08-30 07:02:04.132 | INFO     | __main__:<module>:377 - ==================================================
+2025-08-30 07:02:04.135 | INFO     | __main__:<module>:378 - 步骤 6.1: 开始独立验证 vector_store.py 模块...
+2025-08-30 07:02:04.135 | INFO     | __main__:<module>:390 - 步骤 6.3: 测试简历加载、解析和切块...
+2025-08-30 07:02:04.135 | INFO     | document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 07:02:04.318 | INFO     | document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:02:04.318 | DEBUG    | __main__:<module>:392 - 步骤 6.3: 加载简历: 文件=D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 哈希=91a04a181f1d14e05af733e349f9add2, 内容长度=1061
+2025-08-30 07:02:04.318 | INFO     | document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:02:05.500 | DEBUG    | document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "李明",
+  "gender": "未提供",
+  "age": -1,
+  "work_experience": 3
+}
+```
+2025-08-30 07:02:05.501 | INFO     | document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 07:02:05.501 | DEBUG    | __main__:<module>:395 - 步骤 6.3: 解析结构化数据: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 07:02:05.501 | INFO     | document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 07:02:05.501 | INFO     | document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 07:02:05.501 | DEBUG    | document_processor:process_document:180 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 切分为 2 个父块
+2025-08-30 07:02:05.502 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 393
+2025-08-30 07:02:05.502 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_1, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 381
+2025-08-30 07:02:05.502 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_2, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 335
+2025-08-30 07:02:05.502 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_1_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_1, 内容长度: 147
+2025-08-30 07:02:05.503 | INFO     | document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-30 07:02:05.503 | DEBUG    | __main__:<module>:401 - 步骤 6.3: 切分出 4 个子块，第一个子块ID=doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0
+2025-08-30 07:02:05.503 | SUCCESS  | __main__:<module>:403 - 步骤 6.3: 简历加载、解析、切块成功！
+2025-08-30 07:02:05.503 | INFO     | __main__:<module>:407 - 步骤 6.4: 测试简历存储 (清理旧数据后)...
+2025-08-30 07:02:05.503 | INFO     | __main__:_initialize_components:37 - 步骤 2.1: 开始初始化向量存储及检索组件...
+2025-08-30 07:02:05.540 | DEBUG    | __main__:_initialize_components:41 - 步骤 2.2: Milvus客户端初始化成功: 82.156.249.211:19530
+2025-08-30 07:02:07.429 | DEBUG    | __main__:_initialize_components:50 - 步骤 2.4: 嵌入函数初始化成功，稠密向量维度: 1024
+2025-08-30 07:02:08.467 | DEBUG    | __main__:_initialize_components:57 - 步骤 2.6: 重排模型初始化成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\models\bge-m3
+2025-08-30 07:02:08.576 | DEBUG    | __main__:_initialize_components:64 - 步骤 2.7: MongoDB连接成功: 82.156.249.211:27017, 集合: resume_collection
+2025-08-30 07:02:08.610 | DEBUG    | __main__:_initialize_components:74 - 步骤 2.8: Elasticsearch连接成功: http://82.156.249.211:9200
+2025-08-30 07:02:08.621 | INFO     | __main__:_create_or_load_collection:147 - 步骤 3.5: 加载已有Milvus集合: resume_embeddings
+2025-08-30 07:02:08.622 | INFO     | __main__:_initialize_components:78 - 步骤 2.9: Milvus集合处理完成: resume_embeddings
+2025-08-30 07:02:08.635 | INFO     | __main__:_initialize_components:105 - 步骤 2.10: 加载已有Elasticsearch索引: resume_chunks
+2025-08-30 07:02:08.635 | INFO     | __main__:_initialize_components:107 - 步骤 2.11: 向量存储及检索组件初始化完成
+2025-08-30 07:02:08.651 | DEBUG    | __main__:<module>:410 - 步骤 6.4: 清理MongoDB旧数据: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:02:08.992 | DEBUG    | __main__:<module>:413 - 步骤 6.4: 清理Milvus旧数据: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:02:09.078 | DEBUG    | __main__:<module>:416 - 步骤 6.4: 清理ES旧数据: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:02:09.117 | INFO     | __main__:store_resume:159 - 步骤 4.1: MongoDB存储成功: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:02:09.919 | ERROR    | __main__:store_resume:194 - 步骤 4.2: Milvus存储失败: 0
+2025-08-30 07:02:09.919 | CRITICAL | __main__:<module>:474 - 步骤 6.10: vector_store.py 模块验证失败: 0
+2025-08-30 07:03:17.748 | INFO     | __main__:<module>:377 - ==================================================
+2025-08-30 07:03:17.748 | INFO     | __main__:<module>:378 - 步骤 6.1: 开始独立验证 vector_store.py 模块...
+2025-08-30 07:03:17.748 | INFO     | __main__:<module>:390 - 步骤 6.3: 测试简历加载、解析和切块...
+2025-08-30 07:03:17.748 | INFO     | document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 07:03:17.928 | INFO     | document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:03:17.928 | DEBUG    | __main__:<module>:392 - 步骤 6.3: 加载简历: 文件=D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 哈希=91a04a181f1d14e05af733e349f9add2, 内容长度=1061
+2025-08-30 07:03:17.928 | INFO     | document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:03:19.213 | DEBUG    | document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "李明",
+  "gender": "未提供",
+  "age": -1,
+  "work_experience": 3
+}
+```
+2025-08-30 07:03:19.213 | INFO     | document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 07:03:19.213 | DEBUG    | __main__:<module>:395 - 步骤 6.3: 解析结构化数据: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 07:03:19.213 | INFO     | document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 07:03:19.213 | INFO     | document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 07:03:19.214 | DEBUG    | document_processor:process_document:180 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 切分为 2 个父块
+2025-08-30 07:03:19.214 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 393
+2025-08-30 07:03:19.214 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_1, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 381
+2025-08-30 07:03:19.214 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_2, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 335
+2025-08-30 07:03:19.214 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_1_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_1, 内容长度: 147
+2025-08-30 07:03:19.214 | INFO     | document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-30 07:03:19.214 | DEBUG    | __main__:<module>:401 - 步骤 6.3: 切分出 4 个子块，第一个子块ID=doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0
+2025-08-30 07:03:19.214 | SUCCESS  | __main__:<module>:403 - 步骤 6.3: 简历加载、解析、切块成功！
+2025-08-30 07:03:19.214 | INFO     | __main__:<module>:407 - 步骤 6.4: 测试简历存储 (清理旧数据后)...
+2025-08-30 07:03:19.214 | INFO     | __main__:_initialize_components:37 - 步骤 2.1: 开始初始化向量存储及检索组件...
+2025-08-30 07:03:19.252 | DEBUG    | __main__:_initialize_components:41 - 步骤 2.2: Milvus客户端初始化成功: 82.156.249.211:19530
+2025-08-30 07:03:21.118 | DEBUG    | __main__:_initialize_components:50 - 步骤 2.4: 嵌入函数初始化成功，稠密向量维度: 1024
+2025-08-30 07:03:21.608 | DEBUG    | __main__:_initialize_components:57 - 步骤 2.6: 重排模型初始化成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\models\bge-reranker-base
+2025-08-30 07:03:21.751 | DEBUG    | __main__:_initialize_components:64 - 步骤 2.7: MongoDB连接成功: 82.156.249.211:27017, 集合: resume_collection
+2025-08-30 07:03:21.805 | DEBUG    | __main__:_initialize_components:74 - 步骤 2.8: Elasticsearch连接成功: http://82.156.249.211:9200
+2025-08-30 07:03:21.816 | INFO     | __main__:_create_or_load_collection:147 - 步骤 3.5: 加载已有Milvus集合: resume_embeddings
+2025-08-30 07:03:21.816 | INFO     | __main__:_initialize_components:78 - 步骤 2.9: Milvus集合处理完成: resume_embeddings
+2025-08-30 07:03:21.832 | INFO     | __main__:_initialize_components:105 - 步骤 2.10: 加载已有Elasticsearch索引: resume_chunks
+2025-08-30 07:03:21.832 | INFO     | __main__:_initialize_components:107 - 步骤 2.11: 向量存储及检索组件初始化完成
+2025-08-30 07:03:21.846 | DEBUG    | __main__:<module>:410 - 步骤 6.4: 清理MongoDB旧数据: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:03:22.196 | DEBUG    | __main__:<module>:413 - 步骤 6.4: 清理Milvus旧数据: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:03:22.207 | DEBUG    | __main__:<module>:416 - 步骤 6.4: 清理ES旧数据: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:03:22.224 | INFO     | __main__:store_resume:159 - 步骤 4.1: MongoDB存储成功: doc_hash=91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:03:23.009 | ERROR    | __main__:store_resume:194 - 步骤 4.2: Milvus存储失败: 0
+2025-08-30 07:03:23.010 | CRITICAL | __main__:<module>:474 - 步骤 6.10: vector_store.py 模块验证失败: 0
+2025-08-30 07:04:16.352 | INFO     | __main__:<module>:377 - ==================================================
+2025-08-30 07:04:16.352 | INFO     | __main__:<module>:378 - 步骤 6.1: 开始独立验证 vector_store.py 模块...
+2025-08-30 07:04:16.352 | INFO     | __main__:<module>:390 - 步骤 6.3: 测试简历加载、解析和切块...
+2025-08-30 07:04:16.353 | INFO     | document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 07:04:16.578 | INFO     | document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-08-30 07:04:16.578 | DEBUG    | __main__:<module>:392 - 步骤 6.3: 加载简历: 文件=D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 哈希=91a04a181f1d14e05af733e349f9add2, 内容长度=1061
+2025-08-30 07:04:16.578 | INFO     | document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:04:17.712 | DEBUG    | document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "李明",
+  "gender": "未提供",
+  "age": -1,
+  "work_experience": 3
+}
+```
+2025-08-30 07:04:17.712 | INFO     | document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 07:04:17.712 | DEBUG    | __main__:<module>:395 - 步骤 6.3: 解析结构化数据: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-08-30 07:04:17.712 | INFO     | document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-08-30 07:04:17.712 | INFO     | document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 07:04:17.713 | DEBUG    | document_processor:process_document:180 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 切分为 2 个父块
+2025-08-30 07:04:17.713 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 393
+2025-08-30 07:04:17.713 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_1, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 381
+2025-08-30 07:04:17.713 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_2, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 335
+2025-08-30 07:04:17.713 | DEBUG    | document_processor:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_1_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_1, 内容长度: 147
+2025-08-30 07:04:17.713 | INFO     | document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-08-30 07:04:17.713 | DEBUG    | __main__:<module>:401 - 步骤 6.3: 切分出 4 个子块，第一个子块ID=doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0
+2025-08-30 07:04:17.714 | SUCCESS  | __main__:<module>:403 - 步骤 6.3: 简历加载、解析、切块成功！
+2025-08-30 07:04:17.714 | INFO     | __main__:<module>:407 - 步骤 6.4: 测试简历存储 (清理旧数据后)...
+2025-08-30 07:04:17.714 | INFO     | __main__:_initialize_components:37 - 步骤 2.1: 开始初始化向量存储及检索组件...
+2025-08-30 07:04:17.749 | DEBUG    | __main__:_initialize_components:41 - 步骤 2.2: Milvus客户端初始化成功: 82.156.249.211:19530
+2025-08-30 07:04:19.532 | DEBUG    | __main__:_initialize_components:50 - 步骤 2.4: 嵌入函数初始化成功，稠密向量维度: 1024
+2025-08-30 07:04:19.973 | DEBUG    | __main__:_initialize_components:57 - 步骤 2.6: 重排模型初始化成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\models\bge-reranker-base
+2025-08-30 07:04:20.032 | DEBUG    | __main__:_initialize_components:64 - 步骤 2.7: MongoDB连接成功: 82.156.249.211:27017, 集合: resume_collection
+2025-08-30 07:04:20.052 | DEBUG    | __main__:_initialize_components:74 - 步骤 2.8: Elasticsearch连接成功: http://82.156.249.211:9200
+2025-08-30 07:04:20.060 | ERROR    | __main__:_initialize_components:109 - 步骤 2.12: 初始化失败: 'list' object has no attribute 'verify'
+2025-08-30 07:04:20.061 | CRITICAL | __main__:<module>:474 - 步骤 6.10: vector_store.py 模块验证失败: 'list' object has no attribute 'verify'
+2025-08-30 07:08:29.964 | SUCCESS  | __main__:<module>:242 - VectorStore 和 DocumentProcessor 初始化成功！
+2025-08-30 07:08:29.965 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-08-30 07:08:30.560 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-30 07:08:30.560 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:08:33.526 | DEBUG    | utils.document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "刘天宝",
+  "gender": "男",
+  "age": 25,
+  "work_experience": 2
+}
+```
+2025-08-30 07:08:33.526 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '刘天宝', 'gender': '男', 'age': 25, 'work_experience': 2}
+2025-08-30 07:08:33.526 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-08-30 07:08:33.526 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 07:08:33.527 | DEBUG    | utils.document_processor:process_document:180 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf 切分为 1 个父块
+2025-08-30 07:08:33.527 | DEBUG    | utils.document_processor:process_document:197 - 生成子块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0_child_0, 父块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0, 内容长度: 385
+2025-08-30 07:08:33.527 | DEBUG    | utils.document_processor:process_document:197 - 生成子块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0_child_1, 父块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0, 内容长度: 391
+2025-08-30 07:08:33.527 | DEBUG    | utils.document_processor:process_document:197 - 生成子块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0_child_2, 父块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0, 内容长度: 353
+2025-08-30 07:08:33.527 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf 共生成 3 个子块
+2025-08-30 07:08:33.527 | SUCCESS  | __main__:<module>:257 - 简历加载、解析、切块成功！
+2025-08-30 07:08:33.527 | INFO     | __main__:<module>:261 - --> (2/4) 测试简历存储 (清理旧数据后)...
+2025-08-30 07:08:35.494 | INFO     | __main__:store_resume:115 - 成功存储简历到Milvus, ES和MongoDB, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-30 07:08:35.494 | SUCCESS  | __main__:<module>:270 - 简历存储功能验证通过！
+2025-08-30 07:08:35.494 | INFO     | __main__:_initialize_components:25 - 开始初始化向量存储及检索组件...
+2025-08-30 07:08:37.270 | INFO     | __main__:_initialize_components:51 - 向量存储及检索组件初始化完成
+2025-08-30 07:08:37.627 | INFO     | __main__:hybrid_search_with_rerank:157 - 开始混合检索: query='熟悉AI大模型的产品经理', m=3, filter='work_experience >= 3'
+2025-08-30 07:08:37.991 | INFO     | __main__:hybrid_search_with_rerank:175 - Milvus召回了 9 个结果。
+2025-08-30 07:08:38.013 | INFO     | __main__:hybrid_search_with_rerank:180 - ES召回了 9 个结果。
+2025-08-30 07:08:38.768 | INFO     | __main__:hybrid_search_with_rerank:219 - 重排和去重后，返回 3 份独立简历。
+2025-08-30 07:11:02.189 | SUCCESS  | __main__:<module>:401 - VectorStore 和 DocumentProcessor 初始化成功！
+2025-08-30 07:11:02.190 | INFO     | utils.document_processor:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-08-30 07:11:02.950 | INFO     | utils.document_processor:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-30 07:11:02.950 | INFO     | utils.document_processor:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-08-30 07:11:05.600 | DEBUG    | utils.document_processor:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "刘天宝",
+  "gender": "男",
+  "age": 25,
+  "work_experience": 2
+}
+```
+2025-08-30 07:11:05.600 | INFO     | utils.document_processor:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '刘天宝', 'gender': '男', 'age': 25, 'work_experience': 2}
+2025-08-30 07:11:05.600 | INFO     | utils.document_processor:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf
+2025-08-30 07:11:05.600 | INFO     | utils.document_processor:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf, 使用切分器: RecursiveCharacter
+2025-08-30 07:11:05.600 | DEBUG    | utils.document_processor:process_document:180 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf 切分为 1 个父块
+2025-08-30 07:11:05.601 | DEBUG    | utils.document_processor:process_document:197 - 生成子块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0_child_0, 父块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0, 内容长度: 385
+2025-08-30 07:11:05.601 | DEBUG    | utils.document_processor:process_document:197 - 生成子块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0_child_1, 父块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0, 内容长度: 391
+2025-08-30 07:11:05.601 | DEBUG    | utils.document_processor:process_document:197 - 生成子块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0_child_2, 父块: doc_baaea69dad6bca6a7b58feb2402f76a1_parent_0, 内容长度: 353
+2025-08-30 07:11:05.601 | INFO     | utils.document_processor:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\刘宝.pdf 共生成 3 个子块
+2025-08-30 07:11:05.601 | SUCCESS  | __main__:<module>:416 - 简历加载、解析、切块成功！
+2025-08-30 07:11:05.601 | INFO     | __main__:<module>:420 - --> (2/4) 测试简历存储 (清理旧数据后)...
+2025-08-30 07:11:07.935 | INFO     | __main__:store_resume:184 - 成功存储简历到Milvus, ES和MongoDB, hash: baaea69dad6bca6a7b58feb2402f76a1
+2025-08-30 07:11:07.935 | SUCCESS  | __main__:<module>:429 - 简历存储功能验证通过！
+2025-08-30 07:11:07.935 | INFO     | __main__:_initialize_components:29 - 开始初始化向量存储及检索组件...
+2025-08-30 07:11:11.362 | INFO     | __main__:_initialize_components:72 - 向量存储及检索组件初始化完成
+2025-08-30 07:11:12.053 | INFO     | __main__:hybrid_search_with_rerank:250 - 开始混合检索: query='熟悉AI大模型的产品经理', m=3, filter='work_experience >= 3'
+2025-08-30 07:11:12.789 | INFO     | __main__:hybrid_search_with_rerank:275 - Milvus召回了 9 个结果。
+2025-08-30 07:11:12.789 | DEBUG    | __main__:hybrid_search_with_rerank:308 - ES query: {'query': {'bool': {'must': [{'multi_match': {'query': '熟悉AI大模型的产品经理', 'fields': ['content', 'metadata.parent_content']}}], 'filter': [{'range': {'metadata.work_experience': {'gte': 3}}}]}}, 'size': 3}
+2025-08-30 07:11:12.809 | INFO     | __main__:hybrid_search_with_rerank:310 - ES 召回了 3 个结果。
+2025-08-30 07:11:12.824 | INFO     | __main__:hybrid_search_with_rerank:313 - ES召回了 3 个结果。
+2025-08-30 07:11:15.178 | INFO     | __main__:hybrid_search_with_rerank:373 - 重排和去重后，返回 3 份独立简历。
+2025-09-06 10:15:10.581 | INFO     | __main__:<module>:205 - ==================================================
+2025-09-06 10:15:10.583 | INFO     | __main__:<module>:206 - 开始独立验证 document_processor.py 模块...
+2025-09-06 10:15:10.583 | INFO     | __main__:<module>:218 - --- 1. 测试加载与哈希 ---
+2025-09-06 10:15:10.583 | INFO     | __main__:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-09-06 10:15:10.844 | INFO     | __main__:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-09-06 10:15:10.844 | INFO     | __main__:<module>:221 - 加载成功: hash=91a04a181f1d14e05af733e349f9add2, 内容长度=1061
+2025-09-06 10:15:10.844 | INFO     | __main__:<module>:224 - --- 2. 测试结构化信息解析 ---
+2025-09-06 10:15:10.844 | INFO     | __main__:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-06 10:15:12.187 | DEBUG    | __main__:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "李明",
+  "gender": "未提供",
+  "age": -1,
+  "work_experience": 3
+}
+```
+2025-09-06 10:15:12.187 | INFO     | __main__:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-09-06 10:15:12.188 | INFO     | __main__:<module>:227 - 解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-09-06 10:15:12.188 | INFO     | __main__:<module>:230 - --- 3. 测试文档切块 ---
+2025-09-06 10:15:12.188 | INFO     | __main__:process_document:161 - 开始处理单个文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-09-06 10:15:12.188 | INFO     | __main__:process_document:177 - 处理文档: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, 使用切分器: RecursiveCharacter
+2025-09-06 10:15:12.188 | DEBUG    | __main__:process_document:180 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 切分为 2 个父块
+2025-09-06 10:15:12.188 | DEBUG    | __main__:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 393
+2025-09-06 10:15:12.188 | DEBUG    | __main__:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_1, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 381
+2025-09-06 10:15:12.188 | DEBUG    | __main__:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_2, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_0, 内容长度: 335
+2025-09-06 10:15:12.188 | DEBUG    | __main__:process_document:197 - 生成子块: doc_91a04a181f1d14e05af733e349f9add2_parent_1_child_0, 父块: doc_91a04a181f1d14e05af733e349f9add2_parent_1, 内容长度: 147
+2025-09-06 10:15:12.188 | INFO     | __main__:process_document:199 - 文档 D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf 共生成 4 个子块
+2025-09-06 10:15:12.188 | INFO     | __main__:<module>:234 - 切块成功: 共生成 4 个子块。
+2025-09-06 10:15:12.188 | INFO     | __main__:<module>:235 - 第一个子块ID: doc_91a04a181f1d14e05af733e349f9add2_parent_0_child_0
+2025-09-06 10:15:12.190 | INFO     | __main__:<module>:237 - ==================================================
+2025-09-06 10:15:12.190 | SUCCESS  | __main__:<module>:238 - document_processor.py 模块所有功能验证通过！
+2025-09-06 10:15:20.243 | INFO     | __main__:<module>:205 - ==================================================
+2025-09-06 10:15:20.244 | INFO     | __main__:<module>:206 - 开始独立验证 document_processor.py 模块...
+2025-09-06 10:16:51.203 | INFO     | __main__:<module>:218 - --- 1. 测试加载与哈希 ---
+2025-09-06 10:17:23.308 | INFO     | __main__:load_and_hash_document:125 - 开始加载并哈希文件: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf
+2025-09-06 10:17:37.187 | INFO     | __main__:load_and_hash_document:153 - 文件加载并哈希成功: D:\LLM_Codes\Chapter3_RAG\SmartRecruit\data\resume\李明AI大模型产品经理简历.pdf, hash: 91a04a181f1d14e05af733e349f9add2
+2025-09-06 10:17:37.187 | INFO     | __main__:<module>:221 - 加载成功: hash=91a04a181f1d14e05af733e349f9add2, 内容长度=1061
+2025-09-06 10:17:37.187 | INFO     | __main__:<module>:224 - --- 2. 测试结构化信息解析 ---
+2025-09-06 10:18:15.895 | INFO     | __main__:parse_resume_structure:53 - 开始使用LLM解析简历结构化信息...
+2025-09-06 10:19:11.849 | DEBUG    | __main__:parse_resume_structure:64 - LLM原始解析结果: ```json
+{
+  "name": "李明",
+  "gender": "未提供",
+  "age": -1,
+  "work_experience": 3
+}
+```
+2025-09-06 10:19:11.849 | INFO     | __main__:parse_resume_structure:75 - 简历结构化信息解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-09-06 10:19:30.279 | INFO     | __main__:<module>:227 - 解析成功: {'name': '李明', 'gender': '未提供', 'age': -1, 'work_experience': 3}
+2025-09-06 10:19:30.279 | INFO     | __main__:<module>:230 - --- 3. 测试文档切块 ---
